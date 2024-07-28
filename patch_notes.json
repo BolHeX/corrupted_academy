@@ -33,7 +33,7 @@
             "- Increased girl natural affection gain based by her being corrupted.",
             "- Shoots and events that are deleted are now done cleanly and silently, avoiding any errors."
         ],
-        "- Fixed": [
+        "Fixed": [
             "- Fixed loads and loads of typos.",
             "- Fixed \"pta_discussion_raise_reputation\" speech being outcomes inverted.",
             "- Fixed GirlConfig loading modded girl files twice.",
@@ -58,7 +58,7 @@
             "- Fixed girls reapplying after passing exam.",
             "- Fixed pta discussion menu scroll position being reset when selecting options or rules."
         ],
-        "- Removed": [
+        "Removed": [
             "- Removed unnecessary complexity from WebmHelper",
             "- Removed \"beach\" from sponsor \"possible_shoot_item_request_sub_tags\"",
             "- Removed GirlConfig usage of \"generate_color_from_image\" for performance issues",
