@@ -73,6 +73,7 @@
             "- Any \"solo_shots\" in shoot configs should be changed to list the girl ids rather than their full names. There is backwards compatibility where the game will generate ids from the given names.",
             "- Changed event \"chance_to_happen\" calculation structure completely, since it now uses personality system for simplicity. You will need to check the event database to see examples."        ],
         "Modding Additions": [
+            "- Rewrote the Girl Rating screen, it should now be much more useful to modders allowing them to see more detailed warnings/errors.",
             "- Added \"post_exam\" event support, these trigger right after an exam before the player gets to their office.",
             "- Added support for \"teachers_lounge\" events.",
             "- Added support for mothers to be assigned to random daughters but setting their \"daughter_id\" to \"random\".",
