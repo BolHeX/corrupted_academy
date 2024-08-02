@@ -1,4 +1,9 @@
 {
+    "0.2501": {
+        "Fixed": [
+            "- Error when completing certain academy upgrades."
+        ]
+    },
     "0.25": {
         "Additions": [
             "- Added screen to check player stats(WIP).",
