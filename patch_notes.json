@@ -1,4 +1,10 @@
 {
+    "0.2504": {
+        "Fixed": [
+            "- Shoot acceptance constantly getting reduced because buffs weren't being removed",
+            "- Error when trying to get girl reaction when disturbing them."
+        ]
+    },
     "0.2503": {
         "Fixed": [
             "- Error during exam tutorial.",
