@@ -1,7 +1,12 @@
 {
+    "0.2505": {
+        "Additions": [
+            "- Added back button to teachers lounge, allowing you to go back to your office."
+        ]
+    },
     "0.2504": {
         "Fixed": [
-            "- Shoot acceptance constantly getting reduced because buffs weren't being removed",
+            "- Shoot acceptance constantly getting reduced because buffs weren't being removed.",
             "- Error when trying to get girl reaction when disturbing them."
         ]
     },
