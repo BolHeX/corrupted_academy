@@ -1,4 +1,9 @@
 {
+    "0.2506": {
+        "Fixed": [
+            "- Fixed possible error when generating girls."
+        ]
+    },
     "0.2505": {
         "Additions": [
             "- Added back button to teachers lounge, allowing you to go back to your office."
