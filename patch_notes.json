@@ -1,4 +1,20 @@
 {
+    "0.2507": {
+        "Fixed": [
+            "- Fixed girl tolerance being affected by 'girl_stat_growth_multiplier'",
+            "- Shoot cost now takes both base and payment into account.",
+            "- Fixed possible errors when getting request/action report chance for alumni.",
+            "- Attempt two at fixing stolen panties error during end of exam."
+        ],
+        "Changes": [
+            "- Made girls take more tolerance damage early on.",
+            "- Made sponsor call after 8 to avoid early morning calls."
+        ],
+        "Modding Additions": [
+            "- Added support for 'home_visit' events, triggered when first visiting a girl or her mother.",
+            "- Added 'selected_girl' event 'participant_id', this should be used in conjunction with the 'home_visit' event type."
+        ]
+    },
     "0.2506": {
         "Fixed": [
             "- Fixed possible error when generating girls."
