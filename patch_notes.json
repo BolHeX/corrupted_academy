@@ -1,4 +1,11 @@
 {
+    "0.2508": {
+        "Fixed": [
+            "- Fixed subjects not being marked as taught.",
+            "- Fixed taught subjects being reset after being assigned on Monday.",
+            "- Fixed error when trying to assign subjects."
+        ]
+    },
     "0.2507": {
         "Fixed": [
             "- Fixed girl tolerance being affected by 'girl_stat_growth_multiplier'",
