@@ -1,4 +1,10 @@
 {
+    "0.2510": {
+        "Fixed": [
+            "- Fixed 'bridal' sponsor trait showing up as 'Outdoor Private'.",
+            "- Fixed mothers with 'random' daughter_id being generated for multiple girls. Requires new save. This will not retroactively fix saves!"
+        ]
+    },
     "0.2509": {
         "Fixed": [
             "- Fixed any student or mother being hireable rather than just alumni.",
