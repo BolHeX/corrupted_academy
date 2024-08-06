@@ -1,4 +1,14 @@
 {
+    "0.2509": {
+        "Fixed": [
+            "- Fixed any student or mother being hireable rather than just alumni.",
+            "- Fixed error in how teachers were being assigned, causing errors when talking to them.",
+            "- Fixed alumni showing as 'would refuse' for sponsor requests."
+        ],
+        "Changes": [
+            "- Moved disclaimer to game start allowing quicker access to the main menu."
+        ]
+    },
     "0.2508": {
         "Fixed": [
             "- Fixed subjects not being marked as taught.",
