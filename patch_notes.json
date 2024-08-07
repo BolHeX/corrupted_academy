@@ -1,4 +1,22 @@
 {
+    "0.2511": {
+        "Fixed": [
+            "- Fixed possible error when confiscating mothers panties as punishment.",
+            "- Fixed possible error when removing clothing from girls when your teaching assistant is helping.",
+            "- Fixed major error in how events were getting their participants generated."
+        ],
+        "Additions": [
+            "- Shoots will now show if a required rule is being bypassed by traits.",
+            "- Two new codes to unlock upgrades and faculty."
+        ],
+        "Changes": [
+            "- Improved 'generate_color_from_string' making the colours less muddy.",
+            "- Increased sponsor payment for panties from 25% to 50%",
+            "- Decreased panty sell value from collection 100% -> 50% and tooltip to refect this.",
+            "- Now easier to get more sponsor slots based on prestige.",
+            "- Improved sponsor contract limit tooltip."
+        ]
+    },
     "0.2510": {
         "Fixed": [
             "- Fixed 'bridal' sponsor trait showing up as 'Outdoor Private'.",
