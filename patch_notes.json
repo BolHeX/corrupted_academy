@@ -1,4 +1,25 @@
 {
+    "0.2513": {
+        "Additions": [
+            "- Button button to temporarily 'postpone' a girls admissions, removing their applications and preventing them for 1 week."
+        ],
+        "Changes": [
+            "- Rebalanced girl answering to make girls with low intellect answer slower",
+            "- Rebalanced girl tolerance impacts from actions",
+            "- Rebalanced sponsor clothing match rating when request has required tags"
+        ],
+
+        "Fixed": [
+            "- Fixed instances where panties were not being stolen after exam or sex interactions.",
+            "- Fixed generating events taking much longer than they should, resulting in a stutter.",
+            "- Fixed several 'get_payment_acceptance' call errors.",
+            "- Fixed girl videos not being filtered correctly, which lead to cases where no video would play.",
+            "- Fixed video tag replacements i.e 'remove_shirt' not defaulting to 'remove_upper' if no videos are found."
+        ],
+        "Modding Additions": [
+            "- More accurate webm main and sub tag warnings on girl rating screen."
+        ]
+    },
     "0.2512": {
         "Fixed": [
             "- Fixed error when cumming during 'fuck thighs' exam action."
