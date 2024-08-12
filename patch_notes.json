@@ -1,4 +1,9 @@
 {
+    "0.2516b": {
+        "Fixed": [
+            "- Fixed 'reelecting_pta_president' never being reset which lead to errors when starting pta meetings."
+        ]
+    },
     "0.2516a": {
         "Fixed": [
             "- Fixed possible error when removing files from shoots."
