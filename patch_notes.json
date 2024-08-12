@@ -1,4 +1,9 @@
 {
+    "0.2514a": {
+        "Fixed": [
+            "- Actaully fixed exam action buttons involving clothing using the wrong item name."
+        ]
+    },
     "0.2514": {
         "Fixed": [
             "- Fixed hofix link pointing to wrong download link.\nIf you get a dead link please check the site where you download the game from",
