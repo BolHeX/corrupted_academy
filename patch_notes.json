@@ -1,4 +1,11 @@
 {
+    "0.2516": {
+        "Fixed": [
+            "- Fixed panty collection value not being rounded.",
+            "- Fixed alumni mothers never having the 'daily update' functions ran.",
+            "- Fixed possible error where girls get redressed during sex interactions if time goes into the next day."
+        ]
+    },
     "0.2515": {
         "Fixed": [
             "- Fixed error when selling panties from panty collection.",
