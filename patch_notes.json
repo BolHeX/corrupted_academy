@@ -1,4 +1,11 @@
 {
+    "0.2517": {
+        "Fixed": [
+            "- Fixed more shoot items than expected getting 'lingerie' and 'bikini' tags.",
+            "- Fixed possible error about missing portrait/tportrait images.",
+            "- Fixed possible report call error when bypassing talking to mother by visiting daughter."
+        ]
+    },
     "0.2516b": {
         "Fixed": [
             "- Fixed 'reelecting_pta_president' never being reset which lead to errors when starting pta meetings."
