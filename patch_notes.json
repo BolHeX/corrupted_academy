@@ -1,4 +1,9 @@
 {
+    "0.2516a": {
+        "Fixed": [
+            "- Fixed possible error when removing files from shoots."
+        ]
+    },
     "0.2516": {
         "Fixed": [
             "- Fixed panty collection value not being rounded.",
