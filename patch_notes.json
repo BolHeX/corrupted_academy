@@ -1,7 +1,14 @@
 {
+    "0.2515": {
+        "Fixed": [
+            "- Fixed error when selling panties from panty collection.",
+            "- Fixed traits like rich and broke when added to the girls config being overridden.",
+            "- Fixed variable names being in action description when assistant removes a girls panties."
+        ]
+    },
     "0.2514a": {
         "Fixed": [
-            "- Actaully fixed exam action buttons involving clothing using the wrong item name."
+            "- Actually fixed exam action buttons involving clothing using the wrong item name."
         ]
     },
     "0.2514": {
