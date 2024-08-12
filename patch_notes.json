@@ -1,4 +1,20 @@
 {
+    "0.2514": {
+        "Fixed": [
+            "- Fixed hofix link pointing to wrong download link.\nIf you get a dead link please check the site where you download the game from",
+            "- Fixed exam action buttons involving clothing using the wrong item name.",
+            "- Fixed possible error during 'masturbate openly' exam action.",
+            "- Fixed sponsor bonus showing up in funding screen when its $0",
+            "- Fixed some sponsor payments showing up under 'Sponsor' header.",
+            "- Fixed stats being multiplied/changed when using 'modify_stat' with 'apply_directly' argument.",
+            "- Fixed being able to start a second home visit in the same day."
+        ],
+        "Changes": [
+            "- Photos/Videos now inherit their parents sub tags if sponsors can request them.",
+            "- Increased sponsor base weekly funding from 25 to 300.",
+            "- Increased sponsor max weekly funding from 600 to 1800."
+        ]
+    },
     "0.2513": {
         "Additions": [
             "- Button button to temporarily 'postpone' a girls admissions, removing their applications and preventing them for 1 week."
@@ -8,7 +24,6 @@
             "- Rebalanced girl tolerance impacts from actions",
             "- Rebalanced sponsor clothing match rating when request has required tags"
         ],
-
         "Fixed": [
             "- Fixed instances where panties were not being stolen after exam or sex interactions.",
             "- Fixed generating events taking much longer than they should, resulting in a stutter.",
