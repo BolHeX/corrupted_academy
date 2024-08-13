@@ -1,4 +1,14 @@
 {
+    "0.2518": {
+        "Fixed": [
+            "- Fixed possible error during report calls for girls with 'secretive' and 'honest' traits.",
+            "- Fixed possible error when trying to generate sponsor requests but no shoots match their tags.",
+            "- Fixed girls reapplying when blacklisted, passed, enrolled, alumni...",
+            "- Fixed clothing tooltip showing that panties are covered in both player and girl cum when only covered in girl cum.",
+            "- Fixed 'workout' sponsor trait showing up under the 'outdoor private' name.",
+            "- Fixed girl's panties not being readded to their wardrobe after exams if they take them back."
+        ]
+    },
     "0.2517": {
         "Fixed": [
             "- Fixed more shoot items than expected getting 'lingerie' and 'bikini' tags.",
