@@ -1,4 +1,16 @@
 {
+    "0.2519": {
+        "Fixed": [
+            "- Fixed possible error when remove girls/mothers.",
+            "- Fixed possible error when getting 'wedgie' action descriptions.",
+            "- Fixed 'confiscate clothing' dialogue having awkward repeated lines.",
+            "- Fixed sexual favor point not having a linebreak notifcation tooltip.",
+            "- Fixed duplicate girl applications.",
+            "- Fixed time widget positioning on computer screen.",
+            "- Fixed trying to raise funds in pta meetings always giving $0",
+            "- Fixed 'get_valid_events' returning early, meaning events won't get generated at all."
+        ]
+    },
     "0.2518": {
         "Fixed": [
             "- Fixed possible error during report calls for girls with 'secretive' and 'honest' traits.",
