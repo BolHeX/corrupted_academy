@@ -9,6 +9,9 @@
             "- Fixed time widget positioning on computer screen.",
             "- Fixed trying to raise funds in pta meetings always giving $0",
             "- Fixed 'get_valid_events' returning early, meaning events won't get generated at all."
+        ],
+        "Changes": [
+            "- Improved strip to underwear/strip naked dialogue flow."
         ]
     },
     "0.2518": {
