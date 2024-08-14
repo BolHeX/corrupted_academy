@@ -1,4 +1,9 @@
 {
+    "0.2521a": {
+        "Fixed": [
+            "- Fixed jeans not having the 'jeans' tag anymore..."
+        ]
+    },
     "0.2521": {
         "Fixed": [
             "- Invalid applications should now be removed when loading a saved game for the first time.",
