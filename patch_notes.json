@@ -1,4 +1,9 @@
 {
+    "0.2521b": {
+        "Fixed": [
+            "- Unfucked the horrible fuck up that was my fix to the rule break code..."
+        ]
+    },
     "0.2521a": {
         "Fixed": [
             "- Fixed jeans not having the 'jeans' tag anymore..."
