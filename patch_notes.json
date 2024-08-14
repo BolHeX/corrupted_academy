@@ -1,4 +1,18 @@
 {
+    "0.2521": {
+        "Fixed": [
+            "- Invalid applications should now be removed when loading a saved game for the first time.",
+            "- Fixed small incompatibility with JoyPlay since it uses older version of RenPy.",
+            "- Fixed stealing panties during 'strip naked' actions also remove them from the girls wardrobe.",
+            "- Fixed rule breaks possibly being generated when a girl isn't wearing disallowed clothing type.",
+            "- Hopefully fixed broken rules not being added when they should.",
+            "- Girls reporting actions when report chance is shown as 0 should be fixed now."
+        ],
+        "Changes": [
+            "- Jeans are no long considered 'uniform'.",
+            "- Small improvements to UI for JoyPlay users."
+        ]
+    },
     "0.2520": {
         "Additions": [
             "- Missing boob images for Megan Rain."
