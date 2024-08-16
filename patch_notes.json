@@ -1,4 +1,9 @@
 {
+    "0.2521c": {
+        "Fixed": [
+            "- Fixed raising funds during PTA meeting never being given to the academy."
+        ]
+    },
     "0.2521b": {
         "Fixed": [
             "- Unfucked the horrible fuck up that was my fix to the rule break code..."
