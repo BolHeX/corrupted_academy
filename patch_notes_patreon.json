@@ -1,4 +1,9 @@
 {
+    "0.301a": {
+        "Fixed": [
+            "- Fixed error when checking whether reported exam actions are tolerated."
+        ]
+    },
     "0.301": {
         "Fixed": [
             "- Fixed error when an event starts a sex interaction."
