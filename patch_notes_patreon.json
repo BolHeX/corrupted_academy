@@ -1,4 +1,9 @@
 {
+    "0.301": {
+        "Fixed": [
+            "- Fixed error when an event starts a sex interaction."
+        ]
+    },
     "0.3": {
         "Added": [
             "- Added new game plus, which allows reseting some or all progress.",
