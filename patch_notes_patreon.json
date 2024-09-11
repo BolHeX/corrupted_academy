@@ -1,4 +1,10 @@
 {
+    "0.301c": {
+        "Fixed": [
+            "- Fixed error when generating events when 'selected_girl' is a mother.",
+            "- Fixed error when getting uncovered parts tooltip for damaged socks."
+        ]
+    },
     "0.301b": {
         "Fixed": [
             "- Fixed possible error when getting and clearing queued call events.",
