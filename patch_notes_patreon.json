@@ -1,4 +1,10 @@
 {
+    "0.301b": {
+        "Fixed": [
+            "- Fixed possible error when getting and clearing queued call events.",
+            "- Fixed error when inserting buttplugs."
+        ]
+    },
     "0.301a": {
         "Fixed": [
             "- Fixed error when checking whether reported exam actions are tolerated."
