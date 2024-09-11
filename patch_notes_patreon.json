@@ -1,4 +1,10 @@
 {
+    "0.302": {
+        "Fixed": [
+            "- Fixed error when girl is wearing a buttplug during an exam.",
+            "- Fixed chance to wear clothing being inverted making uncorrupted girls more likely to wear no clothing."
+        ]
+    },
     "0.301c": {
         "Fixed": [
             "- Fixed error when generating events when 'selected_girl' is a mother.",
