@@ -1,4 +1,23 @@
 {
+    "0.304": {
+        "Added": [
+            "- Added cheat code to instantly complete upgrade construction.",
+            "- Added slider to girl recruitment menu to set the chance to assign a random mother over an generic one.",
+            "- Modded girls/mothers will now have their configs ignored but there content loaded if their 'id' matches an already loaded girl/mother."
+        ],
+        "Changes": [
+            "- Increased base girl capacity by 1."
+        ],
+        "Fixed": [
+            "- Fixed possible infinite loop when generating girls in exam if not enough girls are available.",
+            "- Fixed possible game lock when using NewGame+ and have more than 15 girl capacity.",
+            "- Fixed crash when loading a save where girls that were removed are in the current exam.",
+            "- Fixed possible error during shoots when shoot item willingness impact drops to 0."
+        ],
+        "Additions": [
+            "- Traits now update from database if any changes were made i.e their colour."
+        ]
+    },
     "0.303": {
         "Fixed": [
             "- Fixed colour of 'whore' trait being hard to read.",
