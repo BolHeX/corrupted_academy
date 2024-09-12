@@ -1,4 +1,16 @@
 {
+    "0.303": {
+        "Fixed": [
+            "- Fixed colour of 'whore' trait being hard to read.",
+            "- Fixed insert buttplug action showing 'adjective' rather than an actual word.",
+            "- Fixed possible error when allowing girl to go the bathroom.",
+            "- Fixed girls chance to wear clothing being completely wrong.",
+            "- Fixed error when automatically resolving old reported actions and requests."
+        ],
+        "Additions": [
+            "- Traits now update from database if any changes were made i.e their colour."
+        ]
+    },
     "0.302": {
         "Fixed": [
             "- Fixed error when girl is wearing a buttplug during an exam.",
