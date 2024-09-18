@@ -1,4 +1,48 @@
 {
+    "0.305": {
+        "Added": [
+            "- Added sponsors requesting videoshoots like photoshoots. As there aren't many videoshoots right now you will need mods for this to activate.",
+            "- Moved 'kiss' example action to actual game content and expanded allowing players to try kissing faculty and during home visits.",
+            "- Added cheat to reduce vote difficulty during pta meetings by 50%",
+            "- Added cheat to lower vote difficulty during PTA meetings.",
+            "- Added cheat to double sponsor relationship gain.",
+            "- Added cheat to set player reputation to 100.",
+            "- Added cheat to set academy prestige to 100."
+        ],
+        "Changes": [
+            "- Fixed girls possibly being in both alumni and student pool.",
+            "- Rewrote outift generation, should resolve rule breaks not being registered.",
+            "- Rewrote sponsor request generation, it will try match current girl stats and for shoots will weight them towards how many items are available.",
+            "- Added stat minimum for girls to skip wearing certain clothing, should resolve uncorrupted girls coming to class topless.",
+            "- Changed 'slut' and 'whore' trait colours as they were hard to read.",
+            "- Academy maintaince is now paid at the end of the week rather than daily.",
+            "- Slightly improved academy budget layout.",
+            "- Mothers now have their forced vote set for the week rather than the first rule voted in.",
+            "- Limited maximum girl applications per week to 3.",
+            "- Fixed girls complaining about stripping their panties after offering them to you after sex.",
+            "- Rebalanced sponsor contract payments from 300-1800 to 650-1450.",
+            "- Rebalanced mother voting the PTA president.",
+            "- Added checks to remove clothing descriptions that reference if the girl is wearing underwear."
+        ],
+        "Fixes": [
+            "- Fixed possible infinite loop when generating girls in exam if not enough girls are available.",
+            "- Fixed possible game lock when using NewGame+ and have more girl capacity that possible students.",
+            "- Fixed crash when loading a save where girls that were removed are in the current exam.",
+            "- Fixed possible error during shoots when shoot item willingness impact drops to 0.",
+            "- Fixed several issues caused after starting NG+",
+            "- Fixed typos and grammer mistakes.",
+            "- Fixed girls not being able to pass on final round of exam.",
+            "- Girl recruitment now shows correct capacity when first picking girls.",
+            "- Fixed player reputation bar always being empty.",
+            "- Fixed remaining actions button and tooltip on pta meeting menu.",
+            "- Fixed possible errors when more report calls happen but reported actions/requests have been resolved.",
+            "- Fixed being able to purchase faculty upgrades before unlocking them."
+        ],
+        "Modding Changes": [
+            "- Renamed some video and shoot item tags, there is backwards compatibility and the mod tools will be updated to new tags before release.\nA tool to rename existing content will also be released to modders.",
+            "- Fixed lesson videos showing as invalid main tags."
+        ]
+    },
     "0.304": {
         "Added": [
             "- Added cheat code to instantly complete upgrade construction.",
