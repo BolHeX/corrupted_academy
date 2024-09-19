@@ -1,4 +1,10 @@
 {
+    "0.306a": {
+        "Fixes": [
+            "- Fixed error when trying to resolve requests which a mother herself reported.",
+            "- Fixed error when checking how long until a girl is available for next sponsor request."
+        ]
+    },
     "0.306": {
         "Fixes": [
             "- Fixed event cooldowns not working, which could lead to spamming events.",
