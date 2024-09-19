@@ -1,4 +1,10 @@
 {
+    "0.306": {
+        "Fixes": [
+            "- Fixed event cooldowns not working, which could lead to spamming events.",
+            "- Fixed rule breaks... again... Logic was all correct girls were just having outfits changes after rule breaks were generated."
+        ]
+    },
     "0.305": {
         "Added": [
             "- Added sponsors requesting videoshoots like photoshoots. As there aren't many videoshoots right now you will need mods for this to activate.",
