@@ -1,4 +1,13 @@
 {
+    "0.307a": {
+        "Added": [
+            "- Added small notifcation during 'kiss' actions to show time has passed."
+        ],
+        "Fixed": [
+            "- Fixed being able to access upgrades from navigation menu without them being unlocked.",
+            "- Fixed possible error about missing girl files when loading a save from 0.25"
+        ]
+    },
     "0.307": {
         "Added": [
             "- Added new game plus, which allows reseting some or all progress.",
