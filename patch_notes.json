@@ -1,4 +1,16 @@
 {
+    "0.307b": {
+        "Changes": [
+            "- 'Dress Code' rule is now unlocked from the start since it mainly serves as a place to keep clothing rules grouped",
+            "- Increase 'acceptance' needs for girls and mothers to agree to a kiss during home visits.",
+            "- Limited kiss action to once a day."
+        ],
+        "Fixed": [
+            "- Fixed errors when trying to select stolen panties when loading a 0.25 save.",
+            "- Fixed upgrades being available after using NewGame+",
+            "- Fixed scheduled faculty not being reset after using NewGame+ meaning faculty would always be carried over."
+        ]
+    },
     "0.307a": {
         "Added": [
             "- Added small notifcation during 'kiss' actions to show time has passed."
