@@ -1,353 +1,103 @@
 {
-    "0.2521e": {
-        "Released": [
-            "- 0.3 Early access released 11/09/2024, about 1 week until public release."
-        ],
-        "Fixed": [
-            "- Fixed missing label for cumming on thighs during sex interactions."
-        ]
-    },
-    "0.2521d": {
-        "Fixed": [
-            "- Fixed error when trying to cum on boobs during sex interaction."
-        ]
-    },
-    "0.2521c": {
-        "Fixed": [
-            "- Fixed raising funds during PTA meeting never being given to the academy."
-        ]
-    },
-    "0.2521b": {
-        "Fixed": [
-            "- Unfucked the horrible fuck up that was my fix to the rule break code..."
-        ]
-    },
-    "0.2521a": {
-        "Fixed": [
-            "- Fixed jeans not having the 'jeans' tag anymore..."
-        ]
-    },
-    "0.2521": {
-        "Fixed": [
-            "- Invalid applications should now be removed when loading a saved game for the first time.",
-            "- Fixed small incompatibility with JoyPlay since it uses older version of RenPy.",
-            "- Fixed stealing panties during 'strip naked' actions not removing them from the girls wardrobe.",
-            "- Fixed rule breaks possibly being generated when a girl isn't wearing disallowed clothing type.",
-            "- Hopefully fixed broken rules not being added when they should.",
-            "- Girls reporting actions when report chance is shown as 0 should be fixed now."
+    "0.307": {
+        "Added": [
+            "- Added new game plus, which allows reseting some or all progress.",
+            "- Added navigation menu to academy.",
+            "- Added store where you can purchase clothing, sex toys and gifts.",
+            "- Added option to choose how forceful your actions are during exam.",
+            "- Added clothing damage, damaged clothing allowing you access to items below it.",
+            "- Added 'buttplug' clothing items.",
+            "- Added 'buttplug' punishments.",
+            "- Added removing and inserting buttplugs actions during exam, you can only insert your own or buttplugs the girl originally owned.",
+            "- Added removing buttplug action during sex.",
+            "- Added sponsors requesting videoshoots like photoshoots. As there aren't many videoshoots right now you will need mods for this to activate.",
+            "- Added gloryhole to bathroom if it's upgrade has been unlocked.",
+            "- Added clothing 'outfit_tag' support, allowing several clothing items to be marked as a set to be worn together.",
+            "- Added option let give girls panties back at the end of an exam.",
+            "- Added 'available funds' to shoot selection menu.",
+            "- Moved 'kiss' example action to actual game content and expanded allowing players to try kissing faculty and during home visits.",
+            "- Added search bar to shoot selection menu.",
+            "- Added slider to increase how much a girls stats influence their mother's passive stat growth.",
+            "- Washing panties on sponsor request screen now shows the compatibility change too.",
+            "- Added cheat option to regenerate girl applications.",
+            "- Added debug option to quickly set a girl or all girls stats to 0/25/50/75/100.",
+            "- Added 'onanist' trait, where girls are more likely to masturbate and are more accepting of the player masturbating.",
+            "- Added new random events: 'Caught Cheating', 'Student Threesome' and 'Mother Caught Masturbating'.",
+            "- Added new girls: Dani Daniels, Dillion Harper, Leana Lovings, Lulu Chu, Mia Malkova, Scarlet Skies",
+            "- Added new mothers: Angela White, Asa Akira, India Summer, Lauren Phillips",
+            "- Traits now update from database if any changes were made i.e their colour.",
+            "- Added slider to girl recruitment menu to set the chance to assign a random mother over an generic one.",
+            "- Modded girls/mothers will now have their configs ignored but there content loaded if their 'id' matches an already loaded girl/mother.",
+            "- Added cheat code to instantly complete upgrade construction.",
+            "- Added cheat to reduce vote difficulty during pta meetings by 50%, can be deactived by used it again.",
+            "- Added cheat code to double sponsor relationship gain, can be deactived by used it again.",
+            "- Added cheat to set player reputation to 100.",
+            "- Added cheat to set academy prestige to 100."
         ],
         "Changes": [
-            "- Jeans are no long considered 'uniform'.",
-            "- Small improvements to UI for JoyPlay users."
-        ]
-    },
-    "0.2520": {
-        "Additions": [
-            "- Missing boob images for Megan Rain."
+            "- 'dumb' trait is now removed when girl reaches 30 intellect.",
+            "- 'naturist' trait now increases remove and strip action acceptance.",
+            "- 'naturist' trait now makes remove exam actions tolerated.",
+            "- Increased base girl capacity by 1.",
+            "- Changed home visist call hours from 10-19 to 10-18.",
+            "- Removed asking where to go after home visit if it's a weekend.",
+            "- Made girls with high naturism be less likely to buy more clothing.",
+            "- Phone call menu now shows PTA president.",
+            "- Phone call menu now highlights when girl or mother has been called today.",
+            "- Phone call option from PC now hints if girl/mother are unavailable or been called today.",
+            "- 'Shrunk' the lewdness gap in the panty selection.",
+            "- Actions when target disallowed clothing are now tolerated.",
+            "- RuleManager 'get_which_rules_clothing_breaks' now ignores 'uniform' requirements if another tag is forced i.e 'lingerie'.",
+            "- Girls with less class time are now more likely to be chosen for exam.",
+            "- Improved shoot selection menu layout slightly, mainly the 'willingness factors' and start button.",
+            "- Reduced relationship bonus when first making contact and entering a contract.",
+            "- Reduced how a girls stats influence her mother's passive stat growth.",
+            "- Rebalanced how much pressure a girl experience when corrupted, they should experience a bit more pressure now even when fully corrupted.",
+            "- Rewrote the calculation on how likely or unlikely a girl is to break a rule.",
+            "- Rebalanced girl 'distraction' from arousal, pressure and tolerance loss.",
+            "- Subjects no longer influence how fast a girl answers the questions.",
+            "- Rolled the upgrade unlocks and faculty hint events into one.",
+            "- The wash button is now hidden on the sponsor request screen if request requires panties with cum on them.",
+            "- Increased video 'match_rating' penality for mismatched corruption levels.",
+            "- Reduced 'calculate_arousal_impact' maximum arousal from 125% to 100% original.",
+            "- Story event which unlocks faculty will now also unlock upgrades in the case it triggers before that event.",
+            "- Changed how many items a sponsor requests, they are now weighted towards lower range.",
+            "- Mothers now also forget about old reported actions and requests that are marked for pta action.",
+            "- Made girls possible skip purchasing clothing based on their naturism and corruption.",
+            "- Made girls possible skip wearing clothing based on their naturism and corruption.",
+            "- Rewrote outift generation, should resolve rule breaks not being registered.",
+            "- Rewrote sponsor request generation, it will try match current girl stats and for shoots will weight them towards how many items are available.",
+            "- Added stat minimum for girls to skip wearing certain clothing, should resolve uncorrupted girls coming to class topless.",
+            "- Changed 'slut' and 'whore' trait colours as they were hard to read.",
+            "- Academy maintaince is now paid at the end of the week rather than daily.",
+            "- Slightly improved academy budget layout.",
+            "- Mothers now have their forced vote set for the week rather than the first rule voted in.",
+            "- Limited maximum girl applications per week to 3.",
+            "- Rebalanced sponsor contract payments from 300-1800 to 650-1450.",
+            "- Rebalanced mother voting the PTA president.",
+            "- Added checks to remove clothing descriptions that reference if the girl is wearing underwear.",
+            "- Fixed event cooldowns not working, which could lead to spamming events."
         ],
         "Fixed": [
-            "- Fixed GirlRatings taking thumbnails and config files into the shoot file counts.",
-            "- Fixed error when making small talk with teaching assistant.",
-            "- Fixed various incorrect location tags for photoshoots.",
-            "- Teacher/teaching assistant database requirements no long refer to 'selected_girl'."
-        ],
-        "Changes": [
-            "- Mothers no long have virgin pussies..."
-        ]
-    },
-    "0.2519": {
-        "Fixed": [
-            "- Fixed possible error when remove girls/mothers.",
-            "- Fixed possible error when getting 'wedgie' action descriptions.",
-            "- Fixed 'confiscate clothing' dialogue having awkward repeated lines.",
-            "- Fixed sexual favor point not having a linebreak notifcation tooltip.",
-            "- Fixed duplicate girl applications.",
-            "- Fixed time widget positioning on computer screen.",
-            "- Fixed trying to raise funds in pta meetings always giving $0",
-            "- Fixed 'get_valid_events' returning early, meaning events won't get generated at all."
-        ],
-        "Changes": [
-            "- Improved strip to underwear/strip naked dialogue flow."
-        ]
-    },
-    "0.2518": {
-        "Fixed": [
-            "- Fixed possible error during report calls for girls with 'secretive' and 'honest' traits.",
-            "- Fixed possible error when trying to generate sponsor requests but no shoots match their tags.",
-            "- Fixed girls reapplying when blacklisted, passed, enrolled, alumni...",
-            "- Fixed clothing tooltip showing that panties are covered in both player and girl cum when only covered in girl cum.",
-            "- Fixed 'workout' sponsor trait showing up under the 'outdoor private' name.",
-            "- Fixed girl's panties not being readded to their wardrobe after exams if they take them back."
-        ]
-    },
-    "0.2517": {
-        "Fixed": [
-            "- Fixed more shoot items than expected getting 'lingerie' and 'bikini' tags.",
-            "- Fixed possible error about missing portrait/tportrait images.",
-            "- Fixed possible report call error when bypassing talking to mother by visiting daughter."
-        ]
-    },
-    "0.2516b": {
-        "Fixed": [
-            "- Fixed 'reelecting_pta_president' never being reset which lead to errors when starting pta meetings."
-        ]
-    },
-    "0.2516a": {
-        "Fixed": [
-            "- Fixed possible error when removing files from shoots."
-        ]
-    },
-    "0.2516": {
-        "Fixed": [
-            "- Fixed panty collection value not being rounded.",
-            "- Fixed alumni mothers never having the 'daily update' functions ran.",
-            "- Fixed possible error where girls get redressed during sex interactions if time goes into the next day."
-        ]
-    },
-    "0.2515": {
-        "Fixed": [
-            "- Fixed error when selling panties from panty collection.",
-            "- Fixed traits like rich and broke when added to the girls config being overridden.",
-            "- Fixed variable names being in action description when assistant removes a girls panties."
-        ]
-    },
-    "0.2514a": {
-        "Fixed": [
-            "- Actually fixed exam action buttons involving clothing using the wrong item name."
-        ]
-    },
-    "0.2514": {
-        "Fixed": [
-            "- Fixed hofix link pointing to wrong download link.\nIf you get a dead link please check the site where you download the game from",
-            "- Fixed exam action buttons involving clothing using the wrong item name.",
-            "- Fixed possible error during 'masturbate openly' exam action.",
-            "- Fixed sponsor bonus showing up in funding screen when its $0",
-            "- Fixed some sponsor payments showing up under 'Sponsor' header.",
-            "- Fixed stats being multiplied/changed when using 'modify_stat' with 'apply_directly' argument.",
-            "- Fixed being able to start a second home visit in the same day."
-        ],
-        "Changes": [
-            "- Photos/Videos now inherit their parents sub tags if sponsors can request them.",
-            "- Increased sponsor base weekly funding from 25 to 300.",
-            "- Increased sponsor max weekly funding from 600 to 1800."
-        ]
-    },
-    "0.2513": {
-        "Additions": [
-            "- Button button to temporarily 'postpone' a girls admissions, removing their applications and preventing them for 1 week."
-        ],
-        "Changes": [
-            "- Rebalanced girl answering to make girls with low intellect answer slower",
-            "- Rebalanced girl tolerance impacts from actions",
-            "- Rebalanced sponsor clothing match rating when request has required tags"
-        ],
-        "Fixed": [
-            "- Fixed instances where panties were not being stolen after exam or sex interactions.",
-            "- Fixed generating events taking much longer than they should, resulting in a stutter.",
-            "- Fixed several 'get_payment_acceptance' call errors.",
-            "- Fixed girl videos not being filtered correctly, which lead to cases where no video would play.",
-            "- Fixed video tag replacements i.e 'remove_shirt' not defaulting to 'remove_upper' if no videos are found."
+            "- Fixed exam and sex action impact descriptions.",
+            "- Fixed intro images showing naked body images rather than panties in certain cases.",
+            "- Fixed girls possibly starting with answer progress when the exam starts.",
+            "- Fixed player possibly not getting marked as 'been_to_class'.",
+            "- Fixed girls being able to cum from kissing.",
+            "- Fixed sponsor request boxes being cut off if too long.",
+            "- Fixed clothing items possible using incorrect images if their 'base_image_name' is in another clothing images name.",
+            "- Fixed wardrobe items overlapping with title text on girl review screen.",
+            "- Fixed alumni and their mothers not having their weekly updates run.",
+            "- Fixed various punishments trying to show videos for mother rather than daughter.",
+            "- Fixed shoot items possibly not getting the tags the should from their parent shoots.",
+            "- Fixed old resolved actions and requests possibly not getting cleared.",
+            "- Fixed mothers possibly not clearing their queued report call events."
         ],
         "Modding Additions": [
-            "- More accurate webm main and sub tag warnings on girl rating screen."
-        ]
-    },
-    "0.2512": {
-        "Fixed": [
-            "- Fixed error when cumming during 'fuck thighs' exam action."
-        ]
-    },
-    "0.2511": {
-        "Fixed": [
-            "- Fixed possible error when confiscating mothers panties as punishment.",
-            "- Fixed possible error when removing clothing from girls when your teaching assistant is helping.",
-            "- Fixed major error in how events were getting their participants generated."
-        ],
-        "Additions": [
-            "- Shoots will now show if a required rule is being bypassed by traits.",
-            "- Two new codes to unlock upgrades and faculty."
-        ],
-        "Changes": [
-            "- Improved 'generate_color_from_string' making the colours less muddy.",
-            "- Increased sponsor payment for panties from 25% to 50%",
-            "- Decreased panty sell value from collection 100% -> 50% and tooltip to refect this.",
-            "- Now easier to get more sponsor slots based on prestige.",
-            "- Improved sponsor contract limit tooltip."
-        ]
-    },
-    "0.2510": {
-        "Fixed": [
-            "- Fixed 'bridal' sponsor trait showing up as 'Outdoor Private'.",
-            "- Fixed mothers with 'random' daughter_id being generated for multiple girls. Requires new save. This will not retroactively fix saves!"
-        ]
-    },
-    "0.2509": {
-        "Fixed": [
-            "- Fixed any student or mother being hireable rather than just alumni.",
-            "- Fixed error in how teachers were being assigned, causing errors when talking to them.",
-            "- Fixed alumni showing as 'would refuse' for sponsor requests."
-        ],
-        "Changes": [
-            "- Moved disclaimer to game start allowing quicker access to the main menu."
-        ]
-    },
-    "0.2508": {
-        "Fixed": [
-            "- Fixed subjects not being marked as taught.",
-            "- Fixed taught subjects being reset after being assigned on Monday.",
-            "- Fixed error when trying to assign subjects."
-        ]
-    },
-    "0.2507": {
-        "Fixed": [
-            "- Fixed girl tolerance being affected by 'girl_stat_growth_multiplier'",
-            "- Shoot cost now takes both base and payment into account.",
-            "- Fixed possible errors when getting request/action report chance for alumni.",
-            "- Attempt two at fixing stolen panties error during end of exam."
-        ],
-        "Changes": [
-            "- Made girls take more tolerance damage early on.",
-            "- Made sponsor call after 8 to avoid early morning calls."
-        ],
-        "Modding Additions": [
-            "- Added support for 'home_visit' events, triggered when first visiting a girl or her mother.",
-            "- Added 'selected_girl' event 'participant_id', this should be used in conjunction with the 'home_visit' event type."
-        ]
-    },
-    "0.2506": {
-        "Fixed": [
-            "- Fixed possible error when generating girls."
-        ]
-    },
-    "0.2505": {
-        "Additions": [
-            "- Added back button to teachers lounge, allowing you to go back to your office."
-        ]
-    },
-    "0.2504": {
-        "Fixed": [
-            "- Shoot acceptance constantly getting reduced because buffs weren't being removed.",
-            "- Error when trying to get girl reaction when disturbing them."
-        ]
-    },
-    "0.2503": {
-        "Fixed": [
-            "- Error during exam tutorial.",
-            "- Error when trying to confiscate clothing during home visits.",
-            "- Error about 'not_in_class' during exam start.",
-            "- Error when trying to assign/hire staff.",
-            "- Modded girl videos being added to generic video selection.",
-            "- Daughter's name using mother color rather than her own."
-        ],
-        "Changes": [
-            "- Home visits should be easier in the early game.",
-            "- Increased penalty of reusing shoot items."
-        ]
-    },
-    "0.2502": {
-        "Fixed": [
-            "- Error when using facial/creampie mouth during sex interactions.",
-            "- Error when during exam after taking panties during a sex interaction.",
-            "- Girls constantly showing orgasm videos during sex interactions.",
-            "- Loop when fucking thighs during sex interactions.",
-            "- Looping video during mother free-use discussion.",
-            "- Looping video during girl sexual favors.",
-            "- Remove/Strip upper not playing a video when the girl is wearing a shirt.",
-            "- Missing responses for groping a girls naked pussy, which caused looping videos."
-        ]
-    },
-    "0.2501": {
-        "Fixed": [
-            "- Error when completing certain academy upgrades."
-        ]
-    },
-    "0.25": {
-        "Additions": [
-            "- Added screen to check player stats(WIP).",
-            "- Added short event which hints to the player the upgrade/faculty system",
-            "- Added alumni system, allowing girls to graduate and still be interacted with.",
-            "- Added option to pass/expel girls.",
-            "- Added academy upgrade system, allowing the player to renovate and add features to the school.",
-            "- Added faculty system, allowing the player to hire alumni and/or their mothers.",
-            "- Added secretary to office, where the player can call her into his office and interact with her(WIP). Needs to be unlocked.",
-            "- Added teachers assistant to exam, allowing her to do actions for the player or have her assist in actions(WIP). Needs to be unlocked.",
-            "- Added auxiliary teachers, allowing the player to interact with them in the teacher's lounge and peek in on their classes(WIP). Needs to be unlocked.",
-            "- Added \"cum-play\" system, which tracks cum on girls panties.",
-            "- Added chance for sponsors to request panties covered in either player or girl's cum.",
-            "- Added toggles to skip action descriptions/responses during exam and sex interactions.",
-            "- Added toggle to remember which girl was last interacted with in exam i.e return to her action selection screen.",
-            "- Added tooltips to explain what girl stats do(WIP).",
-            "- Added a few new events, mainly focused around secretary.",
-            "- Added ability to see current time and wait while on the computer.",
-            "- Added a lot of new generic videos trying to fill in gaps.",
-            "- Added videos to a few of the existing girls/mothers.",
-            "- Added new girls: Megan Rain, Little Caprice, Kiara Cole, Angel Smalls, Gina Valentina, Alexa Flexy, Dakota Tyler, Kira Noir",
-            "- Added new mothers: Shay Sights, Sarah Vandella, Reagan Foxx, Raylene, Cory Chase, Brandi Love",
-            "- Added simple changelog and patch download button to main menu.",
-            "- Added a couple new traits.",
-            "- Added flash effect toggle to shoot menu.",
-            "- Added \"show_solo_male_videos\" toggle, which allows hiding videos where its just a solo male performing the action."
-        ],
-        "Changes": [
-            "- Sponsors now pay a percentage of clothing value for \"special\" requests.",
-            "- Various menus to add visual cues to show which girls are alumni.",
-            "- Changed event background colour to red when disabled to make it more clear which events are enabled/disabled.",
-            "- Increased girl natural affection gain based by her being corrupted.",
-            "- Shoots and events that are deleted are now done cleanly and silently, avoiding any errors."
-        ],
-        "Fixed": [
-            "- Fixed loads and loads of typos.",
-            "- Fixed \"pta_discussion_raise_reputation\" speech being outcomes inverted.",
-            "- Fixed GirlConfig loading modded girl files twice.",
-            "- Fixed ClothingManager \"get_lewdness_of_outfit\" returning much higher than it should.",
-            "- Fixed some shoots not having cover images.",
-            "- Fixed \"maintain_mother_stats\" overwriting things it shouldn't...",
-            "- Fixed rule breaks not being observed through transparent clothing.",
-            "- Fixed being unable to force events while in debug mode.",
-            "- Fixed \"Always use girl vids\" setting being overridden by \"Webm set size\".",
-            "- Fixed Sponsor using its name rather than display_name when paying the academy.",
-            "- Fixed \"thirdparty\" videos possibly being shown outside of threesomes. They also no longer take up possible video \"slots\" when getting video selection.",
-            "- Fixed reported actions not being marked as resolved when asserting dominance.",
-            "- Fixed mismatched \"micro_uniform_skirt\" images.",
-            "- Fixed various exam action requirements.",
-            "- Fixed various during_exam event requirements.",
-            "- Fixed player not stealing panties when girl leaves them with you.",
-            "- Fixed \"last_reported_untolerated_actions\" not being marked as resolved when they had low \"total_pressure_of_untolerated_actions\".",
-            "- Fixed rare cases where girls can have multiple \"corruption\" level traits.",
-            "- Fixed girls with higher naturism being MORE likely to wear outer clothing/panties.",
-            "- Fixed girls with higher naturism being MORE likely to wear outer clothing.",
-            "- Fixed girls corrupted girls breaking rules that they are aligned with i.e not wearing panties or a top.",
-            "- Fixed girls reapplying after passing exam.",
-            "- Fixed pta discussion menu scroll position being reset when selecting options or rules."
-        ],
-        "Removed": [
-            "- Removed unnecessary complexity from WebmHelper",
-            "- Removed \"beach\" from sponsor \"possible_shoot_item_request_sub_tags\"",
-            "- Removed GirlConfig usage of \"generate_color_from_image\" for performance issues",
-            "- Removed SponsorConfig usage of \"generate_color_from_image\" for performance issues",
-            "- Removed unnecessary \"livingroom\" discussion options during home visit"
-        ],
-        "Modding Changes": [
-            "- Videos named \"remove_panty\" and \"strip_panty\" should be renamed to \"remove_panties\" and \"strip_panties\" respectively. There is still backwards compatibility for the old names.",
-            "- Girls should now also get an \"id\" argument in their configs. This should be their first and last name(if they have one), in all lower case separated by an underscore i.e \"cory_chase\". There is backwards compatibility where the game will try generate this if one isn't provided.",
-            "- Any \"daughter_name\" in in mother configs should be changed to \"daughter_id\" and use the girl's id rather than their full names. There is backwards compatibility where the game will generate ids from the name.",
-            "- ny \"partcipant_names\" in configs should be changed to \"participant_ids\" and list the girl ids rather than their full names. There is backwards compatibility where the game will generate ids from \"participant_names\" if ids aren't provided.",
-            "- Any \"solo_shots\" in shoot configs should be changed to list the girl ids rather than their full names. There is backwards compatibility where the game will generate ids from the given names.",
-            "- Changed event \"chance_to_happen\" calculation structure completely, since it now uses personality system for simplicity. You will need to check the event database to see examples."        ],
-        "Modding Additions": [
-            "- Rewrote the Girl Rating screen, it should now be much more useful to modders allowing them to see more detailed warnings/errors.",
-            "- Added \"post_exam\" event support, these trigger right after an exam before the player gets to their office.",
-            "- Added support for \"teachers_lounge\" events.",
-            "- Added support for mothers to be assigned to random daughters but setting their \"daughter_id\" to \"random\".",
-            "- Added support for traits in increase base report_chance.",
-            "- Added support for traits to tag certain actions as tolerated.",
-            "- Added support for traits to tag certain rules as active.",
-            "- Added support for custom body images based on corruption level.",
-            "- Added remove/strip \"shirt\" support to WebmHelper.",
-            "- Added support for webms to only be displayed in certain conditions by adding the \"_only\" suffix to the tag i.e blowjob-mother_only.",
-            "- Added support for custom \"orgasm\" videos based on action but adding the \"_orgasm\" suffix to action name it will try use this over the generic  \"orgasm\" videos i.e \"fuck_ass_orgasm\".",
-            "- Added support for custom exam intro body images, these are the images which are shown when the body part is uncovered.",
-            "- Exposed various new variables, allowing rules/upgrades to modify maintainence cost and/or faculty wages."
+            "- Added support for girls using custom clothing images over generic ones.",
+            "- Added double penetration action tag support for shoots.",
+            "- Renamed some video and shoot item tags, there is backwards compatibility and the mod tools will be updated to new tags before release.\nA tool to rename existing content will also be released to modders.",
+            "- Fixed lesson videos showing as invalid main tags."
         ]
     }
 }

@@ -1,4 +1,9 @@
 {
+    "0.307": {
+        "Added": [
+            "Public Release!"
+        ]
+    },
     "0.306a": {
         "Fixes": [
             "- Fixed error when trying to resolve requests which a mother herself reported.",
