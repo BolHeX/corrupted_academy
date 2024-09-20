@@ -1,4 +1,11 @@
 {
+    "0.307c": {
+        "Fixed": [
+            "- Fixed error when removing clothing mods.",
+            "- Fixed possible error about invalid events when loading a 0.25 save.",
+            "- Fixed typos in girl and mother home visit kiss actions"
+        ]
+    },
     "0.307b": {
         "Changes": [
             "- 'Dress Code' rule is now unlocked from the start since it mainly serves as a place to keep clothing rules grouped",
