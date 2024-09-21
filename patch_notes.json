@@ -1,4 +1,9 @@
 {
+    "0.307d": {
+        "Fixed": [
+            "- Fixed error when selected clothing for sponsor requests."
+        ]
+    },
     "0.307c": {
         "Fixed": [
             "- Fixed error when removing clothing mods.",
