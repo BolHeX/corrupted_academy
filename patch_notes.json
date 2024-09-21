@@ -1,4 +1,9 @@
 {
+    "0.307e": {
+        "Fixed": [
+            "- Fixed clothing images possibly being mismatched."
+        ]
+    },
     "0.307d": {
         "Fixed": [
             "- Fixed error when selected clothing for sponsor requests."
