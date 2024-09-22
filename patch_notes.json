@@ -1,4 +1,10 @@
 {
+    "0.307f": {
+        "Fixed":[
+            "- Fixed sex interaction action layout for mobile/JoyPlay.",
+            "- Fixed shoot studio menu layout for mobile/JoyPlay."
+        ]
+    },
     "0.307e": {
         "Fixed": [
             "- Fixed clothing images possibly being mismatched."
