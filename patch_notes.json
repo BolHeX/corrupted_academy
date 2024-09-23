@@ -1,4 +1,19 @@
 {
+    "0.307g": {
+        "Added": [
+            "- Added visual representation to damaged clothing with options to disable and/or limit it. Because of small visual bugs it is disabled by default.",
+            "- Added small notifcation and reminder message after gloryhole is constructed to visit it."
+        ],
+        "Changes": [
+            "- Observing rule breaks should not be more consistent. Will only take effect after next outfit generation, so the next day."
+        ],
+        "Fixed":[
+            "- Rewrote how new girl applications are generated to make sure atleast some are generated while there are openings.",
+            "- Fixed 'cum in panties' action not counting towards the 'cum slut' trait.",
+            "- Fixed photos have higher match rating the expected.",
+            "- Fixed sponsors requesting videoshoots before they are unlocked."
+        ]
+    },
     "0.307f": {
         "Fixed":[
             "- Fixed sex interaction action layout for mobile/JoyPlay.",
