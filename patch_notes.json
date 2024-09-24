@@ -1,4 +1,19 @@
 {
+    "0.307i": {
+        "Fixed":[
+            "- Fixed error when ending events early and resetting their availability.",
+            "- Fixed blowjobs during sex interactions setting non target girls arousal to max.",
+            "- Fixed adding and removing traits not applying the stat modifiers.",
+            "- Fixed negative stat values rolling over and increasing stat values...",
+            "- 'generic_action_cum_on_panties' should now skip reactions and response if girl isn't in class.",
+            "- Fixed clothing tooltips showing them as damaged when they aren't.",
+            "- Added checks to make sure home visits don't end immediately if it is too late.",
+            "- Added check for clothing damage to descriptions and response lines."
+        ],
+        "Modding Additions": [
+            "- Hoving girl rating score now girls a breakdown of what is causing the grading."
+        ]
+    },
     "0.307h": {
         "Added": [
             "- Made academy budget columns scrollable if they would go off screen.",
