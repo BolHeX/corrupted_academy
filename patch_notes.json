@@ -1,4 +1,21 @@
 {
+    "0.307h": {
+        "Added": [
+            "- Made academy budget columns scrollable if they would go off screen.",
+            "- Made free-use compliance visible on the girl review menu.",
+            "- Added hover tooltips to stat bars on home visit call menu."
+        ],
+        "Changes": [
+            "- Changed not interupting the mother when you catch her masturbating to lead to normal home visit.",
+            "- Shortened sponsor request turn in, it is now a simple notification rather than a dialogue sequence."
+        ],
+        "Fixed":[
+            "- Fixed rule costs in rule review menu showing their weekly costs.",
+            "- Fixed positive cash gains from rules showing as negative.",
+            "- Fixed rule breaks not being observed when the should.",
+            "- Fixed issue where rule breaks could be skipped over because of list length changing as it was iterated over."
+        ]
+    },
     "0.307g": {
         "Added": [
             "- Added visual representation to damaged clothing with options to disable and/or limit it. Because of small visual bugs it is disabled by default.",
