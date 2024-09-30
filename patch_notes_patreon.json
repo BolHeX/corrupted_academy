@@ -1,4 +1,9 @@
 {
+    "0.308a": {
+        "Fixes": [
+            "- Fixed possible errors about new event attributes when loading old saves."
+        ]
+    },
     "0.308": {
         "Added": [
             "- dded pre-exam inspection where you can check girls for rule breaks and confiscate forbidden items.",
