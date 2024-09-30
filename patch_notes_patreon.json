@@ -1,4 +1,13 @@
 {
+    "0.308b": {
+        "Added": [
+            "- Added clinic and 'male enhancement' upgrades."
+        ],
+        "Fixes": [
+            "- Fixed possible error when trying to sort sponsors.",
+            "- Fixed 'home_visit' events not triggering."
+        ]
+    },
     "0.308a": {
         "Fixes": [
             "- Fixed possible errors about new event attributes when loading old saves."
