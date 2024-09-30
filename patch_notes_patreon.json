@@ -1,4 +1,42 @@
 {
+    "0.308": {
+        "Added": [
+            "- dded pre-exam inspection where you can check girls for rule breaks and confiscate forbidden items.",
+            "- Added sponsor experience system, working with sponsors and fulfilling requests now gives XP. Leveling up increases contract limit and unlocks new sponsors.",
+            "- Sponsors now have several new stats associated with them which influences their requests including lewdness, report chance, requested amount and payments.",
+            "- Locked some better paying sponsors until later on.",
+            "- Added selected and required item count to sponsor request selection menu header text.",
+            "- Added 3 new rules which increase tuition fees.",
+            "- Added title text to menu when girl offers panties after sex."
+        ],
+        "Changes": [
+            "- Increased how much shoot willingness corrupted girls will have on average.",
+            "- Decreased how much impact shoot item willingness is reduced by girl stats.",
+            "- Added event cooldown to girls cheating in exam.",
+            "- Added 'brown' check to 'generate_color_from_string' function, so it should avoid hard to read brown text colours.",
+            "- Lowered sponsor relationship gain from fulfilling requests.",
+            "- Rebalanced shoot willingness calculation to use average lewdness rather than weighting toward initial shot lewdness average.",
+            "- Rebalanced the trait rarity of a few of the more impactful traits.",
+            "- Minimum and maximum number of traits generated on girls now scales with academy prestige.",
+            "- Super-Legendary trait rarity now scales with academy prestige.",
+            "- Clothing which breaks rules and is removed during an exam is now confiscated.",
+            "- Sponsors with requests are now sorted to the top."
+        ],
+        "Fixes": [
+            "- Fixed possible error during mother report call for sponsor requests.",
+            "- Fixed photo and videoshoot softcore rule difficulty being swapped.",
+            "- Added check to clothing value when resolving stolen clothing so pta president doesn't care about pennies.",
+            "- Fixed error when ending events early.",
+            "- Girl specific events now update their chance to happen variables.",
+            "- Fixed events not adding to girl rating if exactly 1 event is found.",
+            "- Fixed teachers not being unassigned correctly.",
+            "- Fixed some visual bugs when visually showing clothing damage, it still has some bugs with images with incorrect aspect ratios."
+        ],
+        "Modding Changes": [
+            "- Events now support having a different chance to happen first their first trigger and any subsequent triggers.",
+            "- Added 'dream' event support that happens when the player sleeps in the evening."
+        ]
+    },
     "0.307": {
         "Added": [
             "Public Release!"
