@@ -1,4 +1,31 @@
 {
+    "0.309": {
+        "Added": [
+            "- Added support for 'disabling' academy upgrades.",
+            "- Added new clinic upgrade to reduce required arousal for 'edging' status.",
+            "- Added tooltips for various player stats.",
+            "- Added new exam outro screen.",
+            "- Added assigning homework to girls after class.",
+            "- Added choosing between girl and mother requests when contacting sponsors for additional requests."
+        ],
+        "Changes": [
+            "- Changed event tooltip when checking in girl review menu.",
+            "- Changed various enable/disable buttons to radio buttons for clarity.",
+            "- Made prestige and reputation visble during pta meetings."
+        ],
+        "Fixes": [
+            "- Fixed girl specific 'home_visit' events triggering when visiting someone else.",
+            "- Fixed enacting and voting rules being inverted.",
+            "- Fixed various arousal checks to make sure they account for stat changes.",
+            "- Fixed exam inspection dialogue being incorrect when girls accept inspection.",
+            "- Fixed mother votes not always being displayed.",
+            "- PTA president doesn't try arguing your case for rules she doesn't agree with."
+        ],
+        "Modding Changes": [
+            "- Added overriding mothers by adding a 'daughter_override.txt'; i.e '_mods/mothers/Raylene/daughter_override.txt'.",
+            "- Added option to see missing 'main' video tags in girl ratings menu."
+        ]
+    },
     "0.308b": {
         "Added": [
             "- Added clinic and 'male enhancement' upgrades."
@@ -15,7 +42,7 @@
     },
     "0.308": {
         "Added": [
-            "- dded pre-exam inspection where you can check girls for rule breaks and confiscate forbidden items.",
+            "- Added pre-exam inspection where you can check girls for rule breaks and confiscate forbidden items.",
             "- Added sponsor experience system, working with sponsors and fulfilling requests now gives XP. Leveling up increases contract limit and unlocks new sponsors.",
             "- Sponsors now have several new stats associated with them which influences their requests including lewdness, report chance, requested amount and payments.",
             "- Locked some better paying sponsors until later on.",
