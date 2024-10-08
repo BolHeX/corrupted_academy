@@ -1,4 +1,36 @@
 {
+    "0.31": {
+        "Added": [
+            "- Added option to enable and disable rules outside of pta meetings, accessed from computer.",
+            "- Added option to select and change your portrait, can be accessed from your stats page.",
+            "- Added several new gift options to trait other attributes. ",
+            "- Added third level of clothing damage where it is complete destroyed.",
+            "- Added tutorial for organising shoots.",
+            "- Added tutorial for girl review screen.",
+            "- Added tutorial for sponsor overview screen.",
+            "- Added tutorial for specific sponsor screen.",
+            "- Added stat breakdown after sex interactions.",
+            "- Re-added 'kissing' as a sexual favor option.",
+            "- Made forced vote and tolerated status visible on girl review screen.",
+            "- Made forced tolerated status visible on home visit call screen."
+        ],
+        "Changes": [
+            "- Videoshoot videos now loop when shot.",
+            "- Sponsors will now check sent photos and videos when checking if request can be completed."
+        ],
+        "Fixes": [
+            "- Fixed mothers weekly update never being ran.",
+            "- Fixed various issues related to girl event cooldowns.",
+            "- Fixed 'during_exam' events counting towards girl frequency cooldown.",
+            "- Fixed sex interactions ending immediately when updating old saves.",
+            "- Fixed various inconsistencies during the end of sex interactions.",
+            "- Fixed girl events ignoring their cooldowns.",
+            "- Fixed girls leaving panties unwashed check being inverted."
+        ],
+        "Modding Changes": [
+            "- Added 'put_participants_on_cooldown' argument to events, if False event won't reset participant event frequency. Defaults to True"
+        ]
+    },
     "0.309": {
         "Added": [
             "- Added support for 'disabling' academy upgrades.",
