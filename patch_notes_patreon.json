@@ -1,4 +1,30 @@
 {
+    "0.31a": {
+        "Added": [
+            "- Added 'autosave' toggle when starting a new game or NG+, since it causes a noticable stutter.",
+            "- Added shortcuts to quickly go to class, office and pta meetings from bedroom door.",
+            "- Added option to skip Saturday/Sunday when sleeping.",
+            "- Made mother expectations visible on exam inspection screen.",
+            "- Added coloured bars for arousal, pressure and exam progress.",
+            "- Made use of coloured bars to show stat changes after sex/exams.",
+            "- Added explanation to corruption level trait tooltips."
+        ],
+        "Changes": [
+            "-'free_use_compliance' now scales off corruption and naturism rather than affection.",
+            "- Improved pass, expel and alumni tooltips."
+        ],
+        "Fixes": [
+            "- Rounded sponsor weekly funding on overview screen.",
+            "- Fixed rule breaks being added when they shouldn't for rules with disallowed clothing tags.",
+            "- Fixed being able to click hidden elements when selecting portraits.",
+            "- Fixed 'outfit' clothing sometimes showing bare body images.",
+            "- Fixed 'outfit' clothing not randomly selecting image indexes.",
+            "- Fixed girl and/or mother requests being generated without asking for them when asking for extra sponsor requests."
+        ],
+        "Removed": [
+            "- Removed a lot of 'fluff' dialogue which got annoying and repetitive. Such as when leave for the academy/home."
+        ]
+    },
     "0.31": {
         "Added": [
             "- Added option to enable and disable rules outside of pta meetings, accessed from computer.",
