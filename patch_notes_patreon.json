@@ -11,6 +11,9 @@
         "Fixes": [
             "- Fixed players 'just_came' status not being cleared during sex interactions.",
             "- Fixed wrong girls responding when stealing their panties/buttplugs."
+        ],
+        "Modding Changes": [
+            "- Added 'blocked_layers' support to clothing, allowing listed layers to be blocked."
         ]
     },
     "0.31a": {
