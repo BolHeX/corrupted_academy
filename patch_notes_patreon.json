@@ -1,4 +1,18 @@
 {
+    "0.31b": {
+        "Added": [
+            "- Added naming saves, can be enabled/disabled from preferences.",
+            "- Added tracking loaded girl mods to saves and a tooltip showing missing/added girls."
+        ],
+        "Changes": [
+            "- Added stat changes for 'sexy_maid_outfit', 'buttplug' and 'vibrating_buttplug' gifts.",
+            "- Lowered the stat changes for the 'flowers' gift but also lowered its cost."
+        ],
+        "Fixes": [
+            "- Fixed players 'just_came' status not being cleared during sex interactions.",
+            "- Fixed wrong girls responding when stealing their panties/buttplugs."
+        ]
+    },
     "0.31a": {
         "Added": [
             "- Added 'autosave' toggle when starting a new game or NG+, since it causes a noticable stutter.",
