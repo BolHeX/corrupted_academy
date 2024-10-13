@@ -1,4 +1,19 @@
 {
+    "0.31c": {
+        "Added": [
+            "- Added new sponsor option when calling to remove all requests and generate that many new ones."
+        ],
+        "Changes": [
+            "- 'Honest' trait now raises max report chance, it functions the same except corrupted girls won't report actions they shouldn't."
+        ],
+        "Fixes": [
+            "- Fixed girls 'day_joined' being set when appying not being accepted.",
+            "- Fixed daily updates not being ran when skipping the weekend.",
+            "- Fixed mod tooltip having an extra empty line when checking saves.",
+            "- Fixed force wearing gifted clothing leading to incorrect outfits.",
+            "- Fixed clothing possibly being in blocked slots when it has an outfit tag."
+        ]
+    },
     "0.31b": {
         "Added": [
             "- Added naming saves, can be enabled/disabled from preferences.",
