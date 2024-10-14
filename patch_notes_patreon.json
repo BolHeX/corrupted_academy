@@ -1,4 +1,16 @@
 {
+    "0.31d": {
+        "Changes": [
+            "- Girls will now try to match their outfits and wear clothing they would have skipped if it doesn't break any rules."
+        ],
+        "Fixes": [
+            "- Fixed layout issues during exam inspection.",
+            "- Fixed dialogue options appearing when the shouldn't during exam inspection.",
+            "- Fixed clothing not updating changes to it's 'blocked_layers', 'can_be_purchased' and 'can_be_damaged' attributes.",
+            "- Fixed Fixed errors where modded girl and mother ID's overlap.",
+            "- Fixed loaded girls/mothers tooltip mismatching actual loaded files."
+        ]
+    },
     "0.31c": {
         "Added": [
             "- Added new sponsor option when calling to remove all requests and generate that many new ones."
