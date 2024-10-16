@@ -1,5 +1,22 @@
 
 {
+    "0.311a": {
+        "Changes": [
+            "- Class time can now be lowered down to 60 minutes from a minimum of 100.",
+            "- Girl should break rules that they disagree with more consistently now.",
+            "- Added some extra checks when checking whether a girl should wear or skip clothing."
+        ],
+        "Fixed": [
+            "- Fixed possible error when changing min and max wear chance sliders.",
+            "- Fixed exams ending immediately if a pre-exam event happens.",
+            "- Fixed error when using debug options to add panties.",
+            "- Fixed descriptions and reactions referencing girls from sex interactions during in class facials.",
+            "- Fixed duplicated line when punishing mother.",
+            "- Fixed 'Tuition Increase $200' requirement description being incorrect.",
+            "- Fixed possible incorrect/duplicate line when starting shoots with multiple girls.",
+            "- Fixed the wrong panties being referenced at times in panty collection."
+        ]
+    },
     "0.311": {
         "Added": [
             "- Added sponsor experience system, working with sponsors and fulfilling requests now gives XP. Leveling up increases contract limit and unlocks new sponsors.",
