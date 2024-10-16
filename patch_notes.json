@@ -1,204 +1,116 @@
+
 {
-    "0.307k": {
-        "Fixed":[
-            "- Fixed mother never having their 'weekly' update functions ran."
-        ]
-    },
-    "0.307j": {
-        "Fixed":[
-            "- Fixed error when ending events early and resetting their availability... Again..."
-        ]
-    },
-    "0.307i": {
-        "Fixed":[
-            "- Fixed error when ending events early and resetting their availability.",
-            "- Fixed blowjobs during sex interactions setting non target girls arousal to max.",
-            "- Fixed adding and removing traits not applying the stat modifiers.",
-            "- Fixed negative stat values rolling over and increasing stat values...",
-            "- 'generic_action_cum_on_panties' should now skip reactions and response if girl isn't in class.",
-            "- Fixed clothing tooltips showing them as damaged when they aren't.",
-            "- Added checks to make sure home visits don't end immediately if it is too late.",
-            "- Added check for clothing damage to descriptions and response lines."
+    "0.311": {
+        "Added": [
+            "- Added sponsor experience system, working with sponsors and fulfilling requests now gives XP. Leveling up increases contract limit and unlocks new sponsors.",
+            "- Sponsors now have several new stats associated with them which influences their requests including lewdness, report chance, requested amount and payments.",
+            "- Added choosing between girl and mother requests when contacting sponsors for additional requests.",
+            "- Added selected and required item count to sponsor request selection menu header text.",
+            "- Added new sponsor option when calling to remove all requests and generate that many new ones.",
+            "- Added pre-exam inspection where you can check girls for rule breaks and confiscate forbidden items.",
+            "- Added new exam outro screen.",
+            "- Added assigning homework to girls after class.",
+            "- Added stat breakdown after sex interactions.",
+            "- Added title text to menu when girl offers panties after sex.",
+            "- Added clinic and 'male enhancement' upgrades.",
+            "- Added support for 'disabling' academy upgrades.",
+            "- Added several new gift options to trait other attributes. ",
+            "- Added 3 new rules which increase tuition fees.",
+            "- Added option to enable and disable rules outside of pta meetings, accessed from computer.",
+            "- Added tooltips for various player stats.",
+            "- Added option to select and change your portrait, can be accessed from your stats page.",
+            "- Added 'autosave' toggle when starting a new game or NG+, since it causes a noticable stutter.",
+            "- Added shortcuts to quickly go to class, office and pta meetings from bedroom door.",
+            "- Added option to skip Saturday/Sunday when sleeping.",
+            "- Made mother expectations visible on exam inspection screen.",
+            "- Added coloured bars for arousal, pressure and exam progress.",
+            "- Made use of coloured bars to show stat changes after sex/exams.",
+            "- Added explanation to corruption level trait tooltips.",
+            "- Made forced vote and tolerated status visible on girl review screen.",
+            "- Made forced tolerated status visible on home visit call screen.",
+            "- Added third level of clothing damage where it is complete destroyed.",
+            "- Added toggle for autosaves when sleeping, can be enabled/disabled from preferences.",
+            "- Added naming saves, can be enabled/disabled from preferences.",
+            "- Added prompt to skip weekends, can be enabled/disabled from preferences.",
+            "- Added tracking loaded girl mods to saves and a tooltip showing missing/added girls.",
+            "- Added tutorial for organising shoots.",
+            "- Added tutorial for girl review screen.",
+            "- Added tutorial for sponsor overview screen.",
+            "- Added tutorial for specific sponsor screen.",
+            "- Re-added 'kissing' as a sexual favor option."
+        ],
+        "Changes": [
+            "- Exams now use time rather than rounds, so less impactful actions don't feel as wasteful for the player.",
+            "- Locked some better paying sponsors until later on.",
+            "- Changed event tooltip when checking in girl review menu.",
+            "- Changed various enable/disable buttons to radio buttons for clarity.",
+            "- Made prestige and reputation visble during pta meetings.",
+            "- Increased how much shoot willingness corrupted girls will have on average.",
+            "- Decreased how much impact shoot item willingness is reduced by girl stats.",
+            "- Added event cooldown to girls cheating in exam.",
+            "- Added 'brown' check to 'generate_color_from_string' function, so it should avoid hard to read brown text colours.",
+            "- Lowered sponsor relationship gain from fulfilling requests.",
+            "- Rebalanced shoot willingness calculation to use average lewdness rather than weighting toward initial shot lewdness average.",
+            "- Rebalanced the trait rarity of a few of the more impactful traits.",
+            "- Minimum and maximum number of traits generated on girls now scales with academy prestige.",
+            "- Super-Legendary trait rarity now scales with academy prestige.",
+            "- Clothing which breaks rules and is removed during an exam is now confiscated.",
+            "- Sponsors with requests are now sorted to the top.",
+            "- Videoshoot videos now loop when shot.",
+            "- Sponsors will now check sent photos and videos when checking if request can be completed.",
+            "- 'free_use_compliance' now scales off corruption and naturism rather than affection.",
+            "- Improved pass, expel and alumni tooltips.",
+            "- Added stat changes for 'sexy_maid_outfit', 'buttplug' and 'vibrating_buttplug' gifts.",
+            "- Lowered the stat changes for the 'flowers' gift but also lowered its cost.",
+            "- 'Honest' trait now raises max report chance, it functions the same except corrupted girls won't report actions they shouldn't.",
+            "- Girls will now try to match their outfits and wear clothing they would have skipped if it doesn't break any rules.",
+            "- Helping or watching mastubating girls before class will now give the player an erection at the start of class.",
+            "- Made hud visible during home visits.",
+            "- Dresses now block wearing outer wear."
+            
+        ],
+        "Fixed": [
+            "- Fixed girl specific 'home_visit' events triggering when visiting someone else.",
+            "- Fixed enacting and voting rules being inverted.",
+            "- Fixed various arousal checks to make sure they account for stat changes.",
+            "- Fixed exam inspection dialogue being incorrect when girls accept inspection.",
+            "- Fixed mother votes not always being displayed.",
+            "- PTA president doesn't try arguing your case for rules she doesn't agree with.",
+            "- Fixed possible error when trying to sort sponsors.",
+            "- Fixed 'home_visit' events not triggering.",
+            "- Fixed possible errors about new event attributes when loading old saves.",
+            "- Fixed possible error during mother report call for sponsor requests.",
+            "- Fixed photo and videoshoot softcore rule difficulty being swapped.",
+            "- Added check to clothing value when resolving stolen clothing so pta president doesn't care about pennies.",
+            "- Fixed error when ending events early.",
+            "- Girl specific events now update their chance to happen variables.",
+            "- Fixed events not adding to girl rating if exactly 1 event is found.",
+            "- Fixed teachers not being unassigned correctly.",
+            "- Fixed some visual bugs when visually showing clothing damage, it still has some bugs with images with incorrect aspect ratios.",
+            "- Fixed mothers weekly update never being ran.",
+            "- Fixed various issues related to girl event cooldowns.",
+            "- Fixed 'during_exam' events counting towards girl frequency cooldown.",
+            "- Fixed sex interactions ending immediately when updating old saves.",
+            "- Fixed various inconsistencies during the end of sex interactions.",
+            "- Fixed girl events ignoring their cooldowns.",
+            "- Fixed girls leaving panties unwashed check being inverted.",
+            "- Fixed 'outfit' clothing sometimes showing bare body images.",
+            "- Fixed 'outfit' clothing not randomly selecting image indexes.",
+            "- Fixed girls 'day_joined' being set when appying not being accepted.",
+            "- Fixed daily updates not being ran when skipping the weekend.",
+            "- Fixed force wearing gifted clothing leading to incorrect outfits.",
+            "- Fixed errors where modded girl and mother ID's overlap."
+        ],
+        "Removed": [
+            "- Removed a lot of 'fluff' dialogue which got annoying and repetitive. Such as when leave for the academy/home."
         ],
         "Modding Additions": [
-            "- Hoving girl rating score now girls a breakdown of what is causing the grading."
-        ]
-    },
-    "0.307h": {
-        "Added": [
-            "- Made academy budget columns scrollable if they would go off screen.",
-            "- Made free-use compliance visible on the girl review menu.",
-            "- Added hover tooltips to stat bars on home visit call menu."
-        ],
-        "Changes": [
-            "- Changed not interupting the mother when you catch her masturbating to lead to normal home visit.",
-            "- Shortened sponsor request turn in, it is now a simple notification rather than a dialogue sequence."
-        ],
-        "Fixed":[
-            "- Fixed rule costs in rule review menu showing their weekly costs.",
-            "- Fixed positive cash gains from rules showing as negative.",
-            "- Fixed rule breaks not being observed when the should.",
-            "- Fixed issue where rule breaks could be skipped over because of list length changing as it was iterated over."
-        ]
-    },
-    "0.307g": {
-        "Added": [
-            "- Added visual representation to damaged clothing with options to disable and/or limit it. Because of small visual bugs it is disabled by default.",
-            "- Added small notifcation and reminder message after gloryhole is constructed to visit it."
-        ],
-        "Changes": [
-            "- Observing rule breaks should not be more consistent. Will only take effect after next outfit generation, so the next day."
-        ],
-        "Fixed":[
-            "- Rewrote how new girl applications are generated to make sure atleast some are generated while there are openings.",
-            "- Fixed 'cum in panties' action not counting towards the 'cum slut' trait.",
-            "- Fixed photos have higher match rating the expected.",
-            "- Fixed sponsors requesting videoshoots before they are unlocked."
-        ]
-    },
-    "0.307f": {
-        "Fixed":[
-            "- Fixed sex interaction action layout for mobile/JoyPlay.",
-            "- Fixed shoot studio menu layout for mobile/JoyPlay."
-        ]
-    },
-    "0.307e": {
-        "Fixed": [
-            "- Fixed clothing images possibly being mismatched."
-        ]
-    },
-    "0.307d": {
-        "Fixed": [
-            "- Fixed error when selected clothing for sponsor requests."
-        ]
-    },
-    "0.307c": {
-        "Fixed": [
-            "- Fixed error when removing clothing mods.",
-            "- Fixed possible error about invalid events when loading a 0.25 save.",
-            "- Fixed typos in girl and mother home visit kiss actions"
-        ]
-    },
-    "0.307b": {
-        "Changes": [
-            "- 'Dress Code' rule is now unlocked from the start since it mainly serves as a place to keep clothing rules grouped",
-            "- Increase 'acceptance' needs for girls and mothers to agree to a kiss during home visits.",
-            "- Limited kiss action to once a day."
-        ],
-        "Fixed": [
-            "- Fixed errors when trying to select stolen panties when loading a 0.25 save.",
-            "- Fixed upgrades being available after using NewGame+",
-            "- Fixed scheduled faculty not being reset after using NewGame+ meaning faculty would always be carried over."
-        ]
-    },
-    "0.307a": {
-        "Added": [
-            "- Added small notifcation during 'kiss' actions to show time has passed."
-        ],
-        "Fixed": [
-            "- Fixed being able to access upgrades from navigation menu without them being unlocked.",
-            "- Fixed possible error about missing girl files when loading a save from 0.25"
-        ]
-    },
-    "0.307": {
-        "Added": [
-            "- Added new game plus, which allows reseting some or all progress.",
-            "- Added navigation menu to academy.",
-            "- Added store where you can purchase clothing, sex toys and gifts.",
-            "- Added option to choose how forceful your actions are during exam.",
-            "- Added clothing damage, damaged clothing allowing you access to items below it.",
-            "- Added 'buttplug' clothing items.",
-            "- Added 'buttplug' punishments.",
-            "- Added removing and inserting buttplugs actions during exam, you can only insert your own or buttplugs the girl originally owned.",
-            "- Added removing buttplug action during sex.",
-            "- Added sponsors requesting videoshoots like photoshoots. As there aren't many videoshoots right now you will need mods for this to activate.",
-            "- Added gloryhole to bathroom if it's upgrade has been unlocked.",
-            "- Added clothing 'outfit_tag' support, allowing several clothing items to be marked as a set to be worn together.",
-            "- Added option let give girls panties back at the end of an exam.",
-            "- Added 'available funds' to shoot selection menu.",
-            "- Moved 'kiss' example action to actual game content and expanded allowing players to try kissing faculty and during home visits.",
-            "- Added search bar to shoot selection menu.",
-            "- Added slider to increase how much a girls stats influence their mother's passive stat growth.",
-            "- Washing panties on sponsor request screen now shows the compatibility change too.",
-            "- Added cheat option to regenerate girl applications.",
-            "- Added debug option to quickly set a girl or all girls stats to 0/25/50/75/100.",
-            "- Added 'onanist' trait, where girls are more likely to masturbate and are more accepting of the player masturbating.",
-            "- Added new random events: 'Caught Cheating', 'Student Threesome' and 'Mother Caught Masturbating'.",
-            "- Added new girls: Dani Daniels, Dillion Harper, Leana Lovings, Lulu Chu, Mia Malkova, Scarlet Skies",
-            "- Added new mothers: Angela White, Asa Akira, India Summer, Lauren Phillips",
-            "- Traits now update from database if any changes were made i.e their colour.",
-            "- Added slider to girl recruitment menu to set the chance to assign a random mother over an generic one.",
-            "- Modded girls/mothers will now have their configs ignored but there content loaded if their 'id' matches an already loaded girl/mother.",
-            "- Added cheat code to instantly complete upgrade construction.",
-            "- Added cheat to reduce vote difficulty during pta meetings by 50%, can be deactived by used it again.",
-            "- Added cheat code to double sponsor relationship gain, can be deactived by used it again.",
-            "- Added cheat to set player reputation to 100.",
-            "- Added cheat to set academy prestige to 100."
-        ],
-        "Changes": [
-            "- 'dumb' trait is now removed when girl reaches 30 intellect.",
-            "- 'naturist' trait now increases remove and strip action acceptance.",
-            "- 'naturist' trait now makes remove exam actions tolerated.",
-            "- Increased base girl capacity by 1.",
-            "- Changed home visist call hours from 10-19 to 10-18.",
-            "- Removed asking where to go after home visit if it's a weekend.",
-            "- Made girls with high naturism be less likely to buy more clothing.",
-            "- Phone call menu now shows PTA president.",
-            "- Phone call menu now highlights when girl or mother has been called today.",
-            "- Phone call option from PC now hints if girl/mother are unavailable or been called today.",
-            "- 'Shrunk' the lewdness gap in the panty selection.",
-            "- Actions when target disallowed clothing are now tolerated.",
-            "- RuleManager 'get_which_rules_clothing_breaks' now ignores 'uniform' requirements if another tag is forced i.e 'lingerie'.",
-            "- Girls with less class time are now more likely to be chosen for exam.",
-            "- Improved shoot selection menu layout slightly, mainly the 'willingness factors' and start button.",
-            "- Reduced relationship bonus when first making contact and entering a contract.",
-            "- Reduced how a girls stats influence her mother's passive stat growth.",
-            "- Rebalanced how much pressure a girl experience when corrupted, they should experience a bit more pressure now even when fully corrupted.",
-            "- Rewrote the calculation on how likely or unlikely a girl is to break a rule.",
-            "- Rebalanced girl 'distraction' from arousal, pressure and tolerance loss.",
-            "- Subjects no longer influence how fast a girl answers the questions.",
-            "- Rolled the upgrade unlocks and faculty hint events into one.",
-            "- The wash button is now hidden on the sponsor request screen if request requires panties with cum on them.",
-            "- Increased video 'match_rating' penality for mismatched corruption levels.",
-            "- Reduced 'calculate_arousal_impact' maximum arousal from 125% to 100% original.",
-            "- Story event which unlocks faculty will now also unlock upgrades in the case it triggers before that event.",
-            "- Changed how many items a sponsor requests, they are now weighted towards lower range.",
-            "- Mothers now also forget about old reported actions and requests that are marked for pta action.",
-            "- Made girls possible skip purchasing clothing based on their naturism and corruption.",
-            "- Made girls possible skip wearing clothing based on their naturism and corruption.",
-            "- Rewrote outift generation, should resolve rule breaks not being registered.",
-            "- Rewrote sponsor request generation, it will try match current girl stats and for shoots will weight them towards how many items are available.",
-            "- Added stat minimum for girls to skip wearing certain clothing, should resolve uncorrupted girls coming to class topless.",
-            "- Changed 'slut' and 'whore' trait colours as they were hard to read.",
-            "- Academy maintaince is now paid at the end of the week rather than daily.",
-            "- Slightly improved academy budget layout.",
-            "- Mothers now have their forced vote set for the week rather than the first rule voted in.",
-            "- Limited maximum girl applications per week to 3.",
-            "- Rebalanced sponsor contract payments from 300-1800 to 650-1450.",
-            "- Rebalanced mother voting the PTA president.",
-            "- Added checks to remove clothing descriptions that reference if the girl is wearing underwear.",
-            "- Fixed event cooldowns not working, which could lead to spamming events."
-        ],
-        "Fixed": [
-            "- Fixed exam and sex action impact descriptions.",
-            "- Fixed intro images showing naked body images rather than panties in certain cases.",
-            "- Fixed girls possibly starting with answer progress when the exam starts.",
-            "- Fixed player possibly not getting marked as 'been_to_class'.",
-            "- Fixed girls being able to cum from kissing.",
-            "- Fixed sponsor request boxes being cut off if too long.",
-            "- Fixed clothing items possible using incorrect images if their 'base_image_name' is in another clothing images name.",
-            "- Fixed wardrobe items overlapping with title text on girl review screen.",
-            "- Fixed alumni and their mothers not having their weekly updates run.",
-            "- Fixed various punishments trying to show videos for mother rather than daughter.",
-            "- Fixed shoot items possibly not getting the tags the should from their parent shoots.",
-            "- Fixed old resolved actions and requests possibly not getting cleared.",
-            "- Fixed mothers possibly not clearing their queued report call events."
-        ],
-        "Modding Additions": [
-            "- Added support for girls using custom clothing images over generic ones.",
-            "- Added double penetration action tag support for shoots.",
-            "- Renamed some video and shoot item tags, there is backwards compatibility and the mod tools will be updated to new tags before release.\nA tool to rename existing content will also be released to modders.",
-            "- Fixed lesson videos showing as invalid main tags."
+            "- Added overriding mothers by adding a 'daughter_override.txt'; i.e mods/mothers/Raylene/daughter_override.txt' with the girl id within the file i.e lulu_chu",
+            "- Added option to see missing 'main' video tags in girl ratings menu.",
+            "- Events now support having a different chance to happen first their first trigger and any subsequent triggers.",
+            "- Added 'dream' event support that happens when the player sleeps in the evening.",
+            "- Added 'put_participants_on_cooldown' argument to events, if False event won't reset participant event frequency. Defaults to True",
+            "- Added 'blocked_layers' support to clothing, allowing listed layers to be blocked."
         ]
     }
 }
