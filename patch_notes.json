@@ -1,5 +1,11 @@
 
 {
+    "0.311b": {
+        "Fixed": [
+            "- Fixed error when ending sex interactions, caused by trying to fix another bug.",
+            "- Fixed non-generic mother home visit events not triggering."
+        ]
+    },
     "0.311a": {
         "Changes": [
             "- Class time can now be lowered down to 60 minutes from a minimum of 100.",
