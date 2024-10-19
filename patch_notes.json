@@ -1,4 +1,12 @@
 {
+    "0.312a": {
+        "Fixed": [
+            "- Fixed band-aid fix for major save game bloat caused by rollback data being saved.",
+            "- Fixed error when applying temporary stat changes and girl doesn't have attribute.",
+            "- Fixed error when generating display name for shoot items.",
+            "- Selected girl is now remembered even after during exam events."
+        ]
+    },
     "0.312": {
         "Added": [
             "- Added 'refresh' button when selecting intial girls.",
