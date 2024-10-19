@@ -1,5 +1,44 @@
-
 {
+    "0.312": {
+        "Added": [
+            "- Added 'refresh' button when selecting intial girls.",
+            "- Added 'Viagra' consumable item to uBuy store.",
+            "- Added right-click to close shortcut to 99% of menus with a close button."
+        ],
+        "Changes": [
+            "- Uniform skirt now covers both ass and pussy.",
+            "- Mothers of deleted girls will be reassignable if they were randomly assigned to her.",
+            "- When starting a new game+ you now only need to pick a minimum of 6 girls.",
+            "- Panty collect 'blurb' is now only shown once per day.",
+            "- Made player inventory accessible during exams and sex interactions.",
+            "- Lowered 'base_time_between_stages' for bathroom exam event.",
+            "- Lowered default exam duration to 80 minutes from 100, this will not change existing saves.",
+            "- Made some changes to how rule checks and outfit generation is done to make it more consistent.",
+            "- Rebalanced girl answer progress during exams.",
+            "- Rebalanced all exam actions to be less severe if they are 'shorter' than before rework."
+        ],
+        "Fixed": [
+            "- Fixed 'Furry Handcuffs' fear again showing as positive/green.",
+            "- Fixed girl/mother specific home visit events trigger when visiting other girls.",
+            "- Fixed stolen and collected panties/buttplugs not updating with new attributes.",
+            "- Fixed error when multiple girls report exam actions.",
+            "- Fixed clothing items being duplicated when giving gifts.",
+            "- Fixed gift selection UI having some icons cut off.",
+            "- Fixed pending girls not being removed cleanly.",
+            "- Fixed 'confiscate_clothing' acceptance calculation.",
+            "- Fixed requirement description for removing panties/buttplug during sex.",
+            "- Fixed homework descriptions after exam not showing the correct progress for girls.",
+            "- Fixed girls 'breaking' forced outless when ",
+            "- Fixed possible errors caused by clothing not updating correctly.",
+            "- Fixed girls starting with some progress if class duration was changed from default.",
+            "- Fixed rare case where 0 report chance actions were being reported."
+        ],
+        "Modding Changes": [
+            "- Added support for consumable items.",
+            "- Added list support for mother 'daughter_id', allowing modders to specify multiple girls she could be assigned to i.e 'daughter_id': ['piper_perri', 'elsa_jean'].\nThey are still only assigned to 1 girl.",
+            "- Changed 'gift_type' argument to 'item_type', kept backwards compatibility but will need to be changed in the future."
+        ]
+    },
     "0.311b": {
         "Fixed": [
             "- Fixed error when ending sex interactions, caused by trying to fix another bug.",
