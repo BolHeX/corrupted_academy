@@ -1,4 +1,10 @@
 {
+    "0.312b": {
+        "Fixed": [
+            "- Fixed some errors caused while trying to clear None type objects.",
+            "- Fixed events possibly triggering immediately after loading a save."
+        ]
+    },
     "0.312a": {
         "Fixed": [
             "- Fixed band-aid fix for major save game bloat caused by rollback data being saved.",
