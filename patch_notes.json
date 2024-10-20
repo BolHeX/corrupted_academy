@@ -1,4 +1,9 @@
 {
+    "0.312c": {
+        "Fixed": [
+            "- Fixed rollback issue caused by discussing reported actions or requests during home visits."
+        ]
+    },
     "0.312b": {
         "Fixed": [
             "- Fixed some errors caused while trying to clear None type objects.",
