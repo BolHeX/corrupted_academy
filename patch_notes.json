@@ -1,4 +1,26 @@
 {
+    "0.312d": {
+        "Added": [
+            "- Added option to only randomly generate 6 girls when starting NewGame+"
+        ],
+        "Changes": [
+            "- Right click now clears selected upgrade selection rather than closing screens if possible."
+        ],
+        "Fixed": [
+            "- Fixed girl answer progress will now use either the exam action time or the remaining exam time, whichever is lower.",
+            "- Fixed hiding UI during photoshoots to causing visual issues.",
+            "- PTA Meetings are now greyed out if you already missed it rather than dialogue indicating so.",
+            "- Fixed girls not knowing you were coming after calling her but visiting her mother.",
+            "- Fixed time not advancing when 'dream' events trigger.",
+            "- Fixed error when trying to check girl ratings.",
+            "- Fixed inconsistencies in rule dependancies being disabled when disabling rules.",
+            "- Fixed pending girls not clearing after ending application selection early when starting NewGame+",
+            "- Exam manager now regenerates girls if class isn't filled due to removing modded girls.",
+            "- Fixed pending girls/mothers not being deleted cleanly causing errors when deleting them.",
+            "- Rework say screen and how character images and names are set."
+
+        ]
+    },
     "0.312c": {
         "Fixed": [
             "- Fixed rollback issue caused by discussing reported actions or requests during home visits."
