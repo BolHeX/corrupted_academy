@@ -1,4 +1,34 @@
 {
+    "0.312e": {
+        "Added": [
+            "- Added 'shoes' layer and clothing support.",
+            "- Added image button to show when update is available.",
+            "- Added toggle to hide 'remove' and 'strip' video tags in girl rating menu.",
+            "- Added PC icon to set computer backgrounds, this has been a feature no one ever found"
+        ],
+        "Changes": [
+            "- Improved event availablity tooltips.",
+            "- Improved performance of 'modify_events_menu'.",
+            "- Improved performance of 'shoot studio' menu.",
+            "- Improved performance of 'shoot' menu.",
+            "- Improved performance of 'sex interaction' menu.",
+            "- Improved performance of 'girl_ratings_menu' screen.",
+            "- Improved performance of 'pta meeting' screens.",
+            "- Improved performance of 'show_ubuy_menu'.",
+            "- Improved performance of 'new_game_plus'.",
+            "- Made 'fuck_thighs' available unless legs are covered, which does not currently include long pants."
+        ],
+        "Fixed": [
+            "- Fixed error when analyzing girl shoots causing errors when viewing girl ratings.",
+            "- Fixed girls appearing in exam outro screen that shouldn't.",
+            "- Fixed girl subject progress not being displayed when assigning homework from girl review menu.",
+            "- Fixed possible error with 'office_event_mother_missed_tuition_payment' if girl and mother share ids(mod issue).",
+            "- Fixed shared events and shoots possibly being removed after reloading saves.",
+            "- Fixed girl rating not counting shared shoots.",
+            "- Fixed possible error causing incorrect girl being selected after an event because 'temporary_girl' was not being cleared.",
+            "- Fixed transparency on some lower clothing images causing strange layering issues."
+        ]
+    },
     "0.312d": {
         "Added": [
             "- Added option to only randomly generate 6 girls when starting NewGame+"
@@ -18,7 +48,6 @@
             "- Exam manager now regenerates girls if class isn't filled due to removing modded girls.",
             "- Fixed pending girls/mothers not being deleted cleanly causing errors when deleting them.",
             "- Rework say screen and how character images and names are set."
-
         ]
     },
     "0.312c": {
