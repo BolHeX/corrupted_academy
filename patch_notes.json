@@ -1,4 +1,9 @@
 {
+    "0.312f": {
+        "Fixed": [
+            "- Fixed icons such as the wallpaper icon being placed off screen."
+        ]
+    },
     "0.312e": {
         "Added": [
             "- Added 'shoes' layer and clothing support.",
