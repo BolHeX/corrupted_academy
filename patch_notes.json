@@ -1,4 +1,14 @@
 {
+    "0.312g": {
+        "Changes": [
+            "- Improved performance of 'home visit call menu'.",
+            "- Improved performance of 'confiscate clothing menu'."
+        ],
+        "Fixed": [
+            "- Fixed possible errors when checking event availability.",
+            "- Fixed sex options disappearing after switching selected parts."
+            ]
+    },
     "0.312f": {
         "Fixed": [
             "- Fixed icons such as the wallpaper icon being placed off screen."
