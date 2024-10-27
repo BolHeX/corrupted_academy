@@ -1,4 +1,9 @@
 {
+    "0.312h": {
+        "Fixed": [
+            "- Fixed possible errors when checking event availability caused by missing 'f' in an fstring."
+        ]
+    },
     "0.312g": {
         "Changes": [
             "- Improved performance of 'home visit call menu'.",
@@ -7,7 +12,7 @@
         "Fixed": [
             "- Fixed possible errors when checking event availability.",
             "- Fixed sex options disappearing after switching selected parts."
-            ]
+        ]
     },
     "0.312f": {
         "Fixed": [
