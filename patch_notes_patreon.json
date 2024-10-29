@@ -1,4 +1,9 @@
 {
+    "0.313a": {
+        "Fixed": [
+            "- Fixed compatibility function causing errors when girls have broken rules."
+        ]
+    },
     "0.313": {
         "Added":[
             "- Added new exam actions which try to tear the girls clothing.",
