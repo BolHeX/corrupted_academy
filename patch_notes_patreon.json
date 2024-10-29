@@ -1,4 +1,11 @@
 {
+    "0.313b": {
+        "Fixed": [
+            "- Fixed crash when trying to start home visits.",
+            "- Fixed errors when exam actions try to apply impacts.",
+            "- Fixed punishments requirements not returning True when expected."
+        ]
+    },
     "0.313a": {
         "Fixed": [
             "- Fixed compatibility function causing errors when girls have broken rules."
