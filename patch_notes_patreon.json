@@ -1,4 +1,13 @@
 {
+    "0.313e": {
+        "Changes": [
+            "- Girls and their mother's assholes and pussies are now much more resilent and harder to wear out."
+        ],
+        "Fixed": [
+            "- Punishments now update to get any missing or changed attributes.",
+            "- Fixed errors when trying to add punishments to existing saves."
+        ]
+    },
     "0.313d": {
         "Fixed": [
             "- Fixed error when completing requests."
