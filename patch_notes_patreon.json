@@ -1,4 +1,22 @@
 {
+    "0.313c": {
+        "Changes": [
+            "- Moved force pta vote and force tolerated actions to new punishment system."
+        ],
+        "Fixed": [
+            "- Added checks to make sure you can't try tear clothing that cannot be damaged.",
+            "- Fixed girl arrows in exam cycling in reverse.",
+            "- Chaned 'give_hint' reaction line to be more appropriate.",
+            "- Fixed various widgets colours being reversed.",
+            "- Fixed clothing not being removed when destroyed by a 'tear' action.",
+            "- Fixed unlocked rules being carried over when starting a new game.",
+            "- Fixed errors when checking punishment requirements.",
+            "- Fixed punishments not being removed whne they should."
+        ],
+        "Modding Changes": [
+            "- Added 'clear_on_monday' option to punishments allowing them to be removed on Monday regardless of remaining duration."
+        ]
+    },
     "0.313b": {
         "Fixed": [
             "- Fixed crash when trying to start home visits.",
