@@ -1,4 +1,9 @@
 {
+    "0.313d": {
+        "Fixed": [
+            "- Fixed error when completing requests."
+        ]
+    },
     "0.313c": {
         "Changes": [
             "- Moved force pta vote and force tolerated actions to new punishment system."
