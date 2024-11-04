@@ -1,4 +1,10 @@
 {
+    "0.314a": {
+        "Fixed": [
+            "- Fixed error about missing 'socks.webp' image file.",
+            "- Updated game version to match patch notes."
+        ]
+    },
     "0.314": {
         "Added": [
             "- Added widget to show worn socks below shoes if they can been seen.",
