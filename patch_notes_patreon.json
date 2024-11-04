@@ -1,7 +1,39 @@
 {
+    "0.314": {
+        "Added": [
+            "- Added widget to show worn socks below shoes if they can been seen.",
+            "- Added menu to quickly check girl overviews in various locations.",
+            "- Added missing 'lingerie' tag to 'lace_bra' clothing item.",
+            "- Clicking participant faces during shoots now selects them.",
+            "- Allowed users to modify 'girl video bonus' and 'recently used penalty' for videos in the settings menu.",
+            "- Made girl mother and possible mothers visible on girl recruitment screen."
+        ],
+        "Changes": [
+            "- Major rework to video matching calculations.",
+            "- You can now freely go back and forth from daughter's room during home visits.",
+            "- Increased use of 'desaturate_image' to show when something is unavailable.",
+            "- Removed unnecessary dialogue from encourage and disturb exam actions.",
+            "- Encourage Girls exam action now provides a small answer progress bonus.",
+            "- Disturb Girls exam action now provides a small answer progress penalty, separate from the penalty caused by increasing pressure.",
+            "- If all girl shoots are locked the 'locked' and 'completed' filters are ignored, this is when starting shoots.",
+            "- 'maths' homework now increases intellect."
+        ],
+        "Fixed": [
+            "- Fixed punishment requirements not returning correctly if they have no forced/disallowed types or tags.",
+            "- Fixed videoshoot videos reporting have no thumbnails where they in fact do.",
+            "- Fixed various errors when using debug options to generate all girls and/or alumni.",
+            "- Fixed player referring to his own cock negatively."
+        ],
+        "Modding Changes": [
+            "- Added WIP debug screen to show possible generic video tag errors. REQUIRES DEBUG MODE",
+            "- Allowed adding to video replacement tags, allowing new video variants for remove, strip and tear actions. i.e 'remove_lower' -> 'remove_jeans'\nSee 'game/scripts/databases/webm_tag_replacement_database_ren.py' for details.",
+            "- Allowed adding to custom weighting for mod specific videos. i.e Making hair colour worth +10 vs +3 for all your mods videos.\nSee 'game/scripts/databases/webm_tag_replacement_database_ren.py' for details.",
+            "- Allowed adding to video clothing match tags. This avoids double matching if multiple of these tags around found i.e 'skirt' and 'short_skirt' or mismatch penalties if none of these tags are found in the video name.\nSee 'game/scripts/databases/webm_clothing_tags_ren.py' for details."
+        ]
+    },
     "0.313e": {
         "Changes": [
-            "- Girls and their mother's assholes and pussies are now much more resilent and harder to wear out."
+            "- Girls and their mother's assholes and pussies are now much more resilient and harder to wear out."
         ],
         "Fixed": [
             "- Punishments now update to get any missing or changed attributes.",
@@ -20,12 +52,12 @@
         "Fixed": [
             "- Added checks to make sure you can't try tear clothing that cannot be damaged.",
             "- Fixed girl arrows in exam cycling in reverse.",
-            "- Chaned 'give_hint' reaction line to be more appropriate.",
+            "- Changed 'give_hint' reaction line to be more appropriate.",
             "- Fixed various widgets colours being reversed.",
             "- Fixed clothing not being removed when destroyed by a 'tear' action.",
             "- Fixed unlocked rules being carried over when starting a new game.",
             "- Fixed errors when checking punishment requirements.",
-            "- Fixed punishments not being removed whne they should."
+            "- Fixed punishments not being removed when they should."
         ],
         "Modding Changes": [
             "- Added 'clear_on_monday' option to punishments allowing them to be removed on Monday regardless of remaining duration."
@@ -95,7 +127,7 @@
             "- 'girl_review_clear' is now only called if home visit calls were successful, which should fix missing info when reopening review menu.",
             "- Various fixes and changes to 'masturbate openly' player action.",
             "- RuleManager 'update_rule_list' now cleared deleted rules.",
-            "- Fixed being able to close portait selection during intro.",
+            "- Fixed being able to close portrait selection during intro.",
             "- Fixed being able to call girls who have passed or been expelled."
         ],
         "Modding Changes": [
