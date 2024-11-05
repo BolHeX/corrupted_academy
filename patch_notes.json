@@ -27,7 +27,7 @@
             "- Added PC icon to set computer backgrounds, this has been a feature no one ever found"
         ],
         "Changes": [
-            "- Improved event availablity tooltips.",
+            "- Improved event availability tooltips.",
             "- Improved performance of 'modify_events_menu'.",
             "- Improved performance of 'shoot studio' menu.",
             "- Improved performance of 'shoot' menu.",
@@ -63,7 +63,7 @@
             "- Fixed girls not knowing you were coming after calling her but visiting her mother.",
             "- Fixed time not advancing when 'dream' events trigger.",
             "- Fixed error when trying to check girl ratings.",
-            "- Fixed inconsistencies in rule dependancies being disabled when disabling rules.",
+            "- Fixed inconsistencies in rule dependencies being disabled when disabling rules.",
             "- Fixed pending girls not clearing after ending application selection early when starting NewGame+",
             "- Exam manager now regenerates girls if class isn't filled due to removing modded girls.",
             "- Fixed pending girls/mothers not being deleted cleanly causing errors when deleting them.",
@@ -91,7 +91,7 @@
     },
     "0.312": {
         "Added": [
-            "- Added 'refresh' button when selecting intial girls.",
+            "- Added 'refresh' button when selecting initial girls.",
             "- Added 'Viagra' consumable item to uBuy store.",
             "- Added right-click to close shortcut to 99% of menus with a close button."
         ],
@@ -118,7 +118,7 @@
             "- Fixed 'confiscate_clothing' acceptance calculation.",
             "- Fixed requirement description for removing panties/buttplug during sex.",
             "- Fixed homework descriptions after exam not showing the correct progress for girls.",
-            "- Fixed girls 'breaking' forced outless when ",
+            "- Fixed girls 'breaking' forced outerless when ",
             "- Fixed possible errors caused by clothing not updating correctly.",
             "- Fixed girls starting with some progress if class duration was changed from default.",
             "- Fixed rare case where 0 report chance actions were being reported."
@@ -171,7 +171,7 @@
             "- Added option to enable and disable rules outside of pta meetings, accessed from computer.",
             "- Added tooltips for various player stats.",
             "- Added option to select and change your portrait, can be accessed from your stats page.",
-            "- Added 'autosave' toggle when starting a new game or NG+, since it causes a noticable stutter.",
+            "- Added 'autosave' toggle when starting a new game or NG+, since it causes a noticeable stutter.",
             "- Added shortcuts to quickly go to class, office and pta meetings from bedroom door.",
             "- Added option to skip Saturday/Sunday when sleeping.",
             "- Made mother expectations visible on exam inspection screen.",
@@ -185,7 +185,7 @@
             "- Added naming saves, can be enabled/disabled from preferences.",
             "- Added prompt to skip weekends, can be enabled/disabled from preferences.",
             "- Added tracking loaded girl mods to saves and a tooltip showing missing/added girls.",
-            "- Added tutorial for organising shoots.",
+            "- Added tutorial for organizing shoots.",
             "- Added tutorial for girl review screen.",
             "- Added tutorial for sponsor overview screen.",
             "- Added tutorial for specific sponsor screen.",
@@ -196,7 +196,7 @@
             "- Locked some better paying sponsors until later on.",
             "- Changed event tooltip when checking in girl review menu.",
             "- Changed various enable/disable buttons to radio buttons for clarity.",
-            "- Made prestige and reputation visble during pta meetings.",
+            "- Made prestige and reputation visible during pta meetings.",
             "- Increased how much shoot willingness corrupted girls will have on average.",
             "- Decreased how much impact shoot item willingness is reduced by girl stats.",
             "- Added event cooldown to girls cheating in exam.",
@@ -216,7 +216,7 @@
             "- Lowered the stat changes for the 'flowers' gift but also lowered its cost.",
             "- 'Honest' trait now raises max report chance, it functions the same except corrupted girls won't report actions they shouldn't.",
             "- Girls will now try to match their outfits and wear clothing they would have skipped if it doesn't break any rules.",
-            "- Helping or watching mastubating girls before class will now give the player an erection at the start of class.",
+            "- Helping or watching masturbating girls before class will now give the player an erection at the start of class.",
             "- Made hud visible during home visits.",
             "- Dresses now block wearing outer wear."
             
@@ -248,7 +248,7 @@
             "- Fixed girls leaving panties unwashed check being inverted.",
             "- Fixed 'outfit' clothing sometimes showing bare body images.",
             "- Fixed 'outfit' clothing not randomly selecting image indexes.",
-            "- Fixed girls 'day_joined' being set when appying not being accepted.",
+            "- Fixed girls 'day_joined' being set when applying not being accepted.",
             "- Fixed daily updates not being ran when skipping the weekend.",
             "- Fixed force wearing gifted clothing leading to incorrect outfits.",
             "- Fixed errors where modded girl and mother ID's overlap."

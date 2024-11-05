@@ -1,4 +1,10 @@
 {
+    "0.314b": {
+        "Fixed": [
+            "- Fixed error about 'financial_need' during home visit success call.",
+            "- Fixed exam intro strings referring to girls socks rather than shoes."
+        ]
+    },
     "0.314a": {
         "Fixed": [
             "- Fixed error about missing 'socks.webp' image file.",
