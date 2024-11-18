@@ -1,4 +1,9 @@
 {
+    "0.312j": {
+        "Fixed": [
+            "- Added missing compatibility code to make WebmHelper changes save compatible."
+        ]
+    },
     "0.312i": {
         "Changes": [
             "- Major rework to video matching calculations."
