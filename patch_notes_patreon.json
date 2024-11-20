@@ -1,4 +1,9 @@
 {
+    "0.314e": {
+        "Fixed": [
+            "- Fixed error when accessing academy navigation and no faculty is assigned."
+        ]
+    },
     "0.314d": {
         "Fixed": [
             "- Fixed possible error when opening girl review menu, caused by 'selected_girl' being a mother."
