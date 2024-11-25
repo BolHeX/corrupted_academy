@@ -1,5 +1,5 @@
 {
-    "0.312f": {
+    "0.314f": {
         "Fixed": [
             "- Suppressed errors when mods have incorrectly named videos, it will now just print them to the console.",
             "- Suppressed errors when mods have incorrectly named shoot items, it will now just print them to the console.",
