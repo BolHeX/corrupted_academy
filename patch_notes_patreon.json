@@ -1,4 +1,11 @@
 {
+    "0.312f": {
+        "Fixed": [
+            "- Suppressed errors when mods have incorrectly named videos, it will now just print them to the console.",
+            "- Suppressed errors when mods have incorrectly named shoot items, it will now just print them to the console.",
+            "- Fixed mother personality referencing the incorrect object."
+        ]
+    },
     "0.314e": {
         "Fixed": [
             "- Fixed error when accessing academy navigation and no faculty is assigned."
