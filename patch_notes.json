@@ -1,4 +1,10 @@
 {
+    "0.312k": {
+        "Fixed": [
+            "- Suppressed errors when mods have incorrectly named videos, it will now just print them to the console.",
+            "- Suppressed errors when mods have incorrectly named shoot items, it will now just print them to the console."
+        ]
+    },
     "0.312j": {
         "Fixed": [
             "- Added missing compatibility code to make WebmHelper changes save compatible."
