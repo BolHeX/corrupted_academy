@@ -1,4 +1,9 @@
 {
+    "0.35e": {
+        "Fixed": [
+            "- Fixed error during shoots caused by mother's not having the 'max_shoot_willingness' attribute."
+        ]
+    },
     "0.35d": {
         "Fixed": [
             "- Fixed crashes with event where you catch girl masturbating before class.",
