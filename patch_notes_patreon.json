@@ -1,4 +1,11 @@
 {
+    "0.35b": {
+        "Fixed": [
+            "- Fixed error about 'estimated_arousal_increase' during sex interactions.",
+            "- Fixed action highlights scaling infinitely and showing incorrect impacts.",
+            "- Fixed report chance decreasing when force increased."
+        ]
+    },
     "0.35a": {
         "Changes": [
             "- Fixed possible weird lines when multiple girls report an action."
