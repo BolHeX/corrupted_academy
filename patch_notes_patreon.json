@@ -1,4 +1,13 @@
 {
+    "0.35a": {
+        "Changes": [
+            "- Fixed possible weird lines when multiple girls report an action."
+        ],
+        "Fixed": [
+            "- Fixed possible error when checking exam action report chance.",
+            "- Fixed text tag error during 'lore_intro'."
+        ]
+    },
     "0.35": {
         "Added": [
             "- Exam Rework, girls now need to maintain their grades rather than answer enough questions to pass.",
