@@ -1,4 +1,9 @@
 {
+    "0.35c": {
+        "Fixed": [
+            "- Fixed error when trying to remove bra during exam."
+        ]
+    },
     "0.35b": {
         "Fixed": [
             "- Fixed error about 'estimated_arousal_increase' during sex interactions.",
