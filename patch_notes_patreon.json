@@ -1,4 +1,10 @@
 {
+    "0.35g": {
+        "Fixed": [
+            "- Renamed various 'force_rimjob' entries and references to just 'rimjob'.",
+            "- Fixed 'try_steal_clothing' stealing being inverted."
+        ]
+    },
     "0.35f": {
         "Changes": [
             "- Girl grades now don't decay on Friday/Saturdays if their grade target is met.",
