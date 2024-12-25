@@ -1,4 +1,23 @@
 {
+    "0.35f": {
+        "Changes": [
+            "- Girl grades now don't decay on Friday/Saturdays if their grade target is met.",
+            "- Made the computer button outlines less hard on the eyes."
+        ],
+        "Fixed": [
+            "- Fixed the playing saying clothing is against the rules when removing it even if it isn't.",
+            "- Fixed error when trying to exit from upgrade screen while section with no upgrades is selected.",
+            "- Fixed possible error about events when trying to access girls in girl review menu.",
+            "- Fixed mother votes showing as forced when they weren't.",
+            "- Fixed pta concerns being skipped if a president is chosen that week.",
+            "- Fixed mothers checking on Friday morning rather than Saturday morning if grades are met.",
+            "- Fixed error when opening class assignment on a weekend.",
+            "- Fixed game exing to main menu when purchasing upgrades.",
+            "- Fixed sex partner cum count not being tracked correctly.",
+            "- Fixed typos, grammer and other small visual errors.",
+            "- Fixed 'girl_hud_girls' not being cleared after PTA meetings."
+        ]
+    },
     "0.35e": {
         "Fixed": [
             "- Fixed error during shoots caused by mother's not having the 'max_shoot_willingness' attribute."
