@@ -1,4 +1,28 @@
 {
+    "0.35i": {
+        "Added": [
+            "- Right clicking girls during sex lets you quickly see their stats."
+        ],
+        "Changes": [
+            "- Sponsor Request payments now also take the number of requested images into account.",
+            "- During sex girls now naturally lose a bit of pressure each 'turn' like they do in exams.",
+            "- Rebalanced how much shoot willingness girls get from payment.",
+            "- Long pants no longer block you seeing girls socks."
+        ],
+        "Fixed": [
+            "- Fixed arousal and pressure gains being applied raw, before stat changes.",
+            "- Fixed 'get_all_possible_girls_and_mothers' possibly referencing copies of girl objects.",
+            "- Fixed stat change preview bars not working correctly during sex interactions.",
+            "- Fixed errors when in office when you have teachers assigned.",
+            "- Fixed girls not getting redressed after exam inspection.",
+            "- 'outfit_pressure' is now multiplied by 'time_cost' even if 'selected_exam_action' isn't set.",
+            "- Fixed intellect gain showing as negative for 'poetry_book' gift.",
+            "- Fixed some computer icons being off center.",
+            "- Computer settings tab text is now also easier on the eyes.",
+            "- Fixed weekly funding being incorrect when viewing sponsor page.",
+            "- Fixed homework showing grade increases as XP."
+        ]
+    },
     "0.35h": {
         "Changes": [
             "- Rebalanced 'emotional_strength' influence on some acceptance calculations."
