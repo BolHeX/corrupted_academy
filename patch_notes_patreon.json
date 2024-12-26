@@ -1,4 +1,9 @@
 {
+    "0.35k": {
+        "Fixed": [
+            "- Fixed graduation happening on Monday rather than Sunday."
+        ]
+    },
     "0.35j": {
         "Added": [
             "- Enabled copy/pasting into input boxes i.e code input."
