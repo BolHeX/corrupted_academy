@@ -1,4 +1,16 @@
 {
+    "0.35j": {
+        "Added": [
+            "- Enabled copy/pasting into input boxes i.e code input."
+        ],
+        "Changes": [
+            "- Rebalanced player reputation influence on vote difficulty.",
+            "- Rebalanced pta vote difficulty based on mother's stats."
+        ],
+        "Fixed": [
+            "- Fixed pta presidents increasing vote difficulty rather than decreasing it."
+        ]
+    },
     "0.35i": {
         "Added": [
             "- Right clicking girls during sex lets you quickly see their stats."
