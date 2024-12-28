@@ -1,4 +1,37 @@
 {
+    "0.3501": {
+        "Added": [
+            "- Shoot payment arrows can now be held down.",
+            "- Added 'blowjob' descriptions and dialogue lines for FFM and MMF blowjobs.",
+            "- Added 'lick_pussy' descriptions and dialogue lines for mother/daughter interactions.",
+            "- Added option to make girl/mother lick eachother's pussies in some events."
+        ],
+        "Changes": [
+            "- Girls can now be passed or graduate when meeting their mothers' final grades.",
+            "- Increased needed free use compliance to pass girls from 50 to 75.",
+            "- Lowered 'strip naked' and 'strip to underwear' impact amounts.",
+            "- 'video_set_size' is ignored for 'default to' tags, if video selection is found. This means better matching."
+        ],
+        "Fixed": [
+            "- Fixed possible errors when assigning classes during the weekend.",
+            "- Fixed intellect gains showing as negative on class assignment screen.",
+            "- Fixed 'daily updates' not being run correctly when skipping weekends.",
+            "- Girl 'weekly_class_count' now resets on Saturday morning rather than Friday.",
+            "- Fixed post exam updates being ran when not going to class and not having an assistant.",
+            "- Fixed girls being 'virgins' after first sex...",
+            "- Made sure office HUD display is hidden during home visits.",
+            "- Fixed girls not getting random mothers when being enrolled for the first time.",
+            "- Fixed player cumming on/in girls when not doing the action.",
+            "- Fixed sponsors notifications show up when off was rejected.",
+            "- Fixed 'se_female_participant_names' being unset when sex interactions start.",
+            "- 'mother' trait now automatically matches for girl specific videos."
+        ],
+        "Modding Changes": [
+            "- Added 'remove_after_class' argument when applying temporary stat changes or stat growth changes.",
+            "- Added 'impact_multiplier_override' variables. Can be used to increase or decrease impacts for a time.",
+            "- 'generic_action_player_choose_cum' can now be passed an action name to use a more specified cumshot video."
+        ]
+    },
     "0.35k": {
         "Fixed": [
             "- Fixed graduation happening on Monday rather than Sunday."
