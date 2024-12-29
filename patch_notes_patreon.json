@@ -1,4 +1,15 @@
 {
+    "0.3502": {
+        "Changes": [
+            "- Made the 'variable_settings_menu' a bit less ugly and confusing.",
+            "- Action stats other than pressure and arousal now also have a small impact on motivation.",
+            "- Girl stats now help get their motivation to green and keep it there."
+        ],
+        "Fixed": [
+            "- Fixed crashes for 'lick pussy' action when player is doing it.",
+            "- Rounded 'girls_left_penalty' for after exam notification."
+        ]
+    },
     "0.3501": {
         "Added": [
             "- Shoot payment arrows can now be held down.",
