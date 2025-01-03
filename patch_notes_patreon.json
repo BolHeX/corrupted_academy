@@ -1,4 +1,51 @@
 {
+    "0.351": {
+        "Added": [
+            "- Added traits to girl quick overview.",
+            "- Added 'advanced physics' as a exam subject.",
+            "- Added new upgrades for shoot studio.",
+            "- Added punishment options to forgive grade warning.",
+            "- Added outlines to speaking character names, to help see them on certain backgrounds.",
+            "- Added teaching assistant action example mod.",
+            "- Added some new videos."
+        ],
+        "Changes": [
+            "- Reduced mother warnings to 1 and only warning before pulling girl from academy.",
+            "- Trait 'treated_as_active_rules' now supports the base game subjects as well.",
+            "- Rebalanced how many photos and videos sponsors can request.",
+            "- Sponsor requests photo/video 'nudity' requirement now shows even when a specific tag is required.",
+            "- Increased the maximum value range of clothing. Meaning you can make more from selling it.",
+            "- Blackmarket panty sales now give 50% more rather an 50% less.",
+            "- Moved event participant generating to after it is added to the queue to improve performance.",
+            "- If girl ratings are sorted by rating they use first name as a secondary sorting point.",
+            "- Limited sponsor commends/performance bonuses to 2 per week. You still get the XP bonus just no phone call passed that.",
+            "- Slightly reduced the 'max_grades' of exam subjects.",
+            "- Willingness from payment now displayed the amount of willingness gained rather than what it adds to the base.",
+            "- Rebalanced shoot willingness 'cost' based on corruption levels and shoot lewdness.",
+            "- Added willingness impact multiplier based on length of shoots. Makes very long modded shoots a bit easier to complete."
+        ],
+        "Fixed": [
+            "- Fixed weird dialogue ending during the 'caught girl masturbating' event.",
+            "- Fixed exam subject names not appearing if they aren't available or unlocked.",
+            "- Fixed PTA president vote not being forced when girl passes/graduates/is expelled.",
+            "- Sponsor requests which require a tag i.e 'bikini' now have their pay scaled correctly to the reduced amount requested.",
+            "- Fixed 'pta_president' possibly pointing to a copy of the mother.",
+            "- Fixed error about 'all_other_mothers' not being set during pta president votes.",
+            "- Fixed girls not being unassigned from classes when they are passed/graduate/are expelled.",
+            "- Fixed video inconsistencies when the person doing the action isn't the player.",
+            "- 'get_stat_growth_multiplier_for_stat' now shows the correct base value.",
+            "- Classmate bonuses are now only applied when starting class rather than when classes are generated.",
+            "- Fixed cum covered statuses not being cleared when clothing is washed.",
+            "- 'generic_action_rimjob' will now use the correct lesbian video if the player isn't doing the action."
+        ],
+        "Modding Changes": [
+            "- Added 'add_to_trait_influences' function to allow modders to more easily add their traits to acceptance calculations.",
+            "- Removed 'Requires:' from event requirement descriptions, this means modders need to add it(if they want it).",
+            "- Added 'get_sponsor_by_name' to SponsorManager. Can be used to get sponsor i.e sponsor_manager.get_sponsor_by_name('perfect_fit')",
+            "- Added 'post_shoot' event type. It also adds 'shoot' and 'shoot_willingness' to it's 'tracked_variables' when being added to queue.",
+            "- Reverted video naming changes related to 'tease_ass', 'tease_upper' and 'tease_lower'."
+        ]
+    },
     "0.3502": {
         "Changes": [
             "- Made the 'variable_settings_menu' a bit less ugly and confusing.",
