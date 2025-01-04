@@ -37,7 +37,7 @@
             "- Added hotkeys to quickly switch tabs and days of the week for class assignment and academy management.",
             "- Hovering clothing during inspection now shows the rules it breaks.",
             "- Girls now track all previously broken rules for future use.",
-            "- Added 'minutes_since_interaction' to girls. Which tracks how long since an action was performed on them",
+            "- Added 'minutes_since_interaction' to girls. Which tracks how long since an action was performed on them.",
             "- Added 'kind' trait.",
             "- Added traits to girl quick overview.",
             "- Added 'advanced physics' as a exam subject.",
