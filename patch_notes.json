@@ -1,4 +1,9 @@
 {
+    "0.351a": {
+        "Fixed": [
+            "- Fixed possible error when getting patch notes."
+        ]
+    },
     "0.351": {
         "Added": [
             "- Added new exam actions which try to tear the girls clothing.",
