@@ -1,4 +1,9 @@
 {
+    "0.352a": {
+        "Fixed": [
+            "- Fixed error when trying to retrieve patch notes..."
+        ]
+    },
     "0.352": {
         "Added": [
             "- Added warning text to various screen to make sure players know which girls have grade warnings.",
