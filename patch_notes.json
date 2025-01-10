@@ -45,7 +45,7 @@
         ],
         "Modding Changes": [
             "- Added missing shoe related tags to 'valid_webm_main_tags'.",
-            "- Using '[academy]' or '{academy}' in dialogue now shows the academy name.",
+            "- Using '[academy]' in dialogue now shows the academy name.",
             "- Added 'cutscene' argument to 'show_video', allows the video to play once and the label to continue afterwards. You should NOT add a 'pause' after this, dialogue can also NOT happen during this.",
             "- Added 'loop' argument to 'show_video', allows the video to play once. You should add a 'pause' or dialogue after this, dialogue can happen during this.",
             "- 'generic_action_player_choose_cum' label now handles threesomes rather than needing to use 'threesome_player_choose_cum'."
