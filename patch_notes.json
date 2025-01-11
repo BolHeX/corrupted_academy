@@ -1,4 +1,9 @@
 {
+    "0.352b": {
+        "Fixed": [
+            "- Fixed yet another error when trying to retrieve patch notes..."
+        ]
+    },
     "0.352a": {
         "Fixed": [
             "- Fixed error when trying to retrieve patch notes..."
