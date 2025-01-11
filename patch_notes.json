@@ -39,7 +39,7 @@
             "- Fixed sponsor request payments not scaling with how many items are requested.",
             "- Fixed 'home_visit_call' events not triggering.",
             "- Fixed the previous week transaction history referencing current week.",
-            "- Add support for referencing sponsor founder in report lines using '{sponsor_founder}'.",
+            "- Add support for referencing sponsor founder in report lines using '[sponsor_founder]'.",
             "- Fixed exam inspection dialogue lines when inspection underwear.",
             "- Fixed 'tease_lower' exam event playing the wrong video.",
             "- Fixed girl orgasm videos repeating during some during exam events.",
