@@ -1,4 +1,9 @@
 {
+    "0.353": {
+        "Fixed": [
+            "- Fixed girls being added to academy twice during some events. With save fixing function."
+        ]
+    },
     "0.353-beta": {
         "Added": [
             "- Some rules now increase the target discipline for students in the academy. Their discipline will slowly increase to try meet it.",
