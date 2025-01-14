@@ -1,4 +1,32 @@
 {
+    "0.353-beta": {
+        "Added": [
+            "- Some rules now increase the target discipline for students in the academy. Their discipline will slowly increase to try meet it.",
+            "- Game over scenarios now allow starting a new game+ run and have new dialogue based on performance."
+        ],
+        "Changes": [
+            "- Inspecting underwear before the exam now requires passing a new rule.",
+            "- Added requirements to most rules to encourage both accepting new girls and generating alumni.",
+            "- Lowered faculty unlock requirements to 1 alumni from 2.",
+            "- Some rules now increase the target discipline for students in the academy.",
+            "- Added different intro lines for multiple stupid girls.",
+            "- Added information to homework tooltips to clarify lessons.",
+            "- Changed daily updates to run BEFORE the day index is increased(for simplicity)."
+        ],
+        "Fixed": [
+            "- Fixed error when opening class assignment screen after starting new game plus.",
+            "- Fixed only 1 pop up showing rather than all queued pop ups.",
+            "- Fixed girl clothing images being added as body images.",
+            "- Fixed possible errors when getting event chance to happen after modifying their chance to happen in the settings menu.",
+            "- Fixed 'onanist' trait dialogue line using wrong girl variable.",
+            "- Fixed classes not being generated when taking shortcut to class.",
+            "- Fixed girl grades possibly decaying before the graduation check."
+        ],
+        "Modding Changes": [
+            "- Reworked action force levels and buttplug vibration levels. Making them much more moddable and customizable.",
+            "- Added 'can_be_removed' argument to Traits, allowing earned traits to be permanent."
+        ]
+    },
     "0.352b": {
         "Fixed": [
             "- Fixed yet another error when trying to retrieve patch notes..."
