@@ -1,4 +1,9 @@
 {
+    "0.353a": {
+        "Fixed": [
+            "- Fixed error when trying to generate reported request when using 'sponsor_name' in it."
+        ]
+    },
     "0.353": {
         "Fixed": [
             "- Fixed girls being added to academy twice during some events. With save fixing function."
