@@ -1,4 +1,9 @@
 {
+    "0.353c": {
+        "Fixed": [
+            "- Fixed error when trying to steal panties after the exam if the panties have no owner."
+        ]
+    },
     "0.353a": {
         "Fixed": [
             "- Fixed error when trying to generate reported request when using 'sponsor_name' in it."
