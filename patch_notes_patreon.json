@@ -1,4 +1,21 @@
 {
+    "0.403-beta": {
+        "Added": [
+            "- Added notification how much a girls grades increase during cheating event.",
+            "- Added check for unrecognised files in shoot directories i.e incorrect file types."
+        ],
+        "Fixed": [
+            "- Fixed 'big' buttons when selecting cum targets.",
+            "- Fixed buttplug remotes not being added correctly when inserting buttplug.",
+            "- Fixed error when selecting  'bathroom_masturbation_tips' dialogue option.",
+            "- Fixed various errors when interacting with girls in locations.",
+            "- Fixed blocking girl names when trying to enter locations.",
+            "- Fixed selling clothing not removing item from collection.",
+            "- Fixed error when selecting photos for sponsor requests.",
+            "- Fixed multiple delimiters causing errors when creating girl ratings.",
+            "- Fixed errors when checking video indexes caused when generating girl rating."
+        ]
+    },
     "0.402-beta": {
         "Fixed": [
             "- Fixed rare shader error on some systems.",
