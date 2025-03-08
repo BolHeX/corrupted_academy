@@ -1,4 +1,18 @@
 {
+    "0.401-beta": {
+        "Fixed": [
+            "- Fixed 'sexy_nurse_dress' missing image.",
+            "- Fixed error when apologizing and leaving locker room.",
+            "- Fixed 'inspection' dialogue line being too long.",
+            "- Fixed being able to click girl face to bypass bathroom/locker_room requirements.",
+            "- Fixed error when checking mother traits for 'step mother' trait.",
+            "- Fixed errors in 'bathroom_masturbation_tips' label.",
+            "- Fixed incorrect label for 'bathroom_apologize_and_leave'",
+            "- Fixed error when calling 'update_blocking_girl_names'.",
+            "- 'girl_selection_menu' now sorts the girls correctly when reopening.",
+            "- Fixed error when choosing where to cum if there are no additional subtags."
+        ]
+    },
     "0.4-beta": {
         "Added": [
             "- Added city navigation map.",
