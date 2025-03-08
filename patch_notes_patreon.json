@@ -1,8 +1,28 @@
 {
+    "0.404-beta": {
+        "Added": [
+            "- Added bikini images for Kiara Cole and Shay Sights."
+        ],
+        "Fixed": [
+            "Fixed error when trying attributes during home visit.",
+            "Fixed dialogue line when girls leave closing with you after exam.",
+            "Fixed error when using restroom.",
+            "Fixed error when visiting clinic when nurse isn't assigned.",
+            "Locations now clear out when their requirements become unmet.",
+            "You will now get kicked out when locations close.",
+            "Fixed double 'remove upper' actions for certain clothing.",
+            "Fixed missing images for sexy nurse bra and thong.",
+            "'all_clothing_images' now excludes map navigation and sponsor folders.",
+            "'home_visit_discuss_daughter_sexual_favor_options' now shows full body image.",
+            "Fixed the same girls being assigned to class everyday.",
+            "Fixed error when fulfilling girl sponsor requests.",
+            "Fixed 'girls_in_exam' not clearing after daily update."
+        ]
+    },
     "0.403-beta": {
         "Added": [
             "- Added notification how much a girls grades increase during cheating event.",
-            "- Added check for unrecognised files in shoot directories i.e incorrect file types."
+            "- Added check for unrecognized files in shoot directories i.e incorrect file types."
         ],
         "Fixed": [
             "- Fixed 'big' buttons when selecting cum targets.",
