@@ -1,4 +1,18 @@
 {
+    "0.406": {
+        "Added": [
+            "- Added compatibility functions to make the update 0.35 compatible(probably)."
+        ],
+        "Changes": [
+            "- Made event location girl lists a bit less 'brittle'.",
+            "- Waiting around in locations past closing time will now kick you out."
+        ],
+        "Fixed": [
+            "- Remove requirements to use bathroom, since it is meant to be unisex.",
+            "- Fixed some references using 'girls_in_bar' rather than 'girls_at_bar'.",
+            "- Fixed length of 'girls_in_park'."
+        ]
+    },
     "0.405a-beta": {
         "Fixed": [
             "- Fixed compatibility fix for girl list variables not running."
