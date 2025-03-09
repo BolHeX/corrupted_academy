@@ -1,4 +1,9 @@
 {
+    "0.405a-beta": {
+        "Fixed": [
+            "- Fixed compatibility fix for girl list variables not running."
+        ]
+    },
     "0.405-beta": {
         "Added": [
             "- Added 'Head to class' and 'Attend PTA meeting' buttons to academy navigation screen.",
