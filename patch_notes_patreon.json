@@ -1,4 +1,39 @@
 {
+    "0.407": {
+        "Added": [
+            "- Added quick 'leave for home' button on city map.",
+            "- Added buttons to quickly return/steal all girls clothing during exam outro.",
+            "- Added button to allow setting which clothing types to automatically try steal during exam outro.",
+            "- Added description variations for graduation ceremony.",
+            "- Added toggle to automatically add photos as they are unlocked to random wallpaper pool.",
+            "- Added option to add all unlocked photos to random wallpaper pool.",
+            "- Added 'database_broken_rule_conflicts' to prevent certain rules giving two rule breaks."
+        ],
+        "Changes": [
+            "- Clarified what the 'stamina' on the sex menu means.",
+            "- Invalid dialogue options are new just greyed out rather than striked through.",
+            "- Shoots with no valid photos/videos will not be marked as invalid and not cause an error.",
+            "- Moved wallpaper randomizer settings to its own menu.",
+            "- Improved underwear and buttplug inspection dialogue and added variations rule breaks vs punishment breaks."
+        ],
+        "Fixed": [
+            "- Typo and grammar fixes.",
+            "- Fixed 'watch_her_masturbate_orgasm' using the wrong lines for very positive and very negative.",
+            "- Fixed 'Apologize and leave' causing errors and repeating twice.",
+            "- Fixed girl quick overview showing duplicate girls in the bathroom.",
+            "- Fixed 'possible_gloryhole_girls' not working before class.",
+            "- Fixed compatibility issues with 0.35 saves.",
+            "- Fixed needing to select girls twice in bathroom and locker room.",
+            "- Fixed being blocked from an area even when the girl leaves.",
+            "- Fixed error with 'generic_action_player_choose_cum_girl_target'.",
+            "- Fixed being able to start locked shoots.",
+            "- Fixed errors related to assigning homework to girls.",
+            "- Fixed incorrect events triggering when leaving a girls house.",
+            "- Fixed 'rule_force_vibrating_buttplug' also giving two rule breaks.",
+            "- Fixed buttplug rule breaks being spotted through clothing.",
+            "- Fixed not being able to inspect underwear and buttplugs during exam intro inspection."
+        ]
+    },
     "0.406": {
         "Added": [
             "- Added compatibility functions to make the update 0.35 compatible(probably)."
