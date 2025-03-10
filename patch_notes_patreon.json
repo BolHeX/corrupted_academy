@@ -12,9 +12,9 @@
         "Changes": [
             "- Clarified what the 'stamina' on the sex menu means.",
             "- Invalid dialogue options are new just greyed out rather than striked through.",
-            "- Shoots with no valid photos/videos will not be marked as invalid and not cause an error.",
+            "- Shoots with no valid photos/videos will now be marked as invalid rather than cause an error.",
             "- Moved wallpaper randomizer settings to its own menu.",
-            "- Improved underwear and buttplug inspection dialogue and added variations rule breaks vs punishment breaks."
+            "- Improved underwear and buttplug inspection dialogue and added variations for rule breaks vs punishment breaks."
         ],
         "Fixed": [
             "- Typo and grammar fixes.",
