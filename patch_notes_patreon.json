@@ -1,4 +1,23 @@
 {
+    "0.408": {
+        "Added": [
+            "- Added job titles to girl assignment screen."
+        ],
+        "Changes": [
+            "- Hang out locations are now only shuffled in more than 5 minutes passed.",
+            "- Talking to a girl at a location will keep her there if a shuffle happens."
+        ],
+        "Fixed": [
+            "- Fixed error when doing underwear inspection.",
+            "- Fixed errors related to videoshoots and their file list.",
+            "- Fixed sex interaction end label names.",
+            "- Fixed 'girl_quick_overview' being cut off in certain instances.",
+            "- Fixed 'girl_names_blocking_area' not being cleared correctly.",
+            "- Fixed entering a location expecting girls to be there and having the leave in that time.",
+            "- Fixed location open and close times.",
+            "- Buttplugs now correctly give arousal and pressure during sex interactions."
+        ]
+    },
     "0.407": {
         "Added": [
             "- Added quick 'leave for home' button on city map.",
