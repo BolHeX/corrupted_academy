@@ -1,4 +1,9 @@
 {
+    "0.408a-beta": {
+        "Fixed": [
+            "- Fixed error related to videoshoots caused by invalid mod shoots."
+        ]
+    },
     "0.408": {
         "Added": [
             "- Added job titles to girl assignment screen."
