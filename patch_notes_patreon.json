@@ -1,5 +1,13 @@
 {
-    "0.408a-beta": {
+
+    "0.409": {
+        "Fixed": [
+            "- Fixed girl clothing duplicating if not stolen at the end of the exam.",
+            "- Fixed 'attendance_punishments' option also linking to blackmail punishments.",
+            "- Fixed mother participation rules not showing as allowed by traits by corrupted mothers."
+        ]
+    },
+    "0.408a": {
         "Fixed": [
             "- Fixed error related to videoshoots caused by invalid mod shoots."
         ]
