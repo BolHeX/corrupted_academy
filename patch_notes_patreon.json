@@ -1,5 +1,16 @@
 {
-
+    "0.410": {
+        "Fixed": [
+            "- Fixed girl clothing duplicating if not stolen at the end of the exam.",
+            "- Fixed 'attendance_punishments' option also linking to blackmail punishments.",
+            "- Fixed mother participation rules not showing as allowed by traits by corrupted mothers.",
+            "- Fixed girls not hanging out if an event triggers after an exam.",
+            "- Fixed corrupted girls not leaving clothing with you after exams.",
+            "- Fixed girl quick overview not hiding when exam starts.",
+            "- Fixed girls showing up at two locations at once.",
+            "- Fixed time passing even if you don't call a girl into your office/the clinic."
+        ]
+    },
     "0.409": {
         "Fixed": [
             "- Fixed girl clothing duplicating if not stolen at the end of the exam.",
