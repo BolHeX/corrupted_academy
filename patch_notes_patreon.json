@@ -1,4 +1,21 @@
 {
+    "0.42a": {
+        "Changes": [
+            "- Improved the randomness of the location shuffling."
+        ],
+        "Fixed": [
+            "- Fixed error when buying girls a drink at the bar.",
+            "- Fixed video not hiding during beach interaction.",
+            "- Fixed several errors for various coffee shop interactions.",
+            "- Fixed possible error when checking requirements.",
+            "- Fixed 'other_girls_in_bar' containing 'None' objects.",
+            "- Fixed variable reference errors in park and pier interaction labels.",
+            "- Fixed 'add_temporary_trait' not using the girl names.",
+            "- Fixed 'update_blocking_girl_names' adding duplicates of the working bartenders to girl list variables.",
+            "- Fixed girls not correctly dressing for various locations and jobs.",
+            "- Fixed 'dress_girl_with_clothing_preference' saving outfit BEFORE generation."
+        ]
+    },
     "0.42": {
         "Added": [
             "- Added 'sex' option to girls in cafeteria.",
