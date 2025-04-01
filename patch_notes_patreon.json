@@ -1,4 +1,17 @@
 {
+    "0.421": {
+        "Changes": [
+            "- Rewrote girl shuffling code to try avoid duplicate characters and making it feel more organic."
+        ],
+        "Fixed": [
+            "- Fixed being able to order drinks, give tips and donate to charity when not having enough cash.",
+            "- Fixed sex interactions being marked as 'forced'. Preventing girls from leaving when max pressure is reached.",
+            "- Fixed errors when ending FFM sex interactions.",
+            "- Fixed video thumbnails being detected as body images.",
+            "- Fixed error when confiscating girls clothing.",
+            "- 'invalid' hang out locations are now cleared after exams, sex and home visits and won't be done so during them."
+        ]
+    },
     "0.42a": {
         "Changes": [
             "- Improved the randomness of the location shuffling."
