@@ -1,4 +1,15 @@
 {
+    "0.421a": {
+        "Changes": [
+            "- Disabled being able to wait around after midnight.",
+            "- Sleeping on Saturday morning before 6am will skip prompts and just take you to 7am."
+        ],
+        "Fixed": [
+            "- Fixed error when checking when last a girl hung out.",
+            "- Fixed not being able to choose mother if only 1 is available.",
+            "- Fixed chosen mothers not actually being assigned to girl."
+        ]
+    },
     "0.421": {
         "Changes": [
             "- Rewrote girl shuffling code to try avoid duplicate characters and making it feel more organic."
