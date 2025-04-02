@@ -1,4 +1,29 @@
 {
+    "0.422": {
+        "Added": [
+            "- Added 'flash_ass' video when girls tease you in the park.",
+            "- 'home_visit_call' now gets added dialogue options when phoning girls for home visits."
+        ],
+        "Changes": [
+            "- Made girls with events at a location more likely to visit it.",
+            "- Made girl face images consistent on most screens.",
+            "- Expanded 'coffee_shop_discussion_extra_cream' dialogue when you ignore he protests."
+        ],
+        "Fixed": [
+            "- Fixed error when girl refuses 'cafeteria_discussion_extra_toppings'.",
+            "- Fixed incorrect girls talking and getting impacts in FFM attempts.",
+            "- Girls now check if images start with identifiers rather than it just being in the name. To prevent face images being used as ass images in rare instances.",
+            "- Fixed incorrect variable name usage if girl has no webms.",
+            "- Fixed 'get_valid_events' not correctly returning events for dialogue options.",
+            "- Made sure 'girl_hud_girls' clears correctly when talking is blocked.",
+            "- Fixed 'perform_exam_round_updates' not being called in 'exam_action_conclude' for global exam actions.",
+            "- Fixed girl images being changed when loading saves.",
+            "- Fixed 'available_for_event' not correctly returning for event cooldowns."
+        ],
+        "Modding Changes": [
+            "- WebmHelper now adds girls job as a webm tag if she is the selected girl. i.e 'nurse' or 'secretary'"
+        ]
+    },
     "0.421a": {
         "Changes": [
             "- Disabled being able to wait around after midnight.",
