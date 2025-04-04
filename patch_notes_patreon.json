@@ -1,4 +1,50 @@
 {
+    "0.423": {
+        "Added": [
+            "- Added rule which can be passed to purchase a new shoot studio facility. Which allows upgrading and shoots to be done after school hours and on Saturdays.",
+            "- Added 'Stat Change Notifications' gameplay option which will notify you of stat changes as they happen.",
+            "- Girls with non-generic events now have an alert widget if they are available."
+        ],
+        "Changes": [
+            "- Girls can no longer graduate in the ceremony if their mother expectations aren't met. You can still pass them from the PC or phone call.",
+            "- Normalized clothing tooltips through out screens.",
+            "- Exams can no longer go past 12PM.",
+            "- Last selected webm category is now remembered.",
+            "- 'office_event_secretary_work_late' can now trigger between 1 and 3PM. ",
+            "- Rewrote RuleManager 'rule_list_with_depth' method.",
+            "- Active rules are now marked with a '*'",
+            "- Marking all shoot items for random wallpapers now sets 'randomize_wallpaper' to True.",
+            "- Improved how and when the PC wallpaper randomizer runs.",
+            "- Academy shoot studio is limited to nudity and lower shoots.",
+            "- Shoot studio upgrades now require purchasing new facility first.",
+            "- Selecting another sponsor request now cleared notifications.",
+            "- Girls with events are now much more likely to hang out at a location and ignore girl count 'probability'."
+        ],
+        "Fixed": [
+            "- ImageManager '_get_best_image' now excludes cum/creampie/bp(buttplug) images if invalid.",
+            "- Fixed clothing icons being off center after selecting for sponsor requests.",
+            "- Fixed possible error when adding event to queue when it has multiple event types.",
+            "- Added possible stop gap for errors when girl mods are missing face images.",
+            "- Made sure variables are cleared if being kicked out of locations because of time.",
+            "- Fixed possible error or incorrect body image showing when getting girls to strip naked.",
+            "- Fixed sponsor requests being generated everyday if they have no available requests. They now generate after 2 days without requests.",
+            "- Fixed 'get_valid_events_for_girls' not including non-girl event options.",
+            "- Fixed 'H' and middle mouse buttons during shoots possibly causing rollback issues.",
+            "- 'office_discussion_options' now checks if girl has fullbody images before trying to display it.",
+            "- Rewrote parts of 'shuffle_hang_out_locations' to try avoid girls showing up at multiple locations.",
+            "- Location shuffling and clearing no longer runs during shoots or events.",
+            "- Sexual favor 'strip naked' steals girls panties again.",
+            "- Fixed generic events not being added as dialogue options when they should.",
+            "- Fixed faculty icons not disappearing when viewing city map and leaving office."
+        ],
+        "Modding Changes": [
+            "- EventManager 'get_valid_events_for_girls' can now take 'is_dialogue' as an argument.",
+            "- First rule id in 'rule_dependencies' now specifies the rules 'parent' rule it appears under.",
+            "- EventManager 'get_valid_events' can take 'girl_only' as an argument to avoid checking generic events, speeding up generation.",
+            "- EventManager 'get_valid_events' now takes 'valid_girl_ids' as an argument. Allows checking a smaller set of girls to speed up generation.",
+            "- Added 'get_girls_and_event_locations' method to EventManager which returns girl ids and the locations where they have valid events."
+        ]
+    },
     "0.422a": {
         "Fixed": [
             "- Fixed being able to wedgie girls wearing on a skirt.",
