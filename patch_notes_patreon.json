@@ -1,4 +1,10 @@
 {
+    "0.423a": {
+        "Fixed": [
+            "- Fixed error about missing background after upgrading shoot studio.",
+            "- Fixed error when removing events from queue when they have multiple event types."
+        ]
+    },
     "0.423": {
         "Added": [
             "- Added rule which can be passed to purchase a new shoot studio facility. Which allows upgrading and shoots to be done after school hours and on Saturdays.",
