@@ -1,4 +1,22 @@
 {
+    "0.424": {
+        "Added": [
+            "- Home visit call menu now shows if girl/mother have valid events during call or home visit.",
+            "- Added phone option to invite girl/mother to current location."
+        ],
+        "Fixed": [
+            "- Fixed reported actions not referencing the correct clothing items.",
+            "- Fixed mothers bringing up already resolved reported actions/requests.",
+            "- Fixed the same girl being picked twice for the same hang out location.",
+            "- Fixed shoot facility requirements returning reversed locked states.",
+            "- Fixed shoot facility requirement string overwriting all other requirement strings.",
+            "- Fixed errors about missing 'office_stress_relief_end_sex' label."
+        ],
+        "Modding Changes": [
+            "- Made 'girl_index' argument optional for 'move_girl_to_location' if None will select first open hang out slot.",
+            "- 'move_girl_to_location' now also adds to 'girls_hang_out_tracker' for tracking purposes."
+        ]
+    },
     "0.423c": {
         "Fixed": [
             "- Fixed 'selected_girl' changing to daughter after checking for valid events."
