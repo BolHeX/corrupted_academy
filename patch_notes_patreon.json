@@ -1,4 +1,9 @@
 {
+    "0.423b": {
+        "Fixed": [
+            "- Fixed error when a background tag cannot be determined for a shoot."
+        ]
+    },
     "0.423a": {
         "Fixed": [
             "- Fixed error about missing background after upgrading shoot studio.",
