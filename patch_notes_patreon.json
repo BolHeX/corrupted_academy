@@ -1,4 +1,9 @@
 {
+    "0.423c": {
+        "Fixed": [
+            "- Fixed 'selected_girl' changing to daughter after checking for valid events."
+        ]
+    },
     "0.423b": {
         "Fixed": [
             "- Fixed error when a background tag cannot be determined for a shoot."
