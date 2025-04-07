@@ -1,4 +1,15 @@
 {
+    "0.425a": {
+        "Fixed": [
+            "- Academy 'refresh_faculty' now clears invalid scheduled faculty.",
+            "- Opening academy navigation or academy management now clears invalid scheduled faculty.",
+            "- Improved performance on academy navigation and academy management screens by moving image generation into a separate less frequently called function.",
+            "- Added 'remove_working_girls_from_locations' to fix girls appearing at two locations at once if they start work while hanging out."
+        ],
+        "Modding Changes": [
+            "- Added 'hang_out_avoid_times' entry to 'database_girl_jobs' to make girls avoid hanging out just before work."
+        ]
+    },
     "0.425": {
         "Added": [
             "- Home visit call menu now shows if girl/mother have home events(red alert) or events at current location(yellow alert).",
