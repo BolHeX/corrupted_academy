@@ -1,4 +1,45 @@
 {
+    "0.425": {
+        "Added": [
+            "- Home visit call menu now shows if girl/mother have home events(green alert) or events at current location(yellow alert).",
+            "- Added phone option to invite girl/mother to current location.",
+            "- Added exam and sex actions where you can cum on various parts if you are edging.",
+            "- Added gameplay option to enable asking to cum early during certain actions if the player is edging.",
+            "- Added two new rules which further increase girl capacity by 5 each."
+        ],
+        "Changes": [
+            "- Fixed reported actions not referencing the correct clothing items.",
+            "- Fixed mothers bringing up already resolved reported actions/requests.",
+            "- Fixed the same girl being picked twice for the same hang out location.",
+            "- Fixed shoot facility requirements returning reversed locked states.",
+            "- Fixed shoot facility requirement string overwriting all other requirement strings.",
+            "- Fixed errors about missing 'office_stress_relief_end_sex' label.",
+            "- Debug options to regenerate girls now clears faculty to avoid errors when opening navigation.",
+            "- Fixed pending girls and mothers not having compatibility functions run on them.",
+            "- Fixed girls who left giving responses after sex.",
+            "- Fixed 'music_class_renovation' only giving 4 girl capacity rather than 5.",
+            "- Fixed right-click not unassigning faculty on girl selection screen.",
+            "- Fixed 'get_valid_events_for_girls' returning list of dictionary keys.",
+            "- Fixed large stutter when generating events caused by creating deep copies of participants.",
+            "- Added compatibility function to clear invalid 'se_end_label' values on older saves."
+        ],
+        "Fixed": [
+            "- Talking to secretary from academy navigation now sets your location to your office.",
+            "- Home visit call menu now hides girl hud to avoid blocking view.",
+            "- Debug option to make some girls alumni now picks them randomly rather than all even numbered girls.",
+            "- Mismatched girl names in videos now use penalty amount from 'database_webm_tag_mismatch_penalties'.",
+            "- Improved event generation performance.",
+            "- Rewrote 'generic_sex_ending' dialogue lines based on the girls acceptance.",
+            "- 'rule_max_girls_1' no longer requires any classroom renovations, allowing you to get +3 girl capacity early on."
+        ],
+        "Modding Changes": [
+            "- Made 'girl_index' argument optional for 'move_girl_to_location' if None will select first open hang out slot.",
+            "- 'move_girl_to_location' now also adds to 'girls_hang_out_tracker' for tracking purposes.",
+            "- Added debug printing for modded girls with missing body images",
+            "- 'database_valid_global_location_labels' changed from list to dictionary. Should use your location label as a key and the event type of location as its value. i.e 'show_park: 'park'",
+            "- Added 'participant_requirements' argument to Event class to help improve generation performance, can be ignored for non-generic events. See 'game/scripts/main_classes/event/class_event_ren.py' for more details."
+        ]
+    },
     "0.424": {
         "Added": [
             "- Home visit call menu now shows if girl/mother have valid events during call or home visit.",
@@ -573,7 +614,7 @@
             "- Girl ratings will now be generated on multiple threads rather than 1 by 1(about twice as fast now).",
             "- Added panty types to clothing tags.",
             "- Changed the way girl id's as video tags is weighted. Should make videos with matching girl ids more common.",
-            "- Added 'park' event type, triggered when travelling through it, such as to and from academy.",
+            "- Added 'park' event type, triggered when traveling through it, such as to and from academy.",
             "- Added 'waited_around' variable which is True if the player waited via the HUD. Can be used to limit when your events can/can't trigger.",
             "- Events can check if it was started via dialogue using 'event_started_from_dialogue'.",
             "- Added 'dialogue_text' argument to Event class. This is used as the dialogue option text if event can be started via dialogue.",
