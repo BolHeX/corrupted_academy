@@ -1,4 +1,24 @@
 {
+    "0.426": {
+        "Added": [
+            "- Added travel times based on current and target location."
+        ],
+        "Changes": [
+            "- Allowed waiting around until 3 AM rather than 12 AM.",
+            "- Moved some variable clearing in TimeManager from 'advance_days' to 'skip_days'.",
+            "- EventManager 'get_valid_events_for_girls' now returns both girl and generic events and ensures the main girl id is in the participants.",
+            "- Various interactions at locations now skip time.",
+            "- Teachers and teaching assistant will warn you about class while talking to them in the teachers lounge."
+        ],
+        "Fixed": [
+            "- Fixed error when choosing to cum on panties.",
+            "- Fixed stat notification spam when a new day starts.",
+            "- Fixed getting asked to skip days when sleeping after midnight.",
+            "- Fixed 'update_girl_jobs' reassigning jobs when there is already a girl assigned to it.",
+            "- Fixed bartenders swapping when they shouldn't.",
+            "- Fixed coffee shop middle ground layer cutting off parts of girl images."
+        ]
+    },
     "0.425a": {
         "Fixed": [
             "- Academy 'refresh_faculty' now clears invalid scheduled faculty.",
