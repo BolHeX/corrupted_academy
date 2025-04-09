@@ -1,4 +1,25 @@
 {
+    "0.426b": {
+        "Fixed": [
+            "- Fixed errors related to outline shader by removing it."
+        ]
+    },
+    "0.426a": {
+        "Added": [
+            "- Added compatibility function to unlock faculty for saves created before event fix."
+        ],
+        "Changes": [
+            "- Added some conditional fallbacks to fullbody images rather than just using clothed variant.",
+            "- Made some image matching changes for mothers getting generic images to try avoid mismatched images.",
+            "- Free-use compliance tooltips now mention that fear reduces it."
+        ],
+        "Fixed": [
+            "- Made changes to 'smoothstep_outline' shader to try fix errors on certain hardware setups.",
+            "- Fixed being able to start a threesome if the daughter isn't at home during 'free use' discussions with mother.",
+            "- 'story_event_unlock_upgrades' will now also unlock faculty if you have 2+ alumni when it triggers.",
+            "- EventManager now always creates copies of event when checking valid events rather than modifying original if its a 'one time' event."
+        ]
+    },
     "0.426": {
         "Added": [
             "- Added travel times based on current and target location."
