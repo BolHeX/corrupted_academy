@@ -1,4 +1,30 @@
 {
+    "0.427": {
+        "Added": [
+            "- Home visit call screen now shows what event types are available if any are.",
+            "- Added 'home visit early' event selection menu when visiting girls/mothers."
+        ],
+        "Changes": [
+            "- Added blue to scrollbars to make them more identifiable.",
+            "- 'story_event_unlock_upgrades' now checks if you have any alumni when it triggers rather than requiring 2+.",
+            "- When traveling to a location girls won't just disappear before you get there(unless they need to get to work).",
+            "- You can now only call girls into your office and the clinic after 10 AM or if you have been to class.",
+            "- Removed 'clear selection' image in on girl assignment screen when calling girls into your office or the clinic.",
+            "- Nurse now warns you when calling a girl into the clinic that the girl currently in the clinic will be sent away.",
+            "- Changed event alert widget to green from red."
+        ],
+        "Fixed": [
+            "- Fixed being able to skip time while selecting initial girls.",
+            "- 'end_event' now clears sex interactions to prevent 'se_participants' not being cleared.",
+            "- 'faculty_unlock_fix' compatibility function now triggers if alumni > 0 rather than > 1(only relevant to older saves).",
+            "- Added extra checks to make sure fullbody images are correctly defaulted.",
+            "- Fixed 'move_girl_to_location' not working correctly when the given index is 0 and location is full.",
+            "- Fixed not calling a girl into the clinic blocking you from using it later.",
+            "- Fixed videoshoot videos using the incorrect thumbnails.",
+            "- Fixed video not hiding during 'cafeteria_discussion_extra_toppings' label.",
+            "- Fixed 'motivation_string' on exam actions menu using 'girl' rather than 'selected_girl'."
+        ]
+    },
     "0.426c": {
         "Fixed": [
             "- Fixed video not hiding after cumming in girls drink at he bar."
