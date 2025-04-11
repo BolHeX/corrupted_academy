@@ -1,4 +1,30 @@
 {
+    "0.428": {
+        "Added": [
+            "- Added a lot of code to prevent mods with missing body images causing errors when generating them.",
+            "- Added more balanced pressure and arousal impacts for new cumshot and creampie exam actions.",
+            "- Girls can now report 'cum' exam actions that are part of another action i.e facial after using her mouth. This may result in 2 reports if she reports the main action as well."
+        ],
+        "Changes": [
+            "- Exam action tutorial now displays the stat tooltips in alphabetical order.",
+            "- Slightly decreased size of girls names on the girl review menu to better fit longer girl names.",
+            "- Mothers now should their 'free-use' compliance on the girl review menu .",
+            "- Cumming on girls food when she contests you will show a video now, was disabled because I couldn't find matching videos but it caused confusion.",
+            "- 'pta_discussion_raise_funds' tooltip now takes into account the $1000 that needs to be in the bank.",
+            "- Accepting raised funds at PTA meeting no longer gives a reputation penality.",
+            "- Raise reputation PTA discussion gets a success bonus based on average mother corruption and affection. Scales from 0-30%"
+        ],
+        "Fixed": [
+            "- Fixed ImageManager 'load_possible_body_images' giving custom mothers generic mother images if they are missing.",
+            "- Fixed girls showing home visit event types multiples times if they have multiple events of that type on home visit call screen.",
+            "- Fixed Event 'get_remaining_cooldown' returning just the time delta rather than the actual remaining cooldown.",
+            "- Fixed Event 'requirements_met' not returning correctly when events have 'participant_ids' but not 'participant_requirements'. It now uses the 'requirements' string if it doesn't reference 'girl' or 'participants'.",
+            "- 'get_valid_events_for_girls' now temporary sets selected girl to the given main girl ID. Done for some events which require a 'selected girl'.",
+            "- Fixed EventManager 'get_valid_events' overwriting the existing events participants when creating a copy. Caused cooldown checks to return incorrectly.",
+            "- Fixed girl specific events not setting their triggered status correctly if its a 'one_time_event'.",
+            "- Attempt to fix errors when defaulting fullbody image when girl doesn't have clothed fullbody images."
+        ]
+    },
     "0.427": {
         "Added": [
             "- Home visit call screen now shows what event types are available if any are.",
