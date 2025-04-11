@@ -1,4 +1,9 @@
 {
+    "0.428a": {
+        "Fixed": [
+            "- Fixed girls repeatedly reporting previous cum actions."
+        ]
+    },
     "0.428": {
         "Added": [
             "- Added a lot of code to prevent mods with missing body images causing errors when generating them.",
