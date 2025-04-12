@@ -4,7 +4,7 @@
             "- Made sure girls give negative responses to cum actions if they reported it."
         ],
         "Fixed": [
-            "- Fixed daily updates being run when checking if locations will close before arriving, causing stutters and massive gain/loss.",
+            "- Fixed daily updates being run when checking if locations will close before arriving, causing stutters and massive stat gain/loss.",
             "- Fixed cum actions being reported when the shouldn't.",
             "- Fixed the 'leave_after_speaking' not being set to False in rare instances. Which resulted in girls saying they need to leave but don't actually leave.",
             "- Fixed 'can_hang_around' returning False during bar hours after midnight.",
