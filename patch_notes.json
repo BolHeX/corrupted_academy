@@ -1,4 +1,20 @@
 {
+    "0.428b": {
+        "Changes": [
+            "- Made sure girls give negative responses to cum actions if they reported it."
+        ],
+        "Fixed": [
+            "- Fixed daily updates being run when checking if locations will close before arriving, causing stutters and massive gain/loss.",
+            "- Fixed cum actions being reported when the shouldn't.",
+            "- Fixed the 'leave_after_speaking' not being set to False in rare instances. Which resulted in girls saying they need to leave but don't actually leave.",
+            "- Fixed 'can_hang_around' returning False during bar hours after midnight.",
+            "- Fixed 'remove_working_girls_from_locations' setting 'leave_after_speaking' to True, when the girl you are speaking to doesn't need to go to work.",
+            "- Fixed girls at mall sub locations leaving while traveling to the mall itself.",
+            "- Fixed girls currently at the location(and that don't leave) getting redressed/having body images regenerated when shuffling.",
+            "- Fixed girls currently at the location(and that don't leave) having their 'last hang-out' time reset when shuffling.",
+            "- Fixed hang out times being cut short when going past midnight. Causing girls to leave the bar early."
+        ]
+    },
     "0.428a": {
         "Fixed": [
             "- Fixed girls repeatedly reporting previous cum actions."
