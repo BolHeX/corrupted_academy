@@ -1,4 +1,16 @@
 {
+    "0.428c": {
+        "Added": [
+            "- Girl rating menu now shows the size of modded content found for girls."
+        ],
+        "Changes": [
+            "- Small cosmetic changes to girl ratings menu to make it more consistent."
+        ],
+        "Fixed": [
+            "- Fixed error when cumming on/in teaching assistant during class.",
+            "- Fixed mothers never having temporary traits removed."
+        ]
+    },
     "0.428b": {
         "Changes": [
             "- Made sure girls give negative responses to cum actions if they reported it."
