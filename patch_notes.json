@@ -1,4 +1,7 @@
 {
+    "0.428e": {
+        "Fixed": "- Fixed mother grade targets increasing during grade period if you meet here target early."
+    },
     "0.428d": {
         "Added": [
             "- Added 'Head to your office' option back to 'database_academy_navigation_options'."
