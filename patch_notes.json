@@ -1,4 +1,13 @@
 {
+    "0.428d": {
+        "Added": [
+            "- Added 'Head to your office' option back to 'database_academy_navigation_options'."
+        ],
+        "Fixed": [
+            "- Fixed error when checking if buttplug is forced by punishments when stealing clothing from lockers.",
+            "- Rewrote ImageManager '_get_best_image' to fix incorrect corruption level images being used."
+        ]
+    },
     "0.428c": {
         "Added": [
             "- Girl rating menu now shows the size of modded content found for girls."
