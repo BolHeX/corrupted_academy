@@ -1,697 +1,171 @@
 {
-    "0.426b": {
-        "Fixed": [
-            "- Fixed errors related to outline shader by removing it."
-        ]
-    },
-    "0.426a": {
+    "0.45": {
         "Added": [
-            "- Added compatibility function to unlock faculty for saves created before event fix."
+        "- Added 'training' for faculty and staff aka homework for alumni.",
+        "- Clicking girl/mother portraits on home visit call menu now shows their stat overview.",
+        "- Added 'Go for a walk' dialogue option while at the beach.",
+        "- Added lines and videos if a girl other than the selected girl cums during sex interactions.",
+        "- Added free action to remove girls buttplug during tease/masturbate exam events.",
+        "- Added 'shoot assistant' as faculty job.",
+        "- Added system to allow your shoot assistant to complete shoots on your behalf.",
+        "- Added input code to unlock all girl videos.",
+        "- Added seen/unseen variations for the event notification dots.",
+        "- Added generic actions for teasing upper and lower.",
+        "- Added tease upper and lower actions for teaching assistant.",
+        "- Added toggle in gameplay options to limit girls grades from dropping below weekly targets once met.",
+        "- Added uniform selection for students and faculty positions.",
+        "- Added viewing and fulfilling sponsor requests from the shoot studio menu.",
+        "- Added new adjectives for various body parts.",
+        "- Added 'prioritize assign order' option to gameplay settings. If true the game will try assign mothers based on the order a girl id appears in their configs i.e index 0 over another mothers index 1.",
+        "- Added 'taken assignment' option to gameplay settings. If true mothers who have had all their defined daughter ids taken by other mothers she can be assigned to other girls.",
+        "- Added prompts to remove and insert correct buttplugs during exam inspection."
         ],
         "Changes": [
-            "- Added some conditional fallbacks to fullbody images rather than just using clothed variant.",
-            "- Made some image matching changes for mothers getting generic images to try avoid mismatched images.",
-            "- Free-use compliance tooltips now mention that fear reduces it."
+        "- 'event_wrapper' now makes sure 'person_doing_action' is the player.",
+        "- Allowed tearing pantyhose and stockings while the girl is wearing shoes.",
+        "- Girls with vibrating buttplugs can no longer cum while wearing while its turned off.",
+        "- 'buttplug_orgasm' videos now show if another girl in class cums regardless of the select girl cumming or not.",
+        "- Limited sponsor calls to 1 per day.",
+        "- Limited additional requests from a sponsor to a max of 3 per week.",
+        "- Limited resetting sponsor requests to once per week.",
+        "- Removed relationship penalty for resetting requests.",
+        "- Added 'solo_male' as a sub tag when the player masturbates in class. So modders can also use this tag elsewhere.",
+        "- Selected girl name now scales in size based on its length and center aligned the text.",
+        "- ImageManager now returns the daughters home backgrounds to avoid mismatches.",
+        "- Literature changes: Intellect influence reduced from 50% to 35%, Added 10% affection gains and reduced corruption gains from 12.5% to 7.5%",
+        "- Philosophy changes: Intellect influence increased from 50% to 60%, Max grades increased from 7.5 to 8.5 and reduced fear gains from -20% to -15%",
+        "- Prevented fingering and fucking girls ass if she is wearing a buttplug during tease/masturbate exam events.",
+        "- Removed affection gains for cumming on food and in drinks, now only girls who like it will gain affection.",
+        "- ImageManage 'get_first_face_image' will now ignore cum covered image variants.",
+        "- When starting a new game+ and selecting girls you now get a warning when you have enough(if you don't want to fill roster).",
+        "- Improved cum covered parts tooltips.",
+        "- Cumming in a girls drink at the bar when she doesn't want you to can now result in getting kicked out.",
+        "- Improved performance on webm review screen.",
+        "- Reduced font sizes for mobile version.",
+        "- You can no longer confiscate clothing forced by rules.",
+        "- Stealing clothing now takes time, and girls entering the locker room while you are in there doing it can result in negative outcomes.",
+        "- Allowed inviting alumni to locations within the academy.",
+        "- Phone calls now ignore topless state of girl being spoken to (for portrait).",
+        "- Increased 'used_webm_penalty' value range from (-20, 0) to (-50, 0)",
+        "- Changed girl review layout to give traits more space to be displayed.",
+        "- ImageManager 'get_first_face_image' tries to return images without trait tags first. i.e images with 'slut' in the name.",
+        "- Limited the size of 'mother_selection_menu' and added a scrollbar.",
+        "- Girls who choose to give you a blowjob during 'exam_player_action_masturbate_openly' no longer get pressure or tolerance impacts from it.",
+        "- Limited 'aroused girls' during 'exam_player_action_masturbate_openly' to girls with less than 50 pressure.",
+        "- 'annoyed_girl' during 'exam_player_action_masturbate_openly' now also gets a fear impact applied.",
+        "- Moved 'get_next_item_callout' out of the ShootBase class.",
+        "- Changed various walk discussions to use their own acceptance calculation.",
+        "- Allowed phoning after 6pm, mainly to allow inviting to locations.",
+        "- Girls grades now start at 0 and their mother expectation changes based on her starting intellect rather than her base grades.",
+        "- Limited girls to 1 rule break per rule/punishment.",
+        "- Increased 'solo_male' mismatch penalty to -999 to avoid them playing when they shouldn't.",
+        "- Rebalanced 'post_exam_improve_stats' intellect increase to make the maximum more achievable.",
+        "- Added caps for 3 mother expectation targets: 40, 65 and 95 for each respectively.",
+        "- Exam action 'fuck boobs' now takes torn clothing into account.",
+        "- Event 'home_event_bribe_enroll' now tries to assign a real mother before triggering.",
+        "- Greatly improved the performance of the 'get_matching_files' function.",
+        "- Improved computer tab button text size for longer strings.",
+        "- Changed academy location image and added a second floor.",
+        "- Removed 'home_visit_mother_caught_masturbating' from event options and increased corruption requirements from 20 to 40.",
+        "- Disabled blowjob description for 'generic_action_blowjob' since they are included in the girls reaction lines.",
+        "- 'girl_quick_overview' now shows additional stat information as well.",
+        "- Allowed sorting by shoot proficiency and people skill during girl assignment.",
+        "- 'confidence_boost_program' and 'professional_makeover' upgrades now also lower shoot willingness costs by 5% each.",
+        "- The player now gets paid on Sunday morning before the graduation.",
+        "- On Monday the player and the academy now gets a bonus based on the number of graduates.",
+        "- Allowed girls to purchase clothing if its matches their job tag even if it has 'can_be_purchased' set to False.",
+        "- Sponsor requests now get a payment bonus up to 125% based on the average match rating of the given items.",
+        "- Added right-click to clear selected sponsor request items.",
+        "- 'go_for_a_walk' acceptance calculation now takes player reputation into account.",
+        "- Normalized gui widgets to the same style.",
+        "- Added separate button to set girls fear in 'modify stats' screen.",
+        "- Removed daily 'discipline' decay for girls.",
+        "- Allowed assigning homework from quick overview screen.",
+        "- WebmHelper 'has_custom_video' now tags specific tags into account, i.e 'tp_fem' for threesomes.",
+        "- Girl 'get_shoot_willingness' now scales past 500 in payment, used to estimate cost of shoots.",
+        "- Lowered 'uniform_stockings' lewdness from 5 to 4.",
+        "- Now closing exam intro shows inspection if not shown yet that morning.",
+        "- Changed 'database_fullbody_image_tags' sorting. To try better match what the girl is wearing."
         ],
-        "Fixed": [
-            "- Made changes to 'smoothstep_outline' shader to try fix errors on certain hardware setups.",
-            "- Fixed being able to start a threesome if the daughter isn't at home during 'free use' discussions with mother.",
-            "- 'story_event_unlock_upgrades' will now also unlock faculty if you have 2+ alumni when it triggers.",
-            "- EventManager now always creates copies of event when checking valid events rather than modifying original if its a 'one time' event."
-        ]
-    },
-    "0.426": {
-        "Added": [
-            "- Added travel times based on current and target location."
-        ],
-        "Changes": [
-            "- Allowed waiting around until 3 AM rather than 12 AM.",
-            "- Moved some variable clearing in TimeManager from 'advance_days' to 'skip_days'.",
-            "- EventManager 'get_valid_events_for_girls' now returns both girl and generic events and ensures the main girl id is in the participants.",
-            "- Various interactions at locations now skip time.",
-            "- Teachers and teaching assistant will warn you about class while talking to them in the teachers lounge."
-        ],
-        "Fixed": [
-            "- Fixed error when choosing to cum on panties.",
-            "- Fixed stat notification spam when a new day starts.",
-            "- Fixed getting asked to skip days when sleeping after midnight.",
-            "- Fixed 'update_girl_jobs' reassigning jobs when there is already a girl assigned to it.",
-            "- Fixed bartenders swapping when they shouldn't.",
-            "- Fixed coffee shop middle ground layer cutting off parts of girl images."
-        ]
-    },
-    "0.425a": {
-        "Fixed": [
-            "- Academy 'refresh_faculty' now clears invalid scheduled faculty.",
-            "- Opening academy navigation or academy management now clears invalid scheduled faculty.",
-            "- Improved performance on academy navigation and academy management screens by moving image generation into a separate less frequently called function.",
-            "- Added 'remove_working_girls_from_locations' to fix girls appearing at two locations at once if they start work while hanging out."
+        "Fixes": [
+        "- Fixed 'person_doing_action' having their webms be included in video selection.",
+        "- Fixed 'selected_girl' showing up in 'wear_cum_covered_panties' descriptions after exams.",
+        "- Fixed girls thinking you have came in their drink even if you didn't.",
+        "- Fixed unlocked store items not showing up in the store correctly.",
+        "- Fixed 'post_exam_event_student_threesome' participant_requirements, they were changed during testing.",
+        "- Fixed only girls panties getting covered in their cum.",
+        "- Fixed Clothing 'get_lewdness_influences' using actual lewdness rather than base.",
+        "- Fixed 'threesome_facial_both' not covering clothing in cum.",
+        "- Fixed 'get_valid_events' not working correctly for mothers outside of hang out locations.",
+        "- Fixed shoot time estimate being incorrect.",
+        "- Improved pass/expel dialogue weirdness if started during home visit call.",
+        "- Fixed not being able to re-insert stolen buttplugs.",
+        "- Fixed 'clinic' location checking for 'teachers_lounge' as its event type for dialogue options.",
+        "- Corrected 'is_shoot_studio_hours' times.",
+        "- Fixed 'cum_slut' increasing 'face' rather than 'mouth' sensitivity.",
+        "- Fixed being able to assign alumni girls homework or call about expelling/passing them.",
+        "- Fixed 'home_visit_grope_mother_pussy' leverage cost showing -1 rather than -2",
+        "- Added error catching to 'color_text' and 'get_color_based_on_value' functions.",
+        "- Fixed impacts during 'exam_player_action_masturbate_openly' being applied twice.",
+        "- Fixed shoot updating functions not adding NEW photos/videos to girls shoots.",
+        "- Fixed load photo/videoshoot methods being run multiple times for shared shoots.",
+        "- 'dress_for_work' now passed 'is_for_work' correctly.",
+        "- Fixed home visit phone calls leading to reported action rather than reported request discussion.",
+        "- Added missing label for 'forget about it' during reported actions phone discussion.",
+        "- Fixed 'random_panties' not getting their owner set during girl punishment.",
+        "- Fixed sexy nurse clothing tags and the underwear being purchasable.",
+        "- Added 'bikini' tag to lewder variations of bikinis.",
+        "- Fixed missing comma between beach preferred clothing."
         ],
         "Modding Changes": [
-            "- Added 'hang_out_avoid_times' entry to 'database_girl_jobs' to make girls avoid hanging out just before work."
-        ]
-    },
-    "0.425": {
-        "Added": [
-            "- Home visit call menu now shows if girl/mother have home events(red alert) or events at current location(yellow alert).",
-            "- Added phone option to invite girl/mother to current location.",
-            "- Added exam and sex actions where you can cum on various parts if you are edging.",
-            "- Added gameplay option to enable asking to cum early during certain actions if the player is edging.",
-            "- Added two new rules which further increase girl capacity by 5 each."
-        ],
-        "Changes": [
-            "- Fixed reported actions not referencing the correct clothing items.",
-            "- Fixed mothers bringing up already resolved reported actions/requests.",
-            "- Fixed the same girl being picked twice for the same hang out location.",
-            "- Fixed shoot facility requirements returning reversed locked states.",
-            "- Fixed shoot facility requirement string overwriting all other requirement strings.",
-            "- Fixed errors about missing 'office_stress_relief_end_sex' label.",
-            "- Debug options to regenerate girls now clears faculty to avoid errors when opening navigation.",
-            "- Fixed pending girls and mothers not having compatibility functions run on them.",
-            "- Fixed girls who left giving responses after sex.",
-            "- Fixed 'music_class_renovation' only giving 4 girl capacity rather than 5.",
-            "- Fixed right-click not unassigning faculty on girl selection screen.",
-            "- Fixed 'get_valid_events_for_girls' returning list of dictionary keys.",
-            "- Fixed large stutter when generating events caused by creating deep copies of participants.",
-            "- Added compatibility function to clear invalid 'se_end_label' values on older saves."
-        ],
-        "Fixed": [
-            "- Talking to secretary from academy navigation now sets your location to your office.",
-            "- Home visit call menu now hides girl hud to avoid blocking view.",
-            "- Debug option to make some girls alumni now picks them randomly rather than all even numbered girls.",
-            "- Mismatched girl names in videos now use penalty amount from 'database_webm_tag_mismatch_penalties'.",
-            "- Improved event generation performance.",
-            "- Rewrote 'generic_sex_ending' dialogue lines based on the girls acceptance.",
-            "- 'rule_max_girls_1' no longer requires any classroom renovations, allowing you to get +3 girl capacity early on."
-        ],
-        "Modding Changes": [
-            "- Made 'girl_index' argument optional for 'move_girl_to_location' if None will select first open hang out slot.",
-            "- 'move_girl_to_location' now also adds to 'girls_hang_out_tracker' for tracking purposes.",
-            "- Added debug printing for modded girls with missing body images",
-            "- 'database_valid_global_location_labels' changed from list to dictionary. Should use your location label as a key and the event type of location as its value. i.e 'show_park: 'park'",
-            "- Added 'participant_requirements' argument to Event class to help improve generation performance, can be ignored for non-generic events. See 'game/scripts/main_classes/event/class_event_ren.py' for more details."
-        ]
-    },
-    "0.424": {
-        "Added": [
-            "- Home visit call menu now shows if girl/mother have valid events during call or home visit.",
-            "- Added phone option to invite girl/mother to current location."
-        ],
-        "Fixed": [
-            "- Fixed reported actions not referencing the correct clothing items.",
-            "- Fixed mothers bringing up already resolved reported actions/requests.",
-            "- Fixed the same girl being picked twice for the same hang out location.",
-            "- Fixed shoot facility requirements returning reversed locked states.",
-            "- Fixed shoot facility requirement string overwriting all other requirement strings.",
-            "- Fixed errors about missing 'office_stress_relief_end_sex' label."
-        ],
-        "Modding Changes": [
-            "- Made 'girl_index' argument optional for 'move_girl_to_location' if None will select first open hang out slot.",
-            "- 'move_girl_to_location' now also adds to 'girls_hang_out_tracker' for tracking purposes."
-        ]
-    },
-    "0.423c": {
-        "Fixed": [
-            "- Fixed 'selected_girl' changing to daughter after checking for valid events."
-        ]
-    },
-    "0.423b": {
-        "Fixed": [
-            "- Fixed error when a background tag cannot be determined for a shoot."
-        ]
-    },
-    "0.423a": {
-        "Fixed": [
-            "- Fixed error about missing background after upgrading shoot studio.",
-            "- Fixed error when removing events from queue when they have multiple event types."
-        ]
-    },
-    "0.423": {
-        "Added": [
-            "- Added rule which can be passed to purchase a new shoot studio facility. Which allows upgrading and shoots to be done after school hours and on Saturdays.",
-            "- Added 'Stat Change Notifications' gameplay option which will notify you of stat changes as they happen.",
-            "- Girls with non-generic events now have an alert widget if they are available."
-        ],
-        "Changes": [
-            "- Girls can no longer graduate in the ceremony if their mother expectations aren't met. You can still pass them from the PC or phone call.",
-            "- Normalized clothing tooltips through out screens.",
-            "- Exams can no longer go past 12PM.",
-            "- Last selected webm category is now remembered.",
-            "- 'office_event_secretary_work_late' can now trigger between 1 and 3PM. ",
-            "- Rewrote RuleManager 'rule_list_with_depth' method.",
-            "- Active rules are now marked with a '*'",
-            "- Marking all shoot items for random wallpapers now sets 'randomize_wallpaper' to True.",
-            "- Improved how and when the PC wallpaper randomizer runs.",
-            "- Academy shoot studio is limited to nudity and lower shoots.",
-            "- Shoot studio upgrades now require purchasing new facility first.",
-            "- Selecting another sponsor request now cleared notifications.",
-            "- Girls with events are now much more likely to hang out at a location and ignore girl count 'probability'."
-        ],
-        "Fixed": [
-            "- ImageManager '_get_best_image' now excludes cum/creampie/bp(buttplug) images if invalid.",
-            "- Fixed clothing icons being off center after selecting for sponsor requests.",
-            "- Fixed possible error when adding event to queue when it has multiple event types.",
-            "- Added possible stop gap for errors when girl mods are missing face images.",
-            "- Made sure variables are cleared if being kicked out of locations because of time.",
-            "- Fixed possible error or incorrect body image showing when getting girls to strip naked.",
-            "- Fixed sponsor requests being generated everyday if they have no available requests. They now generate after 2 days without requests.",
-            "- Fixed 'get_valid_events_for_girls' not including non-girl event options.",
-            "- Fixed 'H' and middle mouse buttons during shoots possibly causing rollback issues.",
-            "- 'office_discussion_options' now checks if girl has fullbody images before trying to display it.",
-            "- Rewrote parts of 'shuffle_hang_out_locations' to try avoid girls showing up at multiple locations.",
-            "- Location shuffling and clearing no longer runs during shoots or events.",
-            "- Sexual favor 'strip naked' steals girls panties again.",
-            "- Fixed generic events not being added as dialogue options when they should.",
-            "- Fixed faculty icons not disappearing when viewing city map and leaving office."
-        ],
-        "Modding Changes": [
-            "- EventManager 'get_valid_events_for_girls' can now take 'is_dialogue' as an argument.",
-            "- First rule id in 'rule_dependencies' now specifies the rules 'parent' rule it appears under.",
-            "- EventManager 'get_valid_events' can take 'girl_only' as an argument to avoid checking generic events, speeding up generation.",
-            "- EventManager 'get_valid_events' now takes 'valid_girl_ids' as an argument. Allows checking a smaller set of girls to speed up generation.",
-            "- Added 'get_girls_and_event_locations' method to EventManager which returns girl ids and the locations where they have valid events."
-        ]
-    },
-    "0.422a": {
-        "Fixed": [
-            "- Fixed being able to wedgie girls wearing on a skirt.",
-            "- Fixed 'sex_interaction_clear' not being called after threesomes during home visits."
-        ]
-    },
-    "0.422": {
-        "Added": [
-            "- Added 'flash_ass' video when girls tease you in the park.",
-            "- 'home_visit_call' now gets added dialogue options when phoning girls for home visits."
-        ],
-        "Changes": [
-            "- Made girls with events at a location more likely to visit it.",
-            "- Made girl face images consistent on most screens.",
-            "- Expanded 'coffee_shop_discussion_extra_cream' dialogue when you ignore he protests."
-        ],
-        "Fixed": [
-            "- Fixed error when girl refuses 'cafeteria_discussion_extra_toppings'.",
-            "- Fixed incorrect girls talking and getting impacts in FFM attempts.",
-            "- Girls now check if images start with identifiers rather than it just being in the name. To prevent face images being used as ass images in rare instances.",
-            "- Fixed incorrect variable name usage if girl has no webms.",
-            "- Fixed 'get_valid_events' not correctly returning events for dialogue options.",
-            "- Made sure 'girl_hud_girls' clears correctly when talking is blocked.",
-            "- Fixed 'perform_exam_round_updates' not being called in 'exam_action_conclude' for global exam actions.",
-            "- Fixed girl images being changed when loading saves.",
-            "- Fixed 'available_for_event' not correctly returning for event cooldowns."
-        ],
-        "Modding Changes": [
-            "- WebmHelper now adds girls job as a webm tag if she is the selected girl. i.e 'nurse' or 'secretary'"
-        ]
-    },
-    "0.421a": {
-        "Changes": [
-            "- Disabled being able to wait around after midnight.",
-            "- Sleeping on Saturday morning before 6am will skip prompts and just take you to 7am."
-        ],
-        "Fixed": [
-            "- Fixed error when checking when last a girl hung out.",
-            "- Fixed not being able to choose mother if only 1 is available.",
-            "- Fixed chosen mothers not actually being assigned to girl."
-        ]
-    },
-    "0.421": {
-        "Changes": [
-            "- Rewrote girl shuffling code to try avoid duplicate characters and making it feel more organic."
-        ],
-        "Fixed": [
-            "- Fixed being able to order drinks, give tips and donate to charity when not having enough cash.",
-            "- Fixed sex interactions being marked as 'forced'. Preventing girls from leaving when max pressure is reached.",
-            "- Fixed errors when ending FFM sex interactions.",
-            "- Fixed video thumbnails being detected as body images.",
-            "- Fixed error when confiscating girls clothing.",
-            "- 'invalid' hang out locations are now cleared after exams, sex and home visits and won't be done so during them."
-        ]
-    },
-    "0.42a": {
-        "Changes": [
-            "- Improved the randomness of the location shuffling."
-        ],
-        "Fixed": [
-            "- Fixed error when buying girls a drink at the bar.",
-            "- Fixed video not hiding during beach interaction.",
-            "- Fixed several errors for various coffee shop interactions.",
-            "- Fixed possible error when checking requirements.",
-            "- Fixed 'other_girls_in_bar' containing 'None' objects.",
-            "- Fixed variable reference errors in park and pier interaction labels.",
-            "- Fixed 'add_temporary_trait' not using the girl names.",
-            "- Fixed 'update_blocking_girl_names' adding duplicates of the working bartenders to girl list variables.",
-            "- Fixed girls not correctly dressing for various locations and jobs.",
-            "- Fixed 'dress_girl_with_clothing_preference' saving outfit BEFORE generation."
-        ]
-    },
-    "0.42": {
-        "Added": [
-            "- Added 'sex' option to girls in cafeteria.",
-            "- Added new bar, beach, cafeteria, coffee shop, park, pier and teachers lounge interaction options.",
-            "- Added second hang out spot to coffee shop.",
-            "- Added 'webm' review screen where you can see which girl videos you have unlocked.",
-            "- Added starting MMF sex interactions at various locations.",
-            "- Added generic mother fullbody images. Thanks to 'Balalaechnik' for providing the images.",
-            "- Added being able to steal clothing from lockers if the locker room is empty.",
-            "- Added game over state for missing too many PTA meetings.",
-            "- Added options to not help mothers with their tuition during event.",
-            "- Added 'job' system where girls can work jobs outside of player appointed ones.",
-            "- Added choosing the girls mother from the random mother pool when accepting her application.",
-            "- Added draggable computer icons which snap to a grid.",
-            "- Added PTA meeting room as clickable on academy navigation screen.",
-            "- Added Event thumbnails back to new UI.",
-            "- Added notification if 'solo male' videos are skipped.",
-            "- Added 'prefer threesome videos' toggle to gameplay settings."
-        ],
-        "Changes": [
-            "- Girls in the park now try wear athletic clothing.",
-            "- Adjusted how long girls hang out in locations and how often they get shuffled around.",
-            "- Girls now leave when you finish talking to them if they were going to leave during that time.",
-            "- Girls can now block talking or leave the bathroom while offering masturbation tips.",
-            "- Added 'max_hang_outs_per_day' which controls how many locations a girl can hang out per day (outside of academy).",
-            "- Clothing lewdness and value now scales off how much cum is on it.",
-            "- 'dress_girl_with_clothing_preference' now also generates new body images.",
-            "- Girls will now find fullbody images in any folder with 'full' in the name rather than one specifically named 'fullbody'.",
-            "- When assigning classes you are now prompted the next empty slot automatically.",
-            "- Added academy nurse now earns a wage.",
-            "- Blocked going to the academy if it's not school or PTA hours.",
-            "- School closing time reduced by 1 hour from 4 PM to 3 PM.",
-            "- Slightly changed location hours.",
-            "- If there is an important concern at the PTA meeting you are now forced to go.",
-            "- Girl review screen 'wealth' now also includes her weekly pay from work.",
-            "- Moved some options to new 'gameplay settings' menu option.",
-            "- Allowed hiding the UI while auto shoot is active.",
-            "- Exam intro and fullbody images no longer try to match identifiers. Was causing issues selection issues.",
-            "- 'events_set' now gets shuffled before being processed.",
-            "- Event generation now ends early if an event has 5 valid combinations (optimization).",
-            "- Wrapped config loading code in try blocks to help track down errors."
-        ],
-        "Fixed": [
-            "- Fixed girls and teachers showing up to the academy on the weekend.",
-            "- Fixed girls being in multiple locations at once (again).",
-            "- Fixed hanging out girls not being shuffled if all girls are assigned.",
-            "- Calling a girl into the clinic now removes her from other locations.",
-            "- Fixed girls in the bathroom never peeking in on the player when using the restroom.",
-            "- Fixed 'get_fullbody_image' returning 'clothed' images early when girl meets requirements but doesn't have custom image.",
-            "- Seeing girls in various locations now also marks their clothing as seen.",
-            "- Fixed fake boobs not using their own adjectives.",
-            "- Fixed 'whore' images being used when girls have 'ultimate_whore' trait.",
-            "- Fixed being able to cum on girls who left sex interaction.",
-            "- Fixed handjob videos ignoring additional sub tags.",
-            "- Fixed girl orgasm videos not playing when interacting with a girl but her buttplug causes the orgasm.",
-            "- Fixed teaching assistant actions using lesbian videos.",
-            "- Fixed positioning for video widget on sex interaction screen.",
-            "- Fixed being able to infinitely train attributes during home visits.",
-            "- Fixed 'over arousal' check also reducing arousal from actions and limiting a girls arousal to 85.",
-            "- Fixed gifts not applying any stat changes.",
-            "- Fixed event 'cooldown' and 'same_participant_cooldown' not saving.",
-            "- Fixed location events using incorrect set of girls/mothers if no girls are there.",
-            "- Waiting around on the city map no longer sends you back to your last location.",
-            "- Fixed small talk options referencing 'girl' rather than 'selected_girl'.",
-            "- Attempted fix to shoot screen causing clicks being ignored on mobile.",
-            "- Fixed losing some rules with newgame+ when they should be maintained.",
-            "- Fixed error when updating traits from 0.35 saves.",
-            "- Fixed various issues related to girl data not being updated.",
-            "- Fixed 'database_webm_inclusive_trait_tag_mapping' additions not being added to girl webm checks."
-        ],
-        "Modding Changes": [
-            "- Added 'hang_out_time' to 'database_hang_out_locations' which allows setting how long girls will hang out at the location.",
-            "- Added 'move_girl_to_location' function to simplify changing a girls location.",
-            "- Added 'max_visits_per_day' support for locations.",
-            "- Added 'maid' tag to 'sexy_maid' clothing.",
-            "- Added support for new fullbody images: 'athletic', 'shower', 'maid', 'nurse', 'work', 'uniform', 'swimsuit'.",
-            "- Girls will now use images of lower corruption levels but with lowered usage chance.",
-            "- Added 'clothing_in_slots_has_tags' method to ClothingManager. Useful for modding in new fullbody image tags.",
-            "- Added 'get_trait_by_name' method to TraitManager.",
-            "- Adding a temporary trait a girl already has now updates its duration to new application.",
-            "- Traits can now apply a universal acceptance bonus with the base stat modifier 'acceptance'.",
-            "- Added 'generic_sex_ending' label which handles the ends of solo, MMF and FFM sex interactions.",
-            "- Added 'database_mid_day_updates' which allows functions to be called when certain requirements are met. Checked whenever time is skipped.",
-            "- Various store item classes now have a correctly default their 'item_type'.",
-            "- Improved error logging when configs are malformed.",
-            "- Improved error logging for invalid requirement strings."
-        ]
-    },
-    "0.410": {
-        "Fixed": [
-            "- Fixed girl clothing duplicating if not stolen at the end of the exam.",
-            "- Fixed 'attendance_punishments' option also linking to blackmail punishments.",
-            "- Fixed mother participation rules not showing as allowed by traits by corrupted mothers.",
-            "- Fixed girls not hanging out if an event triggers after an exam.",
-            "- Fixed corrupted girls not leaving clothing with you after exams.",
-            "- Fixed girl quick overview not hiding when exam starts.",
-            "- Fixed girls showing up at two locations at once.",
-            "- Fixed time passing even if you don't call a girl into your office/the clinic."
-        ]
-    },
-    "0.409": {
-        "Fixed": [
-            "- Fixed girl clothing duplicating if not stolen at the end of the exam.",
-            "- Fixed 'attendance_punishments' option also linking to blackmail punishments.",
-            "- Fixed mother participation rules not showing as allowed by traits by corrupted mothers."
-        ]
-    },
-    "0.408a": {
-        "Fixed": [
-            "- Fixed error related to videoshoots caused by invalid mod shoots."
-        ]
-    },
-    "0.408": {
-        "Added": [
-            "- Added job titles to girl assignment screen."
-        ],
-        "Changes": [
-            "- Hang out locations are now only shuffled in more than 5 minutes passed.",
-            "- Talking to a girl at a location will keep her there if a shuffle happens."
-        ],
-        "Fixed": [
-            "- Fixed error when doing underwear inspection.",
-            "- Fixed errors related to videoshoots and their file list.",
-            "- Fixed sex interaction end label names.",
-            "- Fixed 'girl_quick_overview' being cut off in certain instances.",
-            "- Fixed 'girl_names_blocking_area' not being cleared correctly.",
-            "- Fixed entering a location expecting girls to be there and having the leave in that time.",
-            "- Fixed location open and close times.",
-            "- Buttplugs now correctly give arousal and pressure during sex interactions."
-        ]
-    },
-    "0.407": {
-        "Added": [
-            "- Added quick 'leave for home' button on city map.",
-            "- Added buttons to quickly return/steal all girls clothing during exam outro.",
-            "- Added button to allow setting which clothing types to automatically try steal during exam outro.",
-            "- Added description variations for graduation ceremony.",
-            "- Added toggle to automatically add photos as they are unlocked to random wallpaper pool.",
-            "- Added option to add all unlocked photos to random wallpaper pool.",
-            "- Added 'database_broken_rule_conflicts' to prevent certain rules giving two rule breaks."
-        ],
-        "Changes": [
-            "- Clarified what the 'stamina' on the sex menu means.",
-            "- Invalid dialogue options are new just greyed out rather than striked through.",
-            "- Shoots with no valid photos/videos will now be marked as invalid rather than cause an error.",
-            "- Moved wallpaper randomizer settings to its own menu.",
-            "- Improved underwear and buttplug inspection dialogue and added variations for rule breaks vs punishment breaks."
-        ],
-        "Fixed": [
-            "- Typo and grammar fixes.",
-            "- Fixed 'watch_her_masturbate_orgasm' using the wrong lines for very positive and very negative.",
-            "- Fixed 'Apologize and leave' causing errors and repeating twice.",
-            "- Fixed girl quick overview showing duplicate girls in the bathroom.",
-            "- Fixed 'possible_gloryhole_girls' not working before class.",
-            "- Fixed compatibility issues with 0.35 saves.",
-            "- Fixed needing to select girls twice in bathroom and locker room.",
-            "- Fixed being blocked from an area even when the girl leaves.",
-            "- Fixed error with 'generic_action_player_choose_cum_girl_target'.",
-            "- Fixed being able to start locked shoots.",
-            "- Fixed errors related to assigning homework to girls.",
-            "- Fixed incorrect events triggering when leaving a girls house.",
-            "- Fixed 'rule_force_vibrating_buttplug' also giving two rule breaks.",
-            "- Fixed buttplug rule breaks being spotted through clothing.",
-            "- Fixed not being able to inspect underwear and buttplugs during exam intro inspection."
-        ]
-    },
-    "0.406": {
-        "Added": [
-            "- Added compatibility functions to make the update 0.35 compatible(probably)."
-        ],
-        "Changes": [
-            "- Made event location girl lists a bit less 'brittle'.",
-            "- Waiting around in locations past closing time will now kick you out."
-        ],
-        "Fixed": [
-            "- Remove requirements to use bathroom, since it is meant to be unisex.",
-            "- Fixed some references using 'girls_in_bar' rather than 'girls_at_bar'.",
-            "- Fixed length of 'girls_in_park'."
-        ]
-    },
-    "0.405a-beta": {
-        "Fixed": [
-            "- Fixed compatibility fix for girl list variables not running."
-        ]
-    },
-    "0.405-beta": {
-        "Added": [
-            "- Added 'Head to class' and 'Attend PTA meeting' buttons to academy navigation screen.",
-            "- You can now set buttplug vibration levels during sex interactions.",
-            "- 'generic_action_player_choose_cum' now also sets the 'chosen_cum_action' to the chosen label.",
-            "- Accessing budget via debug management menu will let you easily add funds.",
-            "- Accessing upgrades via debug management menu will let bypass faculty/upgrade requirement, instantly build them and do it for free."
-        ],
-        "Changes":[
-            "- Buttplugs only apply impacts after inserting.",
-            "- Adding an image to the random wallpaper pool now enables the randomizer.",
-            "- Scolding a girl after praising her now removed the 'Praised' buff.",
-            "- Removed daily grades decay."
-        ],
-        "Fixed": [
-            "- Loads of typo and grammar fixes.",
-            "- Bathroom is now correctly unlocked after gloryhole upgrade.",
-            "- Fixed error when washing panties from sponsor request screen.",
-            "- Added missing 'cum_amount' variable to mothers.",
-            "- Fixed clothing tooltip showing it as damaged when it isn't.",
-            "- Limited strip tease videos to non-nude girls.",
-            "- Player 'modify_cash' now rounds values.",
-            "- Fixed 'sell_all_clothing' breaking clothing categories.",
-            "- Fixed double orgasm videos during exam.",
-            "- Fixed 'teaching_assistant_discussion_where_is_everyone' displaying two lines and them incorrectly.",
-            "- Fixed not being able to scroll upgrades in academy navigation screen.",
-            "- Cancelling giving a gift no longer blocks it.",
-            "- Fixed quick overview girls being incorrect when starting home visits from certain locations.",
-            "- Fixed incorrect descriptions for 'exam_event_girl_caught_cheating_office_face_fuck' when cumming on mother.",
-            "- Fixed error when sorting girls by grades if mothers are in the list.",
-            "- Now main participant is sorted to the top of girl cum targets.",
-            "- Fixed error when selecting 'clinic_discussion_mental_checkup'.",
-            "- Fixed location girl lists length changing when girls are removed from location.",
-            "- Fixed teachers not being assigned.",
-            "- Fixed not being able to scold girls that aren't wearing clothing in forced types.",
-            "- Fixed incorrect check to return to mother during home visits."
-        ]
-    },
-    "0.404-beta": {
-        "Added": [
-            "- Added bikini images for Kiara Cole and Shay Sights."
-        ],
-        "Fixed": [
-            "- Fixed error when trying attributes during home visit.",
-            "- Fixed dialogue line when girls leave closing with you after exam.",
-            "- Fixed error when using restroom.",
-            "- Fixed error when visiting clinic when nurse isn't assigned.",
-            "- Locations now clear out when their requirements become unmet.",
-            "- You will now get kicked out when locations close.",
-            "- Fixed double 'remove upper' actions for certain clothing.",
-            "- Fixed missing images for sexy nurse bra and thong.",
-            "- 'all_clothing_images' now excludes map navigation and sponsor folders.",
-            "'home_visit_discuss_daughter_sexual_favor_options' now shows full body image.",
-            "- Fixed the same girls being assigned to class everyday.",
-            "- Fixed error when fulfilling girl sponsor requests.",
-            "- Fixed 'girls_in_exam' not clearing after daily update."
-        ]
-    },
-    "0.403-beta": {
-        "Added": [
-            "- Added notification how much a girls grades increase during cheating event.",
-            "- Added check for unrecognized files in shoot directories i.e incorrect file types."
-        ],
-        "Fixed": [
-            "- Fixed 'big' buttons when selecting cum targets.",
-            "- Fixed buttplug remotes not being added correctly when inserting buttplug.",
-            "- Fixed error when selecting  'bathroom_masturbation_tips' dialogue option.",
-            "- Fixed various errors when interacting with girls in locations.",
-            "- Fixed blocking girl names when trying to enter locations.",
-            "- Fixed selling clothing not removing item from collection.",
-            "- Fixed error when selecting photos for sponsor requests.",
-            "- Fixed multiple delimiters causing errors when creating girl ratings.",
-            "- Fixed errors when checking video indexes caused when generating girl rating."
-        ]
-    },
-    "0.402-beta": {
-        "Fixed": [
-            "- Fixed rare shader error on some systems.",
-            "- Fixed video not hiding when girl retrieves her cum covered panties.",
-            "- Fixed 'deepcopy' error when trying to add temporary trait.",
-            "- Fixed missing sex labels for wedgie and spanking.",
-            "- Fixed choice button text being cut off."
-        ]
-    },
-    "0.401-beta": {
-        "Fixed": [
-            "- Fixed 'sexy_nurse_dress' missing image.",
-            "- Fixed error when apologizing and leaving locker room.",
-            "- Fixed 'inspection' dialogue line being too long.",
-            "- Fixed being able to click girl face to bypass bathroom/locker_room requirements.",
-            "- Fixed error when checking mother traits for 'step mother' trait.",
-            "- Fixed errors in 'bathroom_masturbation_tips' label.",
-            "- Fixed incorrect label for 'bathroom_apologize_and_leave'",
-            "- Fixed error when calling 'update_blocking_girl_names'.",
-            "- 'girl_selection_menu' now sorts the girls correctly when reopening.",
-            "- Fixed error when choosing where to cum if there are no additional subtags."
-        ]
-    },
-    "0.4-beta": {
-        "Added": [
-            "- Added city navigation map.",
-            "- Added stealing and selling any clothing items.",
-            "- Added 'nurse' faculty position which will have her working in the clinic.",
-            "- Added new visitable locations to school: clinic, cafeteria, locker room.",
-            "- Added new visitable locations to map: beach, mall, pier.",
-            "- Player 'cum limit' is now visible during sex interactions.",
-            "- During sex interactions if the player just came and the girl leaves you will either end early or get a prompt to continue.",
-            "- Added sorting options to panty collection and girl recruitment screens.",
-            "- Added 'ultimate whore' trait, mainly by modder request to allow 'reward' videos.",
-            "- Added 'face'/'mouth' area sensitivity for girls.",
-            "- Allowed modding in custom PC backgrounds, you can see the 'game/_mods/pc_backgrounds' folder for more details.",
-            "- Added outlines to buttons to make them easier to distinguish between.",
-            "- Added button to clear class.",
-            "- Allowed marking images as wallpapers and randomizing wallpaper based on them when opening computer.",
-            "- Added sorting options to girl assignment screen.",
-            "- Added sorting and filtering options to girl review screen.",
-            "- Added option to skip the videos and dialogue of strip events during exam.",
-            "- Girl body parts can now also be covered in cum.",
-            "- Body images will now try to match if the girl has a buttplug and/or part is covered in cum.",
-            "- Added 'squirter' trait, which increases how much a girl cums when she orgasms.",
-            "- Added option to completely skip the shoot introduction dialogue.",
-            "- Added advanced filtering and searching when starting shoots.",
-            "- Added 'fake boob' traits for each size.",
-            "- Added force buttplug and force vibrating buttplug rules.",
-            "- Added 'image_helper', functionally the same as 'webm_helper' but for static images.",
-            "- Added event details to girl quick overview screen.",
-            "- Added new clothing: 'bikini', 'micro bikini', 'peekaboo bikini', 'mini dress' and 'latex dress'",
-            "- Added option to not strip girls when sex interactions start.",
-            "- Re-added 'story_event_first_girl_leaving' story event.",
-            "- Added options to cum on the girls ass or pussy in various situations.",
-            "- Added dialogue option for secretary to call a girl into your office.",
-            "- Added sexy nurse outfit, if given to the academy nurse she will wear it to work."
-        ],
-        "Changes": [
-            "- Clothing now keeps track of who came on/in it and how much cum there is.",
-            "- 'Take break' sex action now reduces player arousal by 10 from 5 and girl arousal by 5 rather than 5-10.",
-            "- Max student rules now increase capacity by 3 from 2 but require at least one of the classrooms to be renovated.",
-            "- 'Being A Slut' homework subject now requires 'Free-Use Law: Act 3' to be passed. It now also increases the girls obedience and people skills.",
-            "- Starting sex interactions via debug menu now randomize the girls used.",
-            "- Actions which normally don't make the player cum have their arousal impacts on the player reduced by 50% during sex interactions.",
-            "- Cumming no longer reduces girls intellect.",
-            "- '_exam_round_arousal_change' now raises the girl arousal to 85 rather than not increasing at all if arousal change would tag ger above 85.",
-            "- Reduced player arousal from 'pinch_nipple' action from 10 to 5-10.",
-            "- When asked to get dressed girls will remark if they didn't wear any clothing to work.",
-            "- By popular request girls can again cum from blowjobs/face fucking.",
-            "- Shoot review screen now only shows relevant sub tags. i.e They can be requested by a sponsor.",
-            "- Forced pantyless and uniform rules no longer conflict.",
-            "- SponsorRequest 'get_random_lewdness' now takes requested clothing tags into account.",
-            "- Allowed generating mothers with conflicting hair colours if they are all that is left.",
-            "- Ending home visits now takes you to navigation screen which allows quickly call another girl or go to another location.",
-            "- Homework and class subjects now show their requirements.",
-            "- Moved Girl and Mother payment and clothing purchasing to Sunday, to allow purchasing forced clothing types and tags.",
-            "- Debug mode can now be disabled by using the same code again.",
-            "- Event first trigger chance can now also be modified on the event settings screen.",
-            "- Hovering girls during assignment now shows their stats.",
-            "- Video tags marked with '_only' now get +3, special tags defined in 'database_special_only_tags' get +10.",
-            "- WebmHelper now gets location tags automatically based on location or current event 'type'.",
-            "- 'global_current_location_label' now pulls valid labels from 'database_valid_global_location_labels' to allow modding in new locations.",
-            "- 'debug_show_management_menu' now opens on the 'rules' tab.",
-            "- Normalized and improved 'get_uncovered_parts_tooltip'",
-            "- Updated and improved some widget images.",
-            "- Increased the number of 'fuck_ass' actions needed for 'anal_slut' from 7 to 10.",
-            "- Separated the 'cum_slut' into 'cum_slut' and 'cum_dumpster' based on where the cumshot is(external vs internal)",
-            "- Girls now carry over some pressure, arousal and tolerance changes from exam inspection.",
-            "- Shortened shoot introduction dialogue.",
-            "- You can now modify the universal growth rate for each stat from the computer settings screen.",
-            "- Added 'swimsuit' tag to 'onepiece_swimsuit'.",
-            "- Daughter stat influence can now be set to 0 so she will not corrupt her mother at all.",
-            "- Improved event detailing on girl review screen.",
-            "- Mother and daughter full body images now show during home visits if they have one.",
-            "- Made all exam actions available during sex interactions.",
-            "- 'office_event_secretary_work_late' can now trigger after 2PM rather than after 4PM",
-            "- Applying pressure or arousal impacts now also increase fear based on girl corruption.",
-            "- Uncorrupted girls now get small amounts of corruption and naturism XP based on the other girl's outfits. So now you can pair girls who dress slutty with uncorrupted girls to boost their corruption speed.",
-            "- Various 'step mother' traits should allow mismatched races between girls now.",
-            "- Girls now get dressed after sex.",
-            "- You can now see all students on graduation screen."
-        ],
-        "Fixed": [
-            "- Classes are generated in the morning now if the player skips class.",
-            "- Fixed cancelled buttplug insertions being reported.",
-            "- Fixed possible error checking clothing tags if buttplug was not inserted.",
-            "- Fixed error when cancelling passing/expelling girl after calling mother from PC.",
-            "- Made sure player and girl 'just_came' flags are reset after actions.",
-            "- Made sure player 'just_came' flag is reset after gloryhole.",
-            "- Made sure time manager unlocks correctly after interacting with gloryhole.",
-            "- Fixed girls which are in class being available in the gloryhole. This is if the player skips class.",
-            "- Based sure videos with mismatched races being played when they shouldn't.",
-            "- Made sure 'scheduled_auxiliary_teachers' are correctly cleared when starting new game+",
-            "- Fixed debug management menu not unlocking rules.",
-            "- Fixed possible errors when deleting girls if they are auxiliary teachers.",
-            "- Fixed clothing possibly being seen when adding it to girls wardrobe when it shouldn't.",
-            "- Fixed possible error when updating stolen buttplugs.",
-            "- Debug sex interactions no longer use the 'home visit' end scene.",
-            "- Fixed girls 'leaving' sex interactions on the last round.",
-            "- Fixed punishments not updating and being removed correctly.",
-            "- Fixed no video or lines playing if selected girl cums from buttplug.",
-            "- Fixed possible dialogue line issues when giving girls gifts.",
-            "- Fixed girls refusing gifts not applying their refuse impacts.",
-            "- Girls who have temporarily left class no longer get impacts.",
-            "- Shoot 'can_be_attempted' now returns False if its required rule isn't passed.",
-            "- Fixed possible issue getting clothing name for reported exam actions when removing shoes.",
-            "- Fixed shoes not being checked for rule breaks when removing them(would be tolerated).",
-            "- Added missing shoot item sub tags to 'database_shoot_item_sub_tag_lewdness'.",
-            "- Fixed teachers not being correctly unassigned when deleting girls and mothers.",
-            "- Fixed 'double facial' videos being played when they shouldn't.",
-            "- Fixed shoot callouts being incorrect for the fallback options.",
-            "- Fixed shoes and buttplugs not being marked as seen.",
-            "- Fixed some not setting their return label correctly if their event type was a list.",
-            "- Added missing 'lingerie' clothing tag to Lace Panties.",
-            "- Fixed not being able to name the academy if skipping intro and selecting girls.",
-            "- Fixed 'generic_action_rimjob' using the wrong video tag for female assistant.",
-            "- Fixed headmaster 'cb_id' not being set after starting new game+",
-            "- Fixed error caused by vibrating buttplugs.",
-            "- 'generic_action_player_choose_cum' now makes sure its the player doing the action before continuing.",
-            "- Fixed 'exam_event_girl_caught_masturbating' using the wrong sub tags.",
-            "- Fixed possible error when getting maintained faculty tooltip.",
-            "- 'hovering_autoshoot' should now clear more consistently.",
-            "- Fixed clothing not being taken from the girls during exam intro.",
-            "- Fixed mothers possibly having mismatched 'clothing_manager' objects.",
-            "- Fixed 'get_valid_events' including disabled events and one time events which have triggered.",
-            "- Fixed sleeping after midnight skipping a day.",
-            "- Fixed 'post_exam_update' doubling grade gain for girls in player class."
-        ],
-        "Modding Changes": [
-            "- Girl body images will now try to match a chosen index if possible. Allowing images sets i.e 'face1' will try to match with 'portrait1', 'boobs1' and so on.",
-            "- Girl body images can be tagged using 'cum', 'creampie' and 'bp' to help match scenarios. 'creampie' being used by face, ass and pussy. 'bp' used only for ass and means she is wearing a buttplug.",
-            "- Videoshoot thumbnails can now be tagged with ',cover' like photoshoot photos.",
-            "- ShootItem 'analyze_item_name' fixes more incorrect tags mainly to do with '_vert' tags added to sub tags.",
-            "- Completed sponsor requests now keep track of the girl ids if applicable.",
-            "- HomeworkSubject now supports giving girls traits upon lesson completion.",
-            "- Gifts now support applying temporary buffs. See 'game/scripts/main_classes/class_shop_item_ren.py' for more details.",
-            "- Girl ratings screen now also warns about incorrect shoot main and sub tags.",
-            "- Girl ratings will now only be generated once per load rather than every time the screen is opened.",
-            "- Girl ratings will now be generated on multiple threads rather than 1 by 1(about twice as fast now).",
-            "- Added panty types to clothing tags.",
-            "- Changed the way girl id's as video tags is weighted. Should make videos with matching girl ids more common.",
-            "- Added 'park' event type, triggered when traveling through it, such as to and from academy.",
-            "- Added 'waited_around' variable which is True if the player waited via the HUD. Can be used to limit when your events can/can't trigger.",
-            "- Events can check if it was started via dialogue using 'event_started_from_dialogue'.",
-            "- Added 'dialogue_text' argument to Event class. This is used as the dialogue option text if event can be started via dialogue.",
-            "- Added stand alone 'show_video' and 'hide_video' functions.",
-            "- Added 'add_clothing_tags' function which allows more easily adding tags to clothing items.",
-            "- Added 'possible_clothing_request_sub_tags' and 'favored_clothing_item_sub_tags' to Sponsors. Allowing sponsors to request items with that tag or favored clothing to get a match bonus.",
-            "- Added support for temporary traits by giving them a 'duration_in_days' argument.",
-            "- Added 'add_temporary_trait' method to TraitManager.",
-            "- Raised 'too many photos' from 35 to 45.",
-            "- Raised 'too many videos' from 15 to 30.",
-            "- Girl ratings now check image aspect ratios rather than exact dimensions.",
-            "- Fixed temporary stat changes not working for area sensitivity i.e 'ass_sensitivity'.",
-            "- Added 'webm_tags_for_girls_to_ignore' for GirlRatings clarity.",
-            "- Renamed 'actions_already_done' for home visits to 'actions_already_done_home_visit' since the former is now used for other locations.",
-            "- Allowed modding in new fullbody image keys and requirements. See 'game/scripts/databases/fullbody_image_tags_ren.py' for more details.",
-            "- Added 'database_webm_inclusive_trait_tag_mapping' where you can tag certain traits to add multiple tags i.e 'big_boobs_fake' will also add 'big_boobs' as tag.",
-            "- Added support for static images to be shown like videos, these images should be tagged the same as the videos and be put into an 'action_videos' folder within the girl folder.",
-            "- Added 'force_orgasm' argument to most generic actions. It forces the target girl to cum if she didn't already.",
-            "- Added 'add_to_trait_influences_to_entries' utility function, allows applying 'trait influences' to multiple entries at once.",
-            "- Added 'insert_dict_entry_at_index' and 'add_or_merge_entry' utility functions. Can be used to help add new dialogue/descriptions or adjectives.",
-            "- Changed how home visit actions are tracked to function more closely to other locations. Mods might been to be update their requirements for this i.e 'my_action' not in actions_already_done -> 'my_action' not in actions_already_done[girl.id].",
-            "- Added clothing tag 'non_school' and 'non_work' to prevent girls from wearing it to school/work.",
-            "- Added support for modding in different event type 'girl lists'. i.e 'shoot' event types using the girls in the shoot.",
-            "- Added support for 'female_orgasm' which will play over 'orgasm' if person doing the action is another girl.",
-            "- 'caught cheating' event now pulls its options from several databases allowing users to mod in new options."
+        "- Added 'flash_boobs' and 'flash_pussy' main tags for videos, these are used during walks in various locations.",
+        "- Changed beach, park and pier 'flash_ass' videos now picks a random flash video based on which the girl has allow any type of flashing to be used.",
+        "- Added pre-game hooks, these will be run when a new game is started. Should be appended 'database_pre_game_hooks' i.e database_pre_game_hooks.append('my_label') or database_pre_game_hooks.append(my_func)",
+        "- Added post-settings hooks, these will be run when the player closes the setting screen. Should be appended 'database_post_settings_hooks' i.e database_post_settings_hooks.append('my_label') or database_post_settings_hooks.append(my_func)",
+        "- Added girl-enroll hooks, these functions will be run when a girl enrolls ONLY APPEND FUNCTIONS, NO LABELS. Functions should be appended to 'database_girl_enroll_hooks' i.e database_girl_enroll_hooks.append(my_func) and are given 'girl' as an argument.",
+        "- Added 'database_girl_enter_location_hooks', these functions will be run when a girl enrolls ONLY APPEND FUNCTIONS, NO LABELS. Functions should be appended to 'database_girl_enroll_hooks' i.e database_girl_enroll_hooks.append(my_func). Functions are passed 'girl' and 'girl_list_variable' as arguments.",
+        "- Added choice option tooltip support using '|' as a separator, it follows caption|unavailable|available format. i.e 'Attend PTA Meeting|Can only attend on Saturday mornings.|PTA meeting is starting.'",
+        "- Added 'filter_requirements' to ExamAction and SexAction. These options won't show up if the requirements are met.",
+        "- Added 'filter_requirements' to Subject and HomeworkSubject classes. These options won't show up if the requirements are met.",
+        "- Added 'weekly_class_limit' to Subject class which dictates how many times per week the subject can be taught.",
+        "- Subject 'requirements' and 'filter_requirements' are now passed which class is being checked. i.e 'player'.",
+        "- Added 'shower' to 'valid_webm_sub_tags' to avoid false positive errors.",
+        "- Added warnings to girl ratings if the config has multiple participant ids but isn't shared.",
+        "- Added 'get_item_from_inventory' method to Player class.",
+        "- When calling mother about home visits she is now 'selected_girl', it reverts back to daughter during home visits(until home visit rework).",
+        "- Renamed Sponsor 'contract_requirement_description' to 'contract_requirements_description'.",
+        "- Added 'girl_requirements' to hang out locations and girl jobs. This means you can limit which girls can hang out and work at locations.",
+        "- Girl 'get_current_job', 'is_currently_at_work' and 'get_job_title' now pull information from 'database_job_and_work_hours' to allow modding new ones in.",
+        "- Added 'invitable_girls' option to 'database_hang_out_locations' to assign which types can be invited to a location. Defaults to 'possible_girls'.",
+        "- Allowed modding in new cum targets using 'database_cum_targets'.",
+        "- Allowed modding in cum target replacements using 'database_cum_target_replacements'. This could be used for 'trans' character support.",
+        "- Added 'replace_variables_in_text' function which can be used to replace global variables in a string. It can also take 'additional_context' to fill in other variables.",
+        "- Added min and max attributes to ExamAction class. To allow influencing success and report chances as well as pressure and arousal impacts using them. See 'game/scripts/main_classes/exam/class_exam_action_ren.py' for more details.",
+        "- Event participant_id changes: 'secretary' to 'academy_secretary', 'auxiliary_teacher' to 'teacher'. The now support any new jobs but using their 'job_name' specified in 'game/scripts/databases/girl_jobs_database_ren.py'.",
+        "- 'database_map_locations' now supports callable functions for 'available_tooltip', 'unavailable_tooltip' and 'unavailable_notification'.",
+        "- 'database_navigation_girl_previews' now supports 'column_count' to specify how many columns can be used for preview images.",
+        "- Added custom invite labels, requirements and invitable girls support for hang out locations.",
+        "- Added 'show boobs', 'play with ass' and various fisting actions as shoot tags. ",
+        "- Added 'force_move' argument to 'move_girl_to_location' function, which will move the girl to a random index if none are available.",
+        "- Added callable function support for ExamAction 'requirements' and 'filter_requirements'.",
+        "- Added callable function support for map navigation 'tooltip'.",
+        "- Added 'database_office_hud_girls' to allow adding to which girls are visible when in your office.",
+        "- Added 'database_upgrade_options' to allow adding new upgradable locations.",
+        "- Added 'perm_shoot_cost_multiplier' to permanently reduce money cost of shoots.",
+        "- Added 'perm_max_shoot_willingness_bonus' to permanently increase the max willingness a girl can have for a shoot.",
+        "- Added 'perm_shoot_willingness_cost_multiplier' to permanently reduce willingness cost of shoots.",
+        "- Added support for adding new faculty positions.",
+        "- Added support for adding new academy locations.",
+        "- Added 'temp_available_shoot_girls' which will limit which girls can be selected for shoots. i.e temp_available_shoot_girls = ['riley_reid', 'mia_malkova']",
+        "- Added 'temp_skip_shoot_intro_and_outro' which skips shoot 'fluff' intros and outros.",
+        "- Added 'temp_shoot_payment_skipped' which allows bypassing payment for shoots.",
+        "- Added 'temp_shoot_forced_acceptance' which allows forcing a girls acceptance for the shoot.",
+        "- Added 'temp_shoot_willingness_cost_multiplier' which can be used to increase or decrease the willingness cost for the shoot.",
+        "- Added 'database_modify_stat_calculations' which controls the final amount applied to the girl when 'modify_stat' is called.",
+        "- Renamed 'remove_girl_from_class' to 'remove_girl_from_exam' to avoid duplicate names.",
+        "- Acceptance calculations now support 'reputation' as a requirement which checks the player reputation.",
+        "- Added 'choices_are_functions' to 'confirm_user_choice' screen, if True it expects functions not labels.",
+        "- Added 'database_daily_updates' and 'database_weekly_updates' to mark functions for daily/weekly running."
         ]
     }
 }
