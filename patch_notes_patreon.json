@@ -1,4 +1,18 @@
 {
+    "0.45a": {
+        "Changes": [
+            "- Stats no longer show factors in their tooltip if there are none.",
+            "- Rewrote how tooltip height is calculated."
+        ],
+        "Fixes": [
+            "- Fixed errors when selecting 'extra_money_choices' during 'office_event_student_wants_extra_money' event.",
+            "- 'remove_working_girls_from_locations' is now called before showing map and academy locations to make sure working girls aren't duplicated.",
+            "- Moved coffee shop 'leave because its late' check above the blocking name check, to prevent saying girls are blocking first.",
+            "- Removed 'view upgrades' text from tooltips which shouldn't have it.",
+            "- MotherManager 'generate_mother' now has 'force_generate' default to True to avoid instances where girls generate without a mother.",
+            "- 'late_leave_for_home' now sets 'global_current_location_label' to 'home' to avoid infinite loops when waiting within mall locations past closing time."
+        ]
+    },
     "0.45": {
         "Added": [
         "- Added 'training' for faculty and staff aka homework for alumni.",
