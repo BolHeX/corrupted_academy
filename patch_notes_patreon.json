@@ -1,4 +1,16 @@
 {
+    "0.451a": {
+        "Changes": [
+            "- 'choose_clothing' now chooses the most likely to be worn clothing based on 'wear_chance' but checks all clothing before picking."
+        ],
+        "Fixes": [
+            "- Fixed 'story_event_unlock_upgrades' referring to 0 alumni joining.",
+            "- 'show_specific_sponsor_menu' now clears 'selected_girl' to prevent potential errors.",
+            "- Fixed discipline increasing chance to break rules in 'try_break_clothing_rule' calculation.",
+            "- Fixed lewdness delta not being calculated correctly for allowed clothing items.",
+            "- Fixed 'show_bar' not taking blocking girls into account."
+        ]
+    },
     "0.451": {
         "Added": [
             "- Added new 'rule_uniform_home_confiscation' as prerequisite to confiscating clothing during home visits.",
