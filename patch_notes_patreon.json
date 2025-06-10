@@ -1,4 +1,36 @@
 {
+    "0.451": {
+        "Added": [
+            "- Added new 'rule_uniform_home_confiscation' as prerequisite to confiscating clothing during home visits.",
+            "- Added inviting mothers to academy bathroom and clinic.",
+            "- Added setting to control the number of sponsor calls per day, defaults to 1."
+        ],
+        "Changes": [
+            "- 'get_exam_action_report_chance' double clamps the report chance to make sure its between min and max.",
+            "- Reworked academy navigation images and positioning.",
+            "- Mothers will now also try to buy uniform items daily.",
+            "- Rebalanced nurse and maid clothing values, to allow girls more easily purchasing them as part of uniform.",
+            "- Girls now spend a larger portion of their clothing allowance on uniform items.",
+            "- 'home_visit_discuss_daughter_confiscate_clothing' is now limited to confiscatable clothing types.",
+            "- Removed info buttons from home visit call menu, clicking portraits still shows info."
+        ],
+        "Fixes": [
+            "- Fixed 'sex_interaction' and 'blowjob' acceptance calculations being incorrect.",
+            "- Fixed 'debug_add_clothing' counting as stealing it from girls.",
+            "- Added missing 'forbidable_clothing_types' to uniform lewdness rules.",
+            "- Fixed 'none' clothing type not appearing as a uniform option when it should.",
+            "- Fixed error when trying to confiscate or steal clothing from lockers if the owner has a buttplug punishment.",
+            "- Fixed 'phone' image not showing at certain times when calling girl/mother.",
+            "- Fixed colour code error when selecting uniform items which cannot be purchased.",
+            "- Fixed office HUD button tooltips showing variables rather than filling them in.",
+            "- Fixed possible 'infinite' loops when running pop up functions.",
+            "- Fixed girls not correctly being unassigned from faculty roles when deleted.",
+            "- Fixed 'home_visit_discuss_daughter_confiscate_clothing' using punishment uniform for its 'allowed' check.",
+            "- Fixed various issued related to outfit generation.",
+            "- Fixed faculty ignoring set uniform.",
+            "- Fixed rules and upgrades not having their effects cleared correctly when starting new game+"
+        ]
+    },
     "0.45a": {
         "Changes": [
             "- Stats no longer show factors in their tooltip if there are none.",
