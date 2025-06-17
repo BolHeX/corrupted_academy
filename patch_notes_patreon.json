@@ -1,4 +1,17 @@
 {
+    "0.452b": {
+        "Added": [
+            "- Added tooltip to uniform selection screen to explain what clothing lewdness and protection does."
+        ],
+        "Changes": [
+            "- Made clothing protection visible on uniform selection screen.",
+            "- Improved clarity of tooltips on uniform selection screen."
+        ],
+        "Fixes": [
+            "- Fixed 'selected_girl' clearing before the end of home visits.",
+            "- Fixed error about Trait 'requirements_description' for girls with custom traits."
+        ]
+    },
     "0.452a": {
         "Changes": [
             "- Increased patch note frame size to improve readability."
