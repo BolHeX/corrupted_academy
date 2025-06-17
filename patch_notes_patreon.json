@@ -1,4 +1,78 @@
 {
+    "0.452": {
+        "Added": [
+            "- Added unavailable tooltip to calling girls into office and clinic.",
+            "- Added gameplay option to allow girls to get bored of repeating the same action.",
+            "- Added gameplay option to scale exam impacts based on how long until that action becomes tolerated.",
+            "- Added gameplay option and sliders(to PC) to scale exam impacts on the rest of the class.",
+            "- Added flash boobs, ass and pussy as teaching assistant actions.",
+            "- Added new event where girls can flash various parts during exam.",
+            "- Added 'requirements_description' to Trait class.",
+            "- Added new descriptions for stripping actions, including 'negative' ones."
+        ],
+        "Changes": [
+            "- With 'prioritize_daughter_assignment_order' set to True 'get_daughter_ids_and_mother_configs' now only returns the best mother for a girl unless the girl is already taken.",
+            "- Changed trait colours in menus to an outline to improve readability.",
+            "- Limited some office events until after class to avoid missing class.",
+            "- Allowed mothers to be assigned as bartenders.",
+            "- Disabled showing damaged clothing images until it is working correctly.",
+            "- Estimated grade and stat changes now take multipliers into account.",
+            "- Reduced 'onepiece_swimsuit' lewdness from 12 to 8.",
+            "- 'onepiece_swimsuit' now blocks wearing bra and panties.",
+            "- EventManager 'should_do_event' now uses a divider to normalize chance to happen based on the number of events of that name are being checked.",
+            "- Reduced 'grope_pussy' other girls corruption from (250, 750) to (125, 375). To bring it in line with other actions.",
+            "- Increased needed corruption + naturism for max lewdness clothing from 120 to 160.",
+            "- ExamAction and SexAction now inherit from the new Action class to reduce repeated code.",
+            "- Minor rebalance to arousal and pressure gains of most actions, mainly to other girls in interaction.",
+            "- Rebalanced 'tease_upper' and 'tease_lower' impacts and events that use them.",
+            "- Rebalanced 'flash' action impacts.",
+            "- Added 'masturbate' action impacts and made use in various locations with that action.",
+            "- Allowed inviting mothers to academy cafeteria and locker room.",
+            "- 'rule_photo_club_facility' no longer needs alumni to be voted in but does require the dedicated shoot facility.",
+            "- Renamed 'sex_action_blowjob' to avoid long name.",
+            "- Uniform selection screen now scales clothing item name size if too long.",
+            "- Rewrote exam 'tease' event options to avoid repeated code.",
+            "- SponsorRequest now skips 'non_gen' tagged clothing to avoid 60+ lewdness requests.",
+            "- Improved exam subject selection to better communicate which subjects have been taught."
+        ],
+        "Fixes": [
+            "- Fixed 'fix_buttplug_vibration_levels' resetting girls buttplugs on reload.",
+            "- Fixed error when 'show images' is enabled in gameplay settings.",
+            "- Fixed possible error with 'get_girls_and_event_locations' checking for girls who aren't in the academy/don't exist.",
+            "- Fixed error when trying to insert buttplugs.",
+            "- Fixed weird pause if is no video for action is found and descriptions and responses are skipped.",
+            "- Fixed trait section being limited to small vertical section in girl review menu.",
+            "- Fixed girls always refusing to do shoots caused by shoot assistant additions.",
+            "- Fixed thirdparty tags not being added to sex interactions until first video plays.",
+            "- Fixed calling girls into your office or the clinic not doing anything.",
+            "- Fixed unassigned girls from jobs not actually unassigning them.",
+            "- Fixed an extra subject being marked as taught each day.",
+            "- Fixed 'get_daughter_ids_and_mother_configs' not taking pending girls into account.",
+            "- Fixed 'get_estimated_days_to_finish_shoot' giving incorrect estimates if all files are unlocked.",
+            "- Fixed invalid shoots not being cleared from passive shoot list when girls are removed.",
+            "- 'sex_interaction_clear' now also clears 'selected_girl'.",
+            "- Fixed 'choose_clothing' only using first fallback list if its for work.",
+            "- Fixed girls getting rule breaks when skipping and item if it is blocked by an allowed clothing.",
+            "- ClothingManager 'wear_clothing_with_tags' now uses 'choose_clothing' to try match clothing with girls lewdness comfortability.",
+            "- Fixed errors due to mothers not having homework related attributes.",
+            "- Fixed final grade target disappearing once a girls grades pass it.",
+            "- Fixed uniform sets being reset when confiscating clothing at home or stealing from lockers.",
+            "- Fixed 'sex_interaction_clear' causing errors at the end of home visits.",
+            "- Fixed 'unlock_requirements' and 'visit_requirements' for girl previews not matching defaults for map locations.",
+            "- Fixed office girl hud showing at the end of home visits.",
+            "- Fixed teachers lounge middleground being displayed incorrectly if no teachers are assigned.",
+            "- Fixed two descriptions showing during in 'generic_action_strip_clothing'.",
+            "- Fixed not being able to stop interacting with girls during 'tease' events if the player wasn't initially forced to interact with her(based on arousal)."
+        ],
+        "Modding Changes": [
+            "- Added 'daily_action_tracker' to girls and mothers which tracks the number of times an action has been performed that day.",
+            "- Added 'database_new_game_plus_hooks', you can add functions to be run when a new game plus is started i.e resetting variables.",
+            "- Added 'sex' video sub tag for when a video is going to be played during sex interactions.",
+            "- Added 'student' video sub tag to girls who aren't mothers or alumni.",
+            "- Renamed 'scale_impacts' to 'scale_impacts_to_player_force' for clarity.",
+            "- Renamed Event 'start_sex_interaction' argument from 'additional_sub_tags' to 'additional_subtags' for consistency."
+        ]
+    },
     "0.451a": {
         "Changes": [
             "- 'choose_clothing' now chooses the most likely to be worn clothing based on 'wear_chance' but checks all clothing before picking."
