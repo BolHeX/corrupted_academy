@@ -1,4 +1,9 @@
 {
+    "0.452c": {
+        "Fixes": [
+            "- Fixed videos being filtered out by WebmHelper when they shouldn't."
+        ]
+    },
     "0.452b": {
         "Added": [
             "- Added tooltip to uniform selection screen to explain what clothing lewdness and protection does."
