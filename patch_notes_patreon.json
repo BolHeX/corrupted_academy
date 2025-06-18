@@ -1,4 +1,9 @@
 {
+    "0.452d": {
+        "Fixes": [
+            "- Fixed error when ending home visit sex interactions due to 'selected_girl' being cleared."
+        ]
+    },
     "0.452c": {
         "Fixes": [
             "- Fixed videos being filtered out by WebmHelper when they shouldn't."
