@@ -1,4 +1,37 @@
 {
+    "0.453": {
+        "Added": [
+            "- Added grace period tooltips to various grade checks.",
+            "- The game now remembers if you assistant was helping or teaching from the last class."
+        ],
+        "Changes": [
+            "- Moved 'strip_naked' action from 'rule_free_use_law_2' tolerated_actions to 'rule_free_use_law_3'",
+            "- Added 'tease_lower', 'tease_upper' and 'flash_boobs' actions to 'rule_free_use_law_2' tolerated_actions.",
+            "- Added 'flash_ass' and 'flash_pussy' actions to 'rule_free_use_law_3' tolerated_actions.",
+            "- Event categories on the 'modify_events_menu' are now foldable elements.",
+            "- Webm 'girl_id_tags' now supports prefixes and suffixes.",
+            "- Webm review menu now shows 'girl' tags as a separate list.",
+            "- Changed 'max_sponsor_calls_per_day' to 'sponsor_calls_per_level' to allow more progression.",
+            "- Improved Event 'get_event_tooltip' cooldown lines for participant cooldowns.",
+            "- Rebalanced during exam event cooldowns since the cooldown checks now work correctly."
+        ],
+        "Fixes": [
+            "- Fixed 'exam_action_progressive_impacts' applying outside of exam actions.",
+            "- Fixed sorting clothing collection now working when selected category is 'all'.",
+            "- Added some additional checks to make sure label 'returns' are correct before trying to use them.",
+            "- Fixed WebmHelper '_get_match_rating' checking 'girl_id_tags' as part of normal sub tags.",
+            "- Fixed girl 'active_homework_subject' not clearing when girl passes, leaves school or is expelled.",
+            "- Fixed 'generate_girls_in_class' possibly assigning the same girl twice.",
+            "- Fixed 'player_weekly_wages' showing $0 bonuses.",
+            "- Fixed exam intro underwear inspection incorrectly saying the girl is being punished.",
+            "- Fixed Event 'get_remaining_cooldown' and 'is_off_cooldown' methods returning incorrectly for participant cooldowns.",
+            "- Fixed girl getting redressed before outro lines after shoots.",
+            "- Fixed 'girl_review_menu' possibly selecting cum covered face images."
+        ],
+        "Modding Changes": [
+            "- Girl and Mother managers now only check specific folders for configs. If your mods are not in '_mods/girls/' or '_mods/mothers' they will NOT be loaded."
+        ]
+    },
     "0.452d": {
         "Fixes": [
             "- Fixed error when ending home visit sex interactions due to 'selected_girl' being cleared."
