@@ -1,4 +1,9 @@
 {
+    "0.453a": {
+        "Fixed": [
+            "- Fixed error when generating classes if you have other teachers."
+        ]
+    },
     "0.453": {
         "MAJOR UPDATE - REQUIRES FULL DOWNLOAD": [],
         "Added": [
