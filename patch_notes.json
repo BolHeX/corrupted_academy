@@ -1,4 +1,9 @@
 {
+    "0.453b": {
+        "Fixed": [
+            "- Fixed error about missing 'requested_amount' attribute from SponsorRequests. Likely caused by removing mods."
+        ]
+    },
     "0.453a": {
         "Fixed": [
             "- Fixed error when generating classes if you have other teachers."
