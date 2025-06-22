@@ -1,4 +1,10 @@
 {
+    "0.453c": {
+        "Fixed": [
+            "- Fixed error when trying confiscate clothing during home visits.",
+            "- Corrected compatibility update function to fix missing 'requested_amount' errors."
+        ]
+    },
     "0.453b": {
         "Fixed": [
             "- Fixed error about missing 'requested_amount' attribute from SponsorRequests. Likely caused by removing mods."
