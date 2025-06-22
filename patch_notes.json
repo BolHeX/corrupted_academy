@@ -1,4 +1,9 @@
 {
+    "0.453e": {
+        "Fixed": [
+            "- Fixed 'generate_girls_in_class' not generating classes for other teachers correctly."
+        ]
+    },
     "0.453d": {
         "Fixed": [
             "- Fixed mothers giving warning during first week of joining because of 'is_during_grade_grace_period' returning incorrectly."
