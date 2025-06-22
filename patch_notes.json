@@ -1,4 +1,9 @@
 {
+    "0.453d": {
+        "Fixed": [
+            "- Fixed mothers giving warning during first week of joining because of 'is_during_grade_grace_period' returning incorrectly."
+        ]
+    },
     "0.453c": {
         "Fixed": [
             "- Fixed error when trying confiscate clothing during home visits.",
