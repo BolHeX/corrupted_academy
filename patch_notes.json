@@ -4,7 +4,7 @@
             "- 'get_daughter_ids_and_mother_configs' now takes loaded girl ids into account while 'prioritize_daughter_assignment_order' is active."
         ],
         "Fixed": [
-            "- Fixed being able to go into shoot studio before passing it's rules.",
+            "- Fixed being able to go into shoot studio before passing rules.",
             "- Fixed game lock up when interacting with a girl at the coffee shop when it closes.",
             "- Fixed traits section over flowing on shoot studio screen.",
             "- Added missing from clauses from 'calls'"
