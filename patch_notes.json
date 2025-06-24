@@ -24,7 +24,7 @@
         ],
         "Modding Changes": [
             "- Added 'stat_limits' attribute to Girl class, it limits the level a stat can be increased to. Defaults to 100",
-            "- '{stat_name}_limit' can be used in Trait and GirlConfig 'base_stat_modifiers' to increase or decrease stat limit."
+            "- Trait and GirlConfig 'base_stat_modifiers' can increase or decrease stat limit by using 'STATNAME_limit' i.e 'corruption_limit'"
         ]
     },
     "0.453f": {
