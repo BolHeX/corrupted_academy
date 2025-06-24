@@ -1,4 +1,9 @@
 {
+    "0.454a": {
+        "Fixed": [
+            "- Fixed 'get_valid_events' returning incorrect participants for events."
+        ]
+    },
     "0.454": {
         "Added": [
             "- Added more tooltips to various dialogue options.",
