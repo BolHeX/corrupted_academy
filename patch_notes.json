@@ -1,4 +1,32 @@
 {
+    "0.454": {
+        "Added": [
+            "- Added more tooltips to various dialogue options.",
+            "- Added stairs buttons to take you between academy floors."
+        ],
+        "Changes": [
+            "- Removed red 'Cant be upgraded' text from locations in the academy.",
+            "- Closing academy navigation menu from locations where you shouldn't be will kick you out in your office.",
+            "- 'modify_events_menu' now shows if the cooldown slider is in minutes or days.",
+            "- Girl 'available_for_event' ignores 'event_manager.same_participant_cooldown' for during exam events.",
+            "- Event cooldown checks return True if remaining cooldown is <= cooldown rather than < cooldown."
+        ],
+        "Fixes": [
+            "- Added additional error catching to 'color_text' and 'get_color_based_on_value' functions.",
+            "- Corrected requirement descriptions of various academy upgrades.",
+            "- 'update_exam_schedule' now clears old/invalid classes from 'exam_schedule'.",
+            "- Fixed 'generic_action_blowjob' skip descriptions if the girl or player cum.",
+            "- Fixed weirdness with shoot assistant passively unlocking shoot items.",
+            "- Fixed event 'chance to happen' weirdness on the 'modify_events_menu' screen.",
+            "- Fixed disabling an event causing event category to empty.",
+            "- EventManager 'update_events' now set 'chance_to_happen' to the old events chance to happen rather than checking defaults first. To avoid values not saving in weird circumstances.",
+            "- Fixed EventManager 'get_valid_events' not returning correct participants for generic events."
+        ],
+        "Modding Changes": [
+            "- Added 'stat_limits' attribute to Girl class, it limits the level a stat can be increased to. Defaults to 100",
+            "- '{stat_name}_limit' can be used in Trait and GirlConfig 'base_stat_modifiers' to increase or decrease stat limit."
+        ]
+    },
     "0.453f": {
         "Changes": [
             "- 'get_daughter_ids_and_mother_configs' now takes loaded girl ids into account while 'prioritize_daughter_assignment_order' is active."
