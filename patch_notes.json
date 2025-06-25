@@ -1,4 +1,17 @@
 {
+    "0.454b": {
+        "Changes": [
+            "- Changed 'girl_review_menu' sort by menu to now a drop down.",
+            "- Trait 'get_description' now also joins rule and action names into single lines to avoid long vertical lists."
+        ],
+        "Fixed": [
+            "- Fixed error in 'database_academy_navigation_options' requirements.",
+            "- Added check to make sure 'scheduled_faculty' exists before trying to maintain them.",
+            "- Fixed 'generic_action_player_choose_cum_target' not passing 'additional_context' when checking requirements.",
+            "- Fixed freeze when exiting locker room or bathroom.",
+            "- Fixed 'show_girl_review_menu' not sorting based on last selected option."
+        ]
+    },
     "0.454a": {
         "Fixed": [
             "- Fixed 'get_valid_events' returning incorrect participants for events."
