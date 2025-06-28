@@ -1,4 +1,22 @@
 {
+    "0.455": {
+        "Added":[
+            "- Added text on how to add shoots for passive complete queue.",
+            "- Added 'allowance multiplier' column to exam action tooltips.",
+            "- Added default body images for asian, latina and black girls."
+        ],
+        "Changes":[
+            "- Added 'give_hint' to 'rule_free_use_law_1' to avoid its values being reduced by 'exam_action_progressive_impacts'.",
+            "- Added 'kiss' to 'rule_free_use_law_3' to avoid its values being reduced by 'exam_action_progressive_impacts'.",
+            "- Added value rounding to 'get_stat_growth_multiplier_for_stat'."
+        ],
+        "Fixes":[
+            "- Fixed 'lotion_rub' video not playing when girl's acceptance was 40+",
+            "- Fixed 'generate_girls_in_class' not taking girls assigned to other classes into account.",
+            "- Fixed 'filter_shoots_by_search_term' not using all shoots if only filter terms are given. i.e 'l: 10-20'",
+            "- Fixed exam intro underwear inspection thinking 'none' means required bra or panties."
+        ]
+    },
     "0.454b": {
         "Changes": [
             "- Changed 'girl_review_menu' sort by menu to now a drop down.",
