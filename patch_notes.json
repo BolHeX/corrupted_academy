@@ -1,4 +1,9 @@
 {
+    "0.455b": {
+        "Fixes":[
+            "- Fixed error checking girl traits and none are set in the config."
+        ]
+    },
     "0.455a": {
         "Fixes":[
             "- Fixed error when generating classes and no girls are available to be chosen."
