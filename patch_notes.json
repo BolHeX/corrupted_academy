@@ -1,4 +1,26 @@
 {
+    "0.455c": {
+        "Added":[
+            "- Added Android compatibility code to 'get_matching_files'."
+        ],
+        "Changes":[
+            "- Disabled GirlRating generation on Android to avoid errors.",
+            "- Moving between academy locations now only passes 1 minute rather than 5.",
+            "- Girl 'weekly_class_count' gets reset when sleeping on Friday.",
+            "- ClothingManager 'purchase_new_clothing' now skips lewdness comfort check for uniform items. "
+
+        ],
+        "Fixes":[
+            "- Fixed girl grade markers showing after becoming alumni.",
+            "- Fixed 'generate_girls_in_class' randomizing scheduled girls for other classes.",
+            "- Made sure 'add_item_to_list' adds to the global variable.",
+            "- Made sure Sponsor 'daily_update' checks global variables for commend limits.",
+            "- Added work check for 'webm_job_tag' in 'determine_sub_tags_from_girl'.",
+            "- Fixed Girl 'get_job_tag' not returning her job tag if she is not at work.",
+            "- Fixed some assigned faculty not being able to do training.",
+            "- Fixed Girl 'get_uniform_tag' not returning in the correct order for punishments and day jobs."
+        ]
+    },
     "0.455b": {
         "Fixes":[
             "- Fixed error checking girl traits and none are set in the config."
