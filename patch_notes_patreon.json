@@ -109,5 +109,25 @@
             "- Added location support for fullbody and body images these are just prioritized for those locations. i.e 'clothed-park' or 'underwear-park,pier'",
             "- Made it easier to add threesome sex actions by letting wrapper labels handle character selection."
         ]
+    },
+    "0.510": {
+        "Added": [
+            "- Added variant for blowjob intro line in the locker room for girls not in the shower.",
+            "- Added 'tenacity' to retry failed downloads."
+        ],
+        "Changes": [
+            "- Set 'autoreload' to False and removed warnings about reloading files.",
+            "- Changed intro naturism strings to show its what she prefers.",
+            "- Mods with requirements/mod packs now take downloading and installing mods into account."
+        ],
+        "Fixes": [
+            "- Fixed mod manager download progress not being cleared because of float rounding.",
+            "- Hid the 'delete archives' button for mod packs unless you actually have some downloaded archives.",
+            "- Fixed notification inconsistencies.",
+            "- Fixed intro clothing strings missing a space.",
+            "- Mod packs now take installed mods into account to show the 'install' over 'download' button.",
+            "- Fixed 'furry_handcuffs' reducing fear rather than increasing it.",
+            "- Fixed selecting a sponsor item to replace selecting the next item in the list."
+        ]
     }
 }
