@@ -129,5 +129,11 @@
             "- Fixed 'furry_handcuffs' reducing fear rather than increasing it.",
             "- Fixed selecting a sponsor item to replace selecting the next item in the list."
         ]
+    },
+    "0.511": {
+        "Fixes": [
+            "- Added check to prevent 'get_tooltip_height' checking empty text.",
+            "- Fixed error in 'scale_impacts_to_player_force' when assistant performs actions."
+        ]
     }
 }
