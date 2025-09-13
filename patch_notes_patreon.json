@@ -135,5 +135,10 @@
             "- Added check to prevent 'get_tooltip_height' checking empty text.",
             "- Fixed error in 'scale_impacts_to_player_force' when assistant performs actions."
         ]
+    },
+    "0.512": {
+        "Fixes": [
+            "- Fixed invalid impact range for 'furry_handcuffs' gift."
+        ]
     }
 }
