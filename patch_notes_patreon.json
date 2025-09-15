@@ -1,6 +1,6 @@
 {
     "0.508": {
-        "Added": [
+        "Additions": [
             "- Added 'auto select' button to sponsor overview menu.",
             "- Added gameplay setting to toggle mothers using the same last name as their daughter.",
             "- Added gameplay setting to toggle mothers ignoring race mismatches for daughters.",
@@ -111,7 +111,7 @@
         ]
     },
     "0.510": {
-        "Added": [
+        "Additions": [
             "- Added variant for blowjob intro line in the locker room for girls not in the shower.",
             "- Added 'tenacity' to retry failed downloads."
         ],
@@ -139,6 +139,17 @@
     "0.512": {
         "Fixes": [
             "- Fixed invalid impact range for 'furry_handcuffs' gift."
+        ]
+    },
+    "0.513": {
+        "Changes": [
+            "- Highlighted required mods when not installed.",
+            "- Added new exit button to locations.",
+            "- Slightly increased tooltip xmaximum, to avoid 'allowance multipliers' being on a new row."
+        ],
+        "Fixes": [
+            "- Hid 'content_breakdown' for mods where it shouldn't be visible.",
+            "- Fixed girls not leaving exam when they should."
         ]
     }
 }
