@@ -1,4 +1,27 @@
 {
+    "0.514": {
+        "Changes": [
+            "- 'modify_events_menu' now separates events by type.",
+            "- Added white text to back button.",
+            "- Added tooltips to why academy shortcuts are unavailable.",
+            "- Events where a girl masturbates now has her 'cum' method called so it is tracked and cum is added to her clothing.",
+            "- 'bathroom_masturbation_tips' now has her 'cum' method called so it is tracked and cum is added to her clothing.",
+            "- Added trans character support to 'sexual favor' menu options.",
+            "- Added special dialogue if girl isn't wearing underwear after 'home_visit_discuss_daughter_sexual_favor_strip_naked'."
+        ],
+        "Fixes": [
+            "- Fixed not being able to load saves when in offline mode because the game things there is a hotfix.",
+            "- Fixed cum covered image variants not being generated correctly.",
+            "- Fixed academy shortcuts using text meant to be tooltips.",
+            "- Fixed uniform rule breaks not being added when 'bikini' clothing blocks layers.",
+            "- Made sure 'force_start_event' clears participants before deepcopy for performance."
+        ],
+        "Modding Changes": [
+            "- Added filter requirement support to tease, masturbate and cheating exam events.",
+            "- Added 'database_valid_webm_main_tags' and 'database_valid_webm_sub_tags' where modders can add their tags to the valid tag lists.",
+            "- Added 'force_generic_event' method EventManager to test generic events more easily. Takes 'event_id' and 'participant_ids' as arguments."
+        ]
+    },
     "0.513": {
         "Changes": [
             "- Highlighted required mods when not installed.",
