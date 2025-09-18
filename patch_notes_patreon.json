@@ -1,4 +1,11 @@
 {
+    "0.515": {
+        "Fixes": [
+            "- Added error catching for syntax errors in 'get_tooltip_height'.",
+            "- '_run_install_mod' no longer deletes archives when the install fails.",
+            "- '_handle_mod_unzipping' now deletes partial installs if it fails."
+        ]
+    },
     "0.514": {
         "Changes": [
             "- 'modify_events_menu' now separates events by type.",
