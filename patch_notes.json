@@ -1,4 +1,11 @@
 {
+    "0.519": {
+        "Fixes": [
+            "- Added missing 'discovery_requirements' attribute to Traits.",
+            "- Added 'lesson_traits' to list of attributes to update for HomeworkSubjects.",
+            "- Fixed possible errors caused by girls updating after '_run_after_load_updates' is ran."
+        ]
+    },
     "0.518": {
         "Fixes": [
             "- Fixed missing 'unavailable_for_calls' attribute when loading a save."
