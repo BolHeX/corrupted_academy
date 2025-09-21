@@ -1,4 +1,9 @@
 {
+    "0.518": {
+        "Fixes": [
+            "- Fixed missing 'unavailable_for_calls' attribute when loading a save."
+        ]
+    },
     "0.517": {
         "Additions": [
             "- Added warning that you are filtering by a specific mod to mod manager."
