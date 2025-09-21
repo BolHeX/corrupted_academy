@@ -1,4 +1,12 @@
 {
+    "0.517": {
+        "Additions": [
+            "- Added warning that you are filtering by a specific mod to mod manager."
+        ],
+        "Fixes": [
+            "- Fixed error during home visits with events because 'selected_girl' is cleared."
+        ]
+    },
     "0.516": {
         "Changes": [
             "- Changed GirlManager 'blacklisted_girls' to a list of girl ids rather than actual objects."
