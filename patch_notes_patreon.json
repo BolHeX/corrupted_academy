@@ -1,4 +1,23 @@
 {
+    "0.516": {
+        "Changes": [
+            "- Changed GirlManager 'blacklisted_girls' to a list of girl ids rather than actual objects."
+        ],
+        "Fixes": [
+            " - '_generate_save_error_prevention_file' now correctly generates missing classes and functions.",
+            "- Added extra check to prevent events adding their directory path to files that already have it.",
+            "- Fixed performance issue when removing girls from locations.",
+            "- 'uninstall_mod' now checks if mod is installed before trying to uninstall.",
+            "- Fixed 'install_missing_requirements' trying to install already installed mods."
+        ],
+        "Modding Changes": [
+            "- Added 'unavailable_hangout_locations' attribute to girls, can be used to limit where girls can hang out.",
+            "- Added 'unavailable_for_class' attribute to girls, can be used to prevent them from going to classes.",
+            "- Added 'unavailable_for_calls' attribute to girls, can be used to prevent being able to call them.",
+            "- Added 'unavailable_at_home' attribute to girls and mothers, can be used to prevent them be seen at home.",
+            "- Added 'discovered' states for traits, along with 'discovery_requirements' and 'undiscovered_description' to allow discovering automatically."
+        ]
+    },
     "0.515": {
         "Fixes": [
             "- Added error catching for syntax errors in 'get_tooltip_height'.",
