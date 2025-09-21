@@ -1,4 +1,9 @@
 {
+    "0.520": {
+        "Fixes": [
+            "- Fixed generic mothers not updating after game loads."
+        ]
+    },
     "0.519": {
         "Fixes": [
             "- Added missing 'discovery_requirements' attribute to Traits.",
