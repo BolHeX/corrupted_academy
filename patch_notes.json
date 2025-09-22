@@ -1,4 +1,9 @@
 {
+    "0.522": {
+        "Fixes": [
+            "- Fixed identifier error when generating clothing images."
+        ]
+    },
     "0.521": {
         "Additions": [
             "- Added 'active' mod state filter."
