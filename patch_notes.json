@@ -1,4 +1,16 @@
 {
+    "0.521": {
+        "Additions": [
+            "- Added 'active' mod state filter."
+        ],
+        "Changes": [
+            "- 'run_update_compatibilities' now runs regardless of save version to ensure modded fixes are also run when needed."
+        ],
+        "Fixes": [
+            "- Fixed girl ids being added to loaded girl ids when enabling addon mods.",
+            "- Fixed mod files not being reloaded after updating a mod in certain instances."
+        ]
+    },
     "0.520": {
         "Fixes": [
             "- Fixed generic mothers not updating after game loads."
