@@ -1,4 +1,37 @@
 {
+    "0.524": {
+        "Additions": [
+            "- Added clothing store to mall where you can purchase clothing for girls there.",
+            "- Added selecting groups of clothing on clothing collection menu to sell and/or wash.",
+            "- Added 'cum' sorting options to clothing collection menu.",
+            "- Girls/mothers now mention if they need to leave for work.",
+            "- Added 'lewdness_reversed' sort filter to clothing collection.",
+            "- Added mother assign chance slider to gameplay options."
+        ],
+        "Changes": [
+            "- Made updating trait attributes more future proof when not found in the trait database.",
+            "- Inserting buttplugs now shows if its stolen, part of your collection or in your inventory.",
+            "- ClothingManager 'get_clothing_lewdness_comfortability' now uses 0 as minimum to prevent negative numbers.",
+            "- Added 'blackmarket_sale' argument to Clothing 'get_full_tooltip' method.",
+            "- Clothing 'owner_name' now defaults to an empty string rather than 'Nobody'.",
+            "- Ignoring masturbating girls can now result in them having an orgasm.",
+            "- 'add_clothing_to_wardrobe' now reuses clothing where possible rather than creating a copy of the item, slightly better performance."
+        ],
+        "Fixes": [
+            "- Fixed mod path errors when the game is installed in a folder with 'game' in the path.",
+            "- Fixed removing buttplug during exam events not adding them to your inventory.",
+            "- Fixed line about girls coming to close by secretary.",
+            "- Fixed girls generating 'student' uniforms outside of being at school.",
+            "- Prevented girls at the academy hanging around from generating outfits that could break rules.",
+            "- Fixed phone not hiding when calling a sponsor and not accepting the contract.",
+            "- 'update_girl_jobs' is now run when a save is loaded to ensure girls get jobs assigned to them.",
+            "- Added check in '_process_mod_manifests' to make sure manifest data exists.",
+            "- Fixed event cooldown checks returning completely incorrectly."
+        ],
+        "Modding Changes": [
+            "- Added 'database_apply_action_impacts_hooks' where functions can be run after actions impacts are applied."
+        ]
+    },
     "0.523": {
         "Fixes": [
             "- Fixed discovery related trait attributes not being added to traits not found in the database."
