@@ -1,4 +1,12 @@
 {
+    "0.526": {
+        "Changes": [
+            "- Exam screen remembers the selected girl if you perform an action on your teaching assistant."
+        ],
+        "Fixes": [
+            " -Fixed error when performing an action on your teaching assistant if she is a mother."
+        ]
+    },
     "0.525": {
         "Changes": [
             "- Improved clarity of insert buttplug requirement descriptions."
