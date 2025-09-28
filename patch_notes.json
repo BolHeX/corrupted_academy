@@ -1,4 +1,23 @@
 {
+    "0.527": {
+        "Additions": [
+            "- Added missing dialogue after clothing store clothing selection.",
+            "- Added toggle to filter out unlocked achievements."
+        ],
+        "Changes": [
+            "- Allowed removing buttplugs during sex if the girl is wearing panties.",
+            "- Outfit tags are now only checked once to prevent multiple parts increasing chance to wear that set.",
+            "- Mod installing and archive deleting is now enabled by default.",
+            "- Moved 'girl_media_bonus' and 'used_media_penalty' to gameplay option screen."
+        ],
+        "Fixes": [
+            "- Fixed clothing store costs not resetting.",
+            "- Fixed removing buttplugs during sex causing them not to be added to your inventory.",
+            "- Fixed clothing values not matching tooltips on clothing collection screen.",
+            "- Fixed error when trying to pass rule increasing max pending applications.",
+            "- Fixed 'remove_working_girls_from_locations' being ran during certain instances resulting in girls getting redressed."
+        ]
+    },
     "0.526": {
         "Changes": [
             "- Exam screen remembers the selected girl if you perform an action on your teaching assistant."
