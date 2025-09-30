@@ -1,4 +1,9 @@
 {
+    "0.529": {
+        "Fixes": [
+            "- Fixed error about missing 'ignore_outfit_tag_for_selection' attribute."
+        ]
+    },
     "0.528": {
         "Changes": [
             "- Moved screen refreshing to mod manager screen itself."
