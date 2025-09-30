@@ -1,4 +1,16 @@
 {
+    "0.528": {
+        "Changes": [
+            "- Moved screen refreshing to mod manager screen itself."
+        ],
+        "Fixes": [
+            "- Fixed manifest being constantly checked while certain menus were open.",
+            "- 'handle_required_mods' now counts mods which are being downloaded or installed. Should fix mod lists progress not reaching 100%"
+        ],
+        "Modding Changes": [
+            "- Added 'ignore_outfit_tag_for_selection' argument to Clothing. If True these items are ignored when choosing what outfit tag to try match to. They are still worn if its chosen by other items."
+        ]
+    },
     "0.527": {
         "Additions": [
             "- Added missing dialogue after clothing store clothing selection.",
