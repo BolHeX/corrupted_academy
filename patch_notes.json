@@ -1,5 +1,10 @@
 {
-
+    "0.531": {
+        "Fixes": [
+            "- Fixed shoots not in the 'videoshoots' folder to be tagged as 'photoshoots'",
+            "- Fixed error on mod manager screen because 'all_mod_data' changed size during iteration."
+        ]
+    },
     "0.530": {
         "Additions": [
             "- Added mod archive warning message when opening the game."
