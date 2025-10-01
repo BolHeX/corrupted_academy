@@ -1,4 +1,18 @@
 {
+
+    "0.530": {
+        "Additions": [
+            "- Added mod archive warning message when opening the game."
+        ],
+        "Fixes": [
+            "- Fixed girls not generating custom mothers before 'home_event_bribe_enroll' runs.",
+            "- 'girl_recruitment_menu' now uses a simplified girl rating to improve performance.",
+            "- Added check if shoot path exists before checking its files to GirlRating.",
+            "- Improved performance of mod manager screen by caching mod info.",
+            "- Fixed mod icons on Android/Linux and fixed mod installing on Android.",
+            "- Fixed content not being loaded correctly on Linux because of lowered directory paths."
+        ]
+    },
     "0.529": {
         "Fixes": [
             "- Fixed error about missing 'ignore_outfit_tag_for_selection' attribute."
