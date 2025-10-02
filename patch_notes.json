@@ -1,4 +1,16 @@
 {
+    "0.532": {
+        "Changes": [
+            "- ImageManager '_get_best_image' now adds small penalities to body images with mismatched tags i.e 'cum'/'creampie'. Should improve matching accuracy based on cum coverage.",
+            "- Made 'is_wearing_athletic_outfit' checks more strict to avoid over using those images."
+        ],
+        "Fixes": [
+            "- Fixed action impacts not getting scaled correctly for 'other_girls'.",
+            "- Fixed 'clothing_selection_menu' not sorting clothing by value correctly.",
+            "- Limited clothing name length on 'clothing_selection_menu' to avoid incorrect frame sizes.",
+            "- 'ShootBase' now defaults costs to 100 for shoots missing a cost."
+        ]
+    },
     "0.531": {
         "Fixes": [
             "- Fixed shoots not in the 'videoshoots' folder to be tagged as 'photoshoots'",
