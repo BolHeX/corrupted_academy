@@ -1,4 +1,21 @@
 {
+    "0.5402": {
+        "Changes": [
+            "- Stat multipliers now invert for negative numbers. So girls gain and stat faster and lose it faster or vice versa."
+        ],
+        "Fixes": [
+            "- Fixed error when removing an event using 'remove_event_from_queue'.",
+            "- 'home_event_emergency_funds' now checks available funds before continuing event.",
+            "- Fixed 'modify_stat' and 'scale_impacts_to_girls_growth_multipliers' not applying the same way.",
+            "- 'get_motivation_impact' no longer takes stats other than 'motivation', 'arousal' and 'pressure' into account."
+        ]
+    },
+    "0.5401": {
+        "Fixes": [
+            "- Fixed player 'hand_skill' never leveling. ",
+            "- Fixed generic media always being included in media selection."
+        ]
+    },
     "0.54": {
         "Additions": [
             "- Added searching to wallpaper selection menu.",
