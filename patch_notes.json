@@ -1,4 +1,16 @@
 {
+    "0.5403": {
+        "Additions": [
+            "- Added 'all' as an action name for action multipliers. These bonuses would be added to all actions.",
+            "- Added 'always succeed' gameplay option, if enabled exam actions cannot fail i.e clothing actions."
+        ],
+        "Fixes": [
+            "- Fixed error when girls wear cum covered panties after exams.",
+            "- Fixed chance of girls breaking clothing rules being inverted.",
+            "- Fixed 'temporary_action_multipliers' not being applied correctly.",
+            "- Fixed girls having both 'whore' and 'ultimate_whore' traits at once."
+        ]
+    },
     "0.5402": {
         "Changes": [
             "- Stat multipliers now invert for negative numbers. So girls gain and stat faster and lose it faster or vice versa."
