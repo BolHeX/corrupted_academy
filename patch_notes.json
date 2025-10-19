@@ -1,4 +1,7 @@
 {
+    "0.5404": {
+        "Changes": ["- Band-aid clothing selection changes until rewrite is done at some point."]
+    },
     "0.5403": {
         "Additions": [
             "- Added 'all' as an action name for action multipliers. These bonuses would be added to all actions.",
