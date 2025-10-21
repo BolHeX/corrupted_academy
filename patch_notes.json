@@ -1,4 +1,14 @@
 {
+    "0.5406": {
+        "Changes": [
+            "- Added requirement caching for 'requirements_met'. Thanks to KingTut for code.",
+            "- Added 'get_matching_files' function with improved performance. Thanks to KingTut for code.",
+            "- Changed checks to see if clothing is 'pantyhose'."
+        ],
+        "Fixes": [
+            "- 'event_wrapper' now hides 'phone_screen' when starting even label."
+        ]
+    },
     "0.5405": {
         "Changes": [
             "- Added more checks for tutorials in 'home' label."
