@@ -1,4 +1,13 @@
 {
+    "0.5405": {
+        "Changes": [
+            "- Added more checks for tutorials in 'home' label."
+        ],
+        "Fixes": [
+            "- Fixed error during mother report calls.",
+            "- Added additional error catching to 'event_wrapper'."
+        ]
+    },
     "0.5404": {
         "Changes": ["- Band-aid clothing selection changes until rewrite is done at some point."]
     },
