@@ -1,4 +1,14 @@
 {
+    "0.5408": {
+        "Fixes": [
+            "- Removed improved 'get_matching_files' function until I can diagnose some issues with it."
+        ]
+    },
+    "0.5407": {
+        "Fixes": [
+            "- Fixed removed 'lower' call when adding files to file buckets."
+        ]
+    },
     "0.5406": {
         "Changes": [
             "- Added requirement caching for 'requirements_met'. Thanks to KingTut for code.",
@@ -19,7 +29,9 @@
         ]
     },
     "0.5404": {
-        "Changes": ["- Band-aid clothing selection changes until rewrite is done at some point."]
+        "Changes": [
+            "- Band-aid clothing selection changes until rewrite is done at some point."
+        ]
     },
     "0.5403": {
         "Additions": [
