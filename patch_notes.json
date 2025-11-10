@@ -1,4 +1,9 @@
 {
+    "0.5409": {
+        "Fixes": [
+            "- Removed 'generic' video mod requirement for Android users."
+        ]
+    },
     "0.5408": {
         "Fixes": [
             "- Removed improved 'get_matching_files' function until I can diagnose some issues with it."
