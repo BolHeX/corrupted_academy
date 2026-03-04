@@ -1,4 +1,9 @@
 {
+    "0.5412": {
+        "Fixes": [
+            "- Attempted fix of girls wearing no clothing."
+        ]
+    },
     "0.5411": {
         "Fixes": [
             "- Added .rpyc files for Android users."
@@ -116,7 +121,7 @@
             "- Fixed phone not disappearing after game over scenarios.",
             "- Fixed incorrect lines when cumming on multiple girls at once.",
             "- Fixed event cooldowns 'force to days' being ignored.",
-            "- Added 'strip_shirt' as a recognised media tag.",
+            "- Added 'strip_shirt' as a recognized media tag.",
             "- Made sure shoot cost is an integer for mods which give it as a string.",
             "- Fixed clothing store dialogue trait checking 'girl' rather than 'selected_girl'.",
             "- Simplified '_install_latest_hotfix' and hopefully prevented 'reload' being available before install completes.",
@@ -128,7 +133,7 @@
             "- Centered photo images for images that aren't in 1080p",
             "- Fixed slight button overlap on shoot menu.",
             "- Fixed displayed allowance multipliers not taking whether the girl tolerates the action into account.",
-            "- Training is now unassigned from girls/mothers if they become unassigned from jobs. Prvents spamming notifications but not being able to unassign them.",
+            "- Training is now unassigned from girls/mothers if they become unassigned from jobs. Prevents spamming notifications but not being able to unassign them.",
             "- '_girl_mod_is_installed' now takes installing mods into account.",
             "- Fixed 'other girl' multipliers not being used during exams.",
             "- Fixed mods status not updating when they are installed/uninstalled/cleaned up."
