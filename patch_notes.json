@@ -1,4 +1,9 @@
 {
+    "0.5413": {
+        "Fixes": [
+            "- Fixed duplicate girl/mother mods not being installed as addons."
+        ]
+    },
     "0.5412": {
         "Fixes": [
             "- Attempted fix of girls wearing no clothing."
