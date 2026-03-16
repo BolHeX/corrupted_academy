@@ -1,4 +1,9 @@
 {
+    "0.5414": {
+        "Fixes": [
+            "- Fixed '_girl_mod_is_installed' possibly deleting addons as another instance of a girl mod installing."
+        ]
+    },
     "0.5413": {
         "Fixes": [
             "- Fixed duplicate girl/mother mods not being installed as addons."
