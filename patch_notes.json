@@ -1,4 +1,12 @@
 {
+    "0.5415": {
+        "Additions": [
+            "- Added button to hide quick menu for mobile variants."
+        ],
+        "Fixes": [
+            "- Fixed error when generating events with invalid event types."
+        ]
+    },
     "0.5414": {
         "Fixes": [
             "- Fixed '_girl_mod_is_installed' possibly deleting addons as another instance of a girl mod installing."
