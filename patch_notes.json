@@ -1,4 +1,9 @@
 {
+    "0.5416": {
+        "Fixes": [
+            "- Fixed mothers 'introduction_label' being maintained so incorrect labels could not be patched."
+        ]
+    },
     "0.5415": {
         "Additions": [
             "- Added button to hide quick menu for mobile variants."
