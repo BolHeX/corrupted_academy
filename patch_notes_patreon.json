@@ -2,7 +2,8 @@
     "0.602": {
         "Fixes": [
             "- Fixed Event and ShootBase participants not including pending girls.",
-            "- Fixed error in error printing... by checking if 'additional_context' is None."
+            "- Fixed error in error printing... by checking if 'additional_context' is None.",
+            "- Fixed error when trying to use clothing accessories."
         ]
     },
     "0.601": {
