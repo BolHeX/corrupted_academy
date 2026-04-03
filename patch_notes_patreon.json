@@ -1,4 +1,10 @@
 {
+    "0.602": {
+        "Fixes": [
+            "- Fixed Event and ShootBase participants not including pending girls.",
+            "- Fixed error in error printing... by checking if 'additional_context' is None."
+        ]
+    },
     "0.601": {
         "Fixes": [
             "- Fixed error and layout issues with tall tooltips.",
