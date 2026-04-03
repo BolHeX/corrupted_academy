@@ -1,4 +1,12 @@
 {
+    "0.601": {
+        "Fixes": [
+            "- Fixed error and layout issues with tall tooltips.",
+            "- Fixed error when trying to steal clothing from the locker room.",
+            "- Fixed speakers body images not hiding correctly when talking to them.",
+            "- Fixed error when completing a sponsor request due to typo in 'sponsor_completed_requests_visible'."
+        ]
+    },
     "0.6": {
         "Additions": [
             "- Added night classes for mothers.",
