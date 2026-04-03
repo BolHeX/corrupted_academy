@@ -1,4 +1,18 @@
 {
+    "0.604": {
+        "Additions": [
+            "- Added notifications after an action to warn you about being it reported.",
+            "- Added check to make sure girls are somewhat comfortable with their beach wear before hanging out there."
+        ],
+        "Fixes": [
+            "- Fixed error when finishing some sex interactions due to current label being None.",
+            "- Fixed 'assigned_jobs' not being set when choosing girls at the start of a game.",
+            "- Fixed error when unselecting clothing during home visit.",
+            "- Fixed 'install as addon' pop up for non-girl/mother mods.",
+            "- Added check to 'generate_outfit' to make sure 'allowed_clothing_ids' exist before filtering to them.",
+            "- Fixed videos from girl addons being added to 'm_vids' bucket and not loaded by the girl."
+        ]
+    },
     "0.603": {
         "Fixes": [
             "- Fixed error when talking to a girl in the locker room."
