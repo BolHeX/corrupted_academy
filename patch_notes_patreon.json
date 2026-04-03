@@ -1,4 +1,9 @@
 {
+    "0.603": {
+        "Fixes": [
+            "- Fixed error when talking to a girl in the locker room."
+        ]
+    },
     "0.602": {
         "Fixes": [
             "- Fixed Event and ShootBase participants not including pending girls.",
