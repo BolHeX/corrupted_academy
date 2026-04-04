@@ -1,4 +1,27 @@
 {
+    "0.605": {
+        "Changes": [
+            "- 'take_break' now reduces player arousal by 15 rather than 10.",
+            "- Removed 'color' from various Characters to make it more consistent with character name coloring. Not retroactive to existing saves.",
+            "- Sponsor 'partnership_consultant' is now set to first name basis. Not retroactive to existing saves.",
+            "- Added 'teaching_impacts_tooltip' to 'Teach Class' button tooltip.",
+            "- Removed relationship loss when using 'sponsor_in_contract_reset_requests'.",
+            "- Added teaching style name to top of description tooltip.",
+            "- ClothingManager 'generate_outfit' now picks a random item from her most comfortable items."
+        ],
+        "Fixes": [
+            "- Fixed being able to hover exam intro images and see clothing that is hidden.",
+            "- Fixed crash when hovering girls due to their stat bars.",
+            "- Fixed player negative arousal impacts also being reduced during sex interactions.",
+            "- Disabled delete installed mod archives when installing mods.",
+            "- Fixed sponsor labels additional 'additional_context' using the wrong sponsor variable.",
+            "- Fixed an error when giving sponsor clothing due to 'sponsor_request_clothing_lewdness_delta' not returning a value.",
+            "- Fixed mother stats being maintained when enrolling a girl, making her stats not match her traits.",
+            "- Fixed errors when calling sponsors for more requests.",
+            "- Fixed error when unzipping certain mods.",
+            "- Fixed generating girls in class dressing girls when its handled during intro."
+        ]
+    },
     "0.604": {
         "Additions": [
             "- Added notifications after an action to warn you about being it reported.",
