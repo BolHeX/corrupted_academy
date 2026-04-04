@@ -1,4 +1,10 @@
 {
+    "0.605b": {
+        "Fixes": [
+            "- Fixed indenting error in outfit generation.",
+            "- Fixed '_get_matching_alternative_image' not detecting cover images in some instances."
+        ]
+    },
     "0.605a": {
         "Fixes": [
             "- Fixed error when forcing uniform attendance."
