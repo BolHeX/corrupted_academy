@@ -1,4 +1,9 @@
 {
+    "0.605a": {
+        "Fixes": [
+            "- Fixed error when forcing uniform attendance."
+        ]
+    },
     "0.605": {
         "Changes": [
             "- 'take_break' now reduces player arousal by 15 rather than 10.",
