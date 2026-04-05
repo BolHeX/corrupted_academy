@@ -1,4 +1,18 @@
 {
+    "0.607": {
+        "Additions": [
+            "- Added option to allow girl to re-enroll and/or not join alumni when passing her via phone class. This was already available during graduations."
+        ],
+        "Changes": [
+            "- Clothing lewdness, revealingness and protection are now returned as integers rather than floats."
+        ],
+        "Fixes": [
+            "- Fixed being able to assign homework to night class mothers.",
+            "- Increased box size in 'clothing_selection_menu' to better fit info.",
+            "- Fixed night class mothers not being unassigned from classes when passing their daughters.",
+            "- Added missing pc highlight buttons for the shoot office."
+        ]
+    },
     "0.606": {
         "Additions": [
             "- Added missing time cost to 'teach class' exam option."
