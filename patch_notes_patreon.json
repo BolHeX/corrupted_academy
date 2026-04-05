@@ -1,4 +1,29 @@
 {
+    "0.606": {
+        "Additions": [
+            "- Added missing time cost to 'teach class' exam option."
+        ],
+        "Changes": [
+            "- Action 'get_impacts_description' now sorts report chances, highest first.",
+            "- Report chances are now visible on the main action button.",
+            "- Lowered 'social_studies' and 'history' homework 'intellect_grade_influence' from 0.5 to 0.25.",
+            "- Rebalanced 'chemistry' homework, gives higher grades but requires higher intellect."
+        ],
+        "Fixes": [
+            "- Fixed girls appearing at home during 'home_visit_discuss_freeuse_law_medium_mother_compliance'.",
+            "- Fixed error when calling 'generic_action_rimjob' due to missing argument.",
+            "- Removed 'os.startfile' usage due it causing issues for some users.",
+            "- Fixed requirements for 'girls_at_shoot_studio' and added 'girl_requirements'.",
+            "- Fixed rounding to 'end_shoot' notification string.",
+            "- Fixed certain body tags showing up as invalid.",
+            "- Fixed errors when generating reported sponsor requests.",
+            "- Fixed error when trying to unlock shoot items when girls hang out at the shoot studio.",
+            "- Fixed swapping girls to and from student/mother.",
+            "- Tried to fix long sex button names but increasing ysize.",
+            "- Fixed Action 'get_impacts_description' not showing low report chances.",
+            "- Fixed MediaHelper '_get_match_rating' not filtering out 'hidden' files."
+        ]
+    },
     "0.605b": {
         "Fixes": [
             "- Fixed indenting error in outfit generation.",
