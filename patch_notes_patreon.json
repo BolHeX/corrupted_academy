@@ -1,4 +1,9 @@
 {
+    "0.607a": {
+        "Fixes": [
+            "- Fixed walk videos not hiding."
+        ]
+    },
     "0.607": {
         "Additions": [
             "- Added option to allow girl to re-enroll and/or not join alumni when passing her via phone class. This was already available during graduations."
