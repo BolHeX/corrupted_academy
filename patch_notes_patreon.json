@@ -1,4 +1,12 @@
 {
+    "0.608b": {
+        "Fixes": [
+            "- Loading a save clears missing wallpapers from randomizer list.",
+            "- Fixed being able to click 'through' the wallpaper screen, selection other girls.",
+            "- Fixed 'would_insert_buttplug', 'would_insert_pussy_acc' and 'would_attach_nipple_acc' event functions.",
+            "- Fixed 'girls_in_shoot_changing_room' requirements."
+        ]
+    },
     "0.608a": {
         "Fixes": [
             "- Fixed error when denying a girls orgasm during exam events."
