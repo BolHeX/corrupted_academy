@@ -1,4 +1,9 @@
 {
+    "0.608a": {
+        "Fixes": [
+            "- Fixed error when denying a girls orgasm during exam events."
+        ]
+    },
     "0.608": {
         "Additions": [
             "- Added notification when discovering a parts sensitivity."
