@@ -1,4 +1,12 @@
 {
+    "0.608d": {
+        "Fixes": [
+            "- Fixed weirdness when previewing sponsor request from 'shoot_studio_menu'.",
+            "- Fixed sponsor request layout on 'shoot_studio_menu'.",
+            "- Fixed action tracker layout on 'girl_review_menu'.",
+            "- Fixed typo in 'end_shoot'."
+        ]
+    },
     "0.608c": {
         "Fixes": [
             "- Fixed girl ids not being removed from loaded ids when uninstalling a mod."
