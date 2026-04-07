@@ -1,4 +1,9 @@
 {
+    "0.608e": {
+        "Fixes": [
+            "- Fixed error getting valid accessories in 'exam_event_insert_accessory'."
+        ]
+    },
     "0.608d": {
         "Fixes": [
             "- Fixed weirdness when previewing sponsor request from 'shoot_studio_menu'.",
