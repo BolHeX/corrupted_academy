@@ -1,4 +1,28 @@
 {
+    "0.608": {
+        "Additions": [
+            "- Added notification when discovering a parts sensitivity."
+        ],
+        "Changes": [
+            "- Actions with 100% success chance don't display their success chance.",
+            "- 'home_visit_call_menu' now tints characters red if they aren't home."
+        ],
+        "Fixes": [
+            "- Fixed 'change_vibration_level_menu' being cut off.",
+            "- Fixed girls giving you remotes during exam intro when not wearing any vibrating items.",
+            "- Fixed you seeing girls or mothers masturbating in their room when they were part of the threesome.",
+            "- Fixed 'apply_impacts' trying to discover all girls area sensitivity and not just your target.",
+            "- Fixed 'apply_impacts' trying to discover a girls area sensitivity when you aren't performing the action.",
+            "- Fixed Sponsor 'has_queued_events' and 'clear_queued_events' using old method for checking if events belong to them.",
+            "- Fixed daily updates running at midnight, it now waits until you sleep.",
+            "- Fixed errors when generating requests due to 'global_current_location_label' being None.",
+            "- Fixed 'give_cum_covered_panties' impacts being too low.",
+            "- Added missing 'home_visit_call_mother' phone image.",
+            "- Fixed barista and clothing store clerk not changing shifts on weekends.",
+            "- Fixed clothing not showing its arousal and pressure changes if you stole it from another girl and put it someone else.",
+            "- Fixed threesome cum targets being used when they shouldn't."
+        ]
+    },
     "0.607a": {
         "Fixes": [
             "- Fixed walk videos not hiding."
