@@ -1,4 +1,9 @@
 {
+    "0.608f": {
+        "Fixes": [
+            "- We don't take about this one."
+        ]
+    },
     "0.608e": {
         "Fixes": [
             "- Fixed error getting valid accessories in 'exam_event_insert_accessory'."
