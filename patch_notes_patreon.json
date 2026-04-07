@@ -1,4 +1,9 @@
 {
+    "0.608c": {
+        "Fixes": [
+            "- Fixed girl ids not being removed from loaded ids when uninstalling a mod."
+        ]
+    },
     "0.608b": {
         "Fixes": [
             "- Loading a save clears missing wallpapers from randomizer list.",
