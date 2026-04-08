@@ -1,4 +1,31 @@
 {
+    "0.609": {
+        "Changes": [
+            "- Shoot assistant action now shows whether they will passively unlock shoots or not.",
+            "- Increased 'passive_photo_unlock_count' and 'passive_video_unlock_count' from 10 and 6 to 30 and 18 respectively.",
+            "- Changed the widgets to marking shoots for passive completion for clarity.",
+            "- Added available academy funds to 'shoot_assistant_overview_menu'.",
+            "- Only naked girls who aren't at work now generate outfits when starting a shoot.",
+            "- 'end_event' restores saved outfits for 'selected_shoot' participants.",
+            "- Girl 'get_location_tag' now returns 'work' for working girls.",
+            "- 'shoot_studio_menu' shows completed shoots even if 'filter_locked' is enabled.",
+            "- Testing some tooltip changes. Give feedback."
+        ],
+        "Fixes": [
+            "- Fixed not being able to teach night classes if you didn't wait around for them.",
+            "- Fixed barista and clothing clerk later variants keep girls occupied on weekends outside of work hours.",
+            "- Fixed 'home_visit_call_menu' tooltips saying no one is at home.",
+            "- Fixed items with passive arousal/pressure gains discovering girls area sensitivity.",
+            "- Fixed error in 'passively_unlock_shoot_items'.",
+            "- Slightly adjusted girl positions for 'girl_image_positions_shoot_studio'.",
+            "- Fixed passive shoot buttons being larger than expected.",
+            "- Minor layout changes for girl and shoot selection on 'shoot_studio_menu'.",
+            "- Fixed random character names being incorrect. i.e 'cleaning_staff'",
+            "- Fixed sponsor events not getting marked as 'has_triggered'.",
+            "- Fixed error in 'passively_unlock_shoot_items' caused by variable name typo.",
+            "- Fixed Player 'get_stolen_clothing' with the 'all' argument returning all collected clothing."
+        ]
+    },
     "0.608f": {
         "Fixes": [
             "- We don't take about this one."
