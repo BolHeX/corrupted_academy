@@ -1,4 +1,12 @@
 {
+    "0.609a": {
+        "Fixes": [
+            "- Added additional check for 'waited_past_midnight' if users rollback.",
+            "- Fixed error in 'add_event_to_queue'.",
+            "- 'home' locks time manager when late dialogue appears to prevent skipping while dialogue is shown.",
+            "- Made 'home_visit_call_mother' and 'home_visit_call_girl' hide phone before picking dialogue option."
+        ]
+    },
     "0.609": {
         "Changes": [
             "- Shoot assistant action now shows whether they will passively unlock shoots or not.",
