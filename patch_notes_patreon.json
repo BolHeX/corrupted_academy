@@ -1,4 +1,9 @@
 {
+    "0.609b": {
+        "Fixes": [
+            "- Fixed night class hours in TimeManager 'is_night_class_hours'."
+        ]
+    },
     "0.609a": {
         "Fixes": [
             "- Added additional check for 'waited_past_midnight' if users rollback.",
