@@ -1,4 +1,58 @@
 {
+    "0.6010": {
+        "Additions": [
+            "- Added usage note about mod manager filters.",
+            "- Added options for inserting/using correct accessories during exam intro.",
+            "- Added tooltip delay and slider to gameplay options.",
+            "- Added new action descriptions, thanks to 'sciberius' for them."
+        ],
+        "Changes": [
+            "- The game should use proxies if available.",
+            "- Changed mod manager pagination layout.",
+            "- Changed 'all_clothing_images' structure, should improve performance when generating new clothing images.",
+            "- Mothers no longer have an increased chance to discover area sensitivity.",
+            "- Removed piss yellow background for outdated mods for now.",
+            "- TimeManager 'location_will_close_before_arriving' now adds 5 minutes to travel time to prevent arriving just before closing.",
+            "- Added dialogue lines to 'exam_inspection_confiscate_clothing' for girls who are uncomfortable wearing clothing types such as buttplugs.",
+            "- Long pants like jeans no longer block taking off short socks, still blocks stockings.",
+            "- Corrupted level traits now add 'base_motivation', 'motivation_decay_delay' and 'motivation_factor'.",
+            "- Reduced mod tooltip length to prevent them being cut off.",
+            "- Night classes will try pick non-generic mothers when generating 'random' slots.",
+            "- SponsorRequest '_parse_compatibility_influences' now tries to balance positive and negative tags."
+        ],
+        "Fixes": [
+            "- Removed 'pure' tags from various mod manager functions. Trying to solve girls being installed as addons.",
+            "- Fixed mothers seemingly cumming after an action.",
+            "- Lowered 'gift_selection_screen' column count from 8 to 7 to fix horizontal scrolling.",
+            "- Fixed 'post_exam_update' not being run when it should.",
+            "- Fixed errors when running 'post_exam_improve_stats' for mothers.",
+            "- Fixed phone wallpapers getting mixed up with computer ones.",
+            "- Fixed girls skipping requirements check for hanging out at locations.",
+            "- Fixed 'home_visit_grope_mother_pussy' cost being 1 rather than 2.",
+            "- Fixed 'change_vibration_level_menu' positioning.",
+            "- FIxed clothing background being shown as 'too lewd' when confiscating.",
+            "- ClothingManager 'generate_outfit' now also sets the 'wearer_id'",
+            "- Made 'database_traits' and 'database_sponsor_request_info' init earlier to prevent errors for sponsor mods.",
+            "- Fixed player responses showing before descriptions in 'generic_action_insert_pussy_acc' and 'generic_action_attach_nipple_acc'",
+            "- Fixed weird dialogue in 'exam_inspection_confiscate_clothing' for new clothing types.",
+            "- Fixed TraitManager 'update_traits' not correctly updating stats.",
+            "- TraitManager 'update_traits' should reflect base stat modifier changes.",
+            "- Fixed being able to go to the shoot studio from your office when it will be closed.",
+            "- Added expected base stat checks to Girl 'fix_stats'.",
+            "- Clamped sex and exam pressure, arousal and motivation changes to make sure they don't take a girl below their base or show it will.",
+            "- Fixed 'bikini_breeze_photo_hardcore' needing contract level 3 rather than 2.",
+            "- Fixed SponsorRequest 'item_requirements' and 'item_requirements_description' not being used if not in a variant.",
+            "- Fixed night classes not choosing mothers randomly for 'random' slots, picking first girls available.",
+            "- Fixed being able to go to multiple night classes per day.",
+            "- Fixed 'exam_additional_subtags' being set to None at the end of exams."
+        ],
+        "Modding Changes": [
+            "- Added 'feet' as an option for Clothing 'covered_parts'",
+            "- GirlRating now takes location tags into account for body images.",
+            "- Girl 'get_location_tag' returns 'shower' if girls is in locker room shower. Currently hardcoded.",
+            "- Limited where sponsor configs are found to 'game/sponsors' and '_mods/sponsors/'. New 'sponsor' and 'sponsor_addons' mod types will be added to website."
+        ]
+    },
     "0.609b": {
         "Fixes": [
             "- Fixed night class hours in TimeManager 'is_night_class_hours'."
