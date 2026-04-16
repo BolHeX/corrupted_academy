@@ -1,4 +1,9 @@
 {
+    "0.6010a": {
+        "Fixes": [
+            "- Fixed girl tooltip positioning sometimes being off screen."
+        ]
+    },
     "0.6010": {
         "Additions": [
             "- Added usage note about mod manager filters.",
