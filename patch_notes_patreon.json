@@ -1,4 +1,9 @@
 {
+    "0.6010b": {
+        "Fixes": [
+            "- Fixed not being able to remove long socks."
+        ]
+    },
     "0.6010a": {
         "Fixes": [
             "- Fixed girl tooltip positioning sometimes being off screen."
