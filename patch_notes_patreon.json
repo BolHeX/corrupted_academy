@@ -1,4 +1,10 @@
 {
+    "0.6010c": {
+        "Fixes": [
+            "- Fixed errors when loading modded sponsor configs.",
+            "- Fixed 'ignore_daughter_assignment' logic being inverted."
+        ]
+    },
     "0.6010b": {
         "Fixes": [
             "- Fixed not being able to remove long socks."
