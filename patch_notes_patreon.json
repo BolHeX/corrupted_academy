@@ -1,4 +1,9 @@
 {
+    "0.6010e": {
+        "Fixes": [
+            "- Fixed error when trying to bulk purchase items."
+        ]
+    },
     "0.6010d": {
         "Additions": [
             "- Added enable, disable and reset buttons to girl browser.",
