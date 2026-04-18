@@ -1,4 +1,9 @@
 {
+    "0.6010f": {
+        "Fixes": [
+            "- Fixed girls that have been swapped to mothers being 'deleted' on reload."
+        ]
+    },
     "0.6010e": {
         "Fixes": [
             "- Fixed error when trying to bulk purchase items."
