@@ -1,4 +1,17 @@
 {
+    "0.6010d": {
+        "Additions": [
+            "- Added enable, disable and reset buttons to girl browser.",
+            "- Added bulk purchasing of items."
+        ],
+        "Changes": [
+            "- Girls and mothers remain at home if they are there when you called rather than go to work mid visit."
+        ],
+        "Fixes": [
+            "- Reduced 'fuck_ass' arousal action multiplier for 'anal_slut' from 15% to 10% so it fits in the tooltip box.",
+            "- Added custom tooltip positioning for girl tooltips, to keep them on screen."
+        ]
+    },
     "0.6010c": {
         "Fixes": [
             "- Fixed errors when loading modded sponsor configs.",
