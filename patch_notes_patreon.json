@@ -1,4 +1,9 @@
 {
+    "0.6011a": {
+        "Fixes": [
+            "- Made '_get_mod_install_path' use online mod 'type' and 'install_path'."
+        ]
+    },
     "0.6011": {
         "Additions": [
             "- Added small talk options to raise affection and lower fear, thanks to 'Bernd' for the changes.",
