@@ -1,4 +1,10 @@
 {
+    "0.6011b": {
+        "Fixes": [
+            "- Fixed action tooltips positioning off screen.",
+            "- Fixed clicking 'game outdated' button returning and starting a game."
+        ]
+    },
     "0.6011a": {
         "Fixes": [
             "- Made '_get_mod_install_path' use online mod 'type' and 'install_path'."
