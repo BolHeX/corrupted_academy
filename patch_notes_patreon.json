@@ -1,4 +1,27 @@
 {
+    "0.6011": {
+        "Additions": [
+            "- Added small talk options to raise affection and lower fear, thanks to 'Bernd' for the changes.",
+            "- Girls have a chance to set their vibrating toys level when starting exams and sex. Half ported from KingTut's content mod.",
+            "- Added compassion and greed stat changes to 'exam_event_need_bathroom'.",
+            "- Added gameplay options to hide 'deny orgasm' prompts during class and sex."
+        ],
+        "Changes": [
+            "- You can now discover a girls area sensitivity even if you aren't doing the action, with a reduced change to do so.",
+            "- Update related database functions no longer get added to TimeManager class, prevents errors when loading saves.",
+            "- Sponsor requests screen now specifies why the girl would refuse.",
+            "- Moved exam duration settings to 'gameplay' settings.",
+            "- Added sex duration limits, can be tweaked or disabled in 'gameplay' options.",
+            "- Shoots now kick you out of the location when it closes."
+        ],
+        "Fixes": [
+            "- Moved 'waited_past_midnight' check from 'advance_days' to 'skip_days', should resolve certain daily updates not running.",
+            "- Fixed 'action_was_reported' and 'cum_action_was_reported' clamping non selected girl acceptance to 25.",
+            "- Fixed 'there is a pta meeting' warning showing after midnight rather than in the morning.",
+            "- Fixed error when loading some mods due to requiring old variable names.",
+            "- Fixed mods being filtered by their downloaded/installed type. Needed for new 'sponsors' and 'sponsor_addons' mod types."
+        ]
+    },
     "0.6010f": {
         "Fixes": [
             "- Fixed girls that have been swapped to mothers being 'deleted' on reload."
