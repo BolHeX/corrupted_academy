@@ -1,4 +1,26 @@
 {
+    "0.6012": {
+        "Additions": [
+            "- Added notification when you discover a girl's trait."
+        ],
+        "Changes": [
+            "- Moved Girl and Mother weekly spending to after clothing purchases.",
+            "- Shortened exam end dialogue if you leave early.",
+            "- Changed 'set_patch_notes' to use the existing session. Might help users with proxies.",
+            "- 'set_patch_notes' is now invoked in its own thread.",
+            "- Allowed accessing 'shoot_studio' if you unlock 'rule_photo_club_facility' with debug mode.",
+            "- Increased girls minimum clothing allowance from 150 to 250.",
+            "- Certain mod types don't show themselves as outdated since they are unlikely to break with game updates.",
+            "- Outfit generation changes: 'allow_bare' is now also True for class, not just 'home'. Girls try wear lower/upper even if 'allow_bare' is True."
+        ],
+        "Fixes": [
+            "- Fixed wear chances modify screen value clamping being inverted.",
+            "- Fixed error when updating traits with stats a girl doesn't have.",
+            "- Fixed exam classes generating when waiting past midnight on a Sunday.",
+            "- Fixed 'confiscate_clothing' being True when it shouldn't for 'exam_event_remove_accessory'.",
+            "- 'get_chance_to_wear_clothing' now takes the stat minimums into account."
+        ]
+    },
     "0.6011c": {
         "Fixes": [
             "- Fixed 'shoot_proficiency_training' being filtered out if the girl is your shoot assistant.",
