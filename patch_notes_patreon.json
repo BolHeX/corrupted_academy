@@ -1,4 +1,9 @@
 {
+    "0.6012a": {
+        "Changes": [
+            "- Added 'image_tag' argument to ImageManager 'has_fullbody_image' and 'get_fullbody_image', lets you try get that fullbody image. Will return the next matching if it can't find the requested image tag."
+        ]
+    },
     "0.6012": {
         "Additions": [
             "- Added notification when you discover a girl's trait."
