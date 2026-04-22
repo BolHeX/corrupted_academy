@@ -1,4 +1,12 @@
 {
+    "0.6011c": {
+        "Fixes": [
+            "- Fixed 'shoot_proficiency_training' being filtered out if the girl is your shoot assistant.",
+            "- Fixed error when closing 'exam_actions_menu' when changing force level.",
+            "- Made various job tag functions ignore 'forced uniform' sets by default.",
+            "- Fixed 'sponsors' mod type looking for 'sponsor_id' when installing."
+        ]
+    },
     "0.6011b": {
         "Fixes": [
             "- Fixed action tooltips positioning off screen.",
