@@ -1,4 +1,9 @@
 {
+    "0.6012c": {
+        "Fixes": [
+            "- Fixed line details not being filled in correctly."
+        ]
+    },
     "0.6012b": {
         "Fixes": [
             "- Fixed completed shoot counts not resetting when starting a NG+.",
