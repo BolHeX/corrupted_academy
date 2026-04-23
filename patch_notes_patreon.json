@@ -1,4 +1,13 @@
 {
+    "0.6012b": {
+        "Fixes": [
+            "- Fixed completed shoot counts not resetting when starting a NG+.",
+            "- Fixed girls who cum because of vibrating toys not actually cumming.",
+            "- Fixed 'full_lower' remove and tear options not being shown when selecting 'legs'.",
+            "- Fixed male board members not agreeing with intro vote(visual bug).",
+            "- Fixed strings having weird 'position' replacements."
+        ]
+    },
     "0.6012a": {
         "Changes": [
             "- Added 'image_tag' argument to ImageManager 'has_fullbody_image' and 'get_fullbody_image', lets you try get that fullbody image. Will return the next matching if it can't find the requested image tag."
