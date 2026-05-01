@@ -1,4 +1,23 @@
 {
+    "0.6013": {
+        "Additions": [
+            "- Added 'true random' class selection to gameplay options.",
+            "- Added quick save and load options to mobile quick menu."
+        ],
+        "Changes": [
+            "- '_get_mod_info' used mod api game version if mod is up to date since manifest don't get changed until an install.",
+            "- Made 'mod_has_update' not check required mods, so only the main mod itself will show it has an update."
+        ],
+        "Fixes": [
+            "- Fixed error when trying to get fullbody image by tag.",
+            "- Fixed volume sliders to make it clear which controls video volume.",
+            "- Fixed error when 'requirements_met' parsing fails.",
+            "- Fixed error when getting or clearing sponsor events.",
+            "- Fixed stuck video loop in 'exam_player_action_masturbate_openly' when cumming.",
+            "- Fixed Event 'base_directory_path' for events not in a folder named exactly 'events'.",
+            "- Fixed events not always finding images or videos in their base directory."
+        ]
+    },
     "0.6012c": {
         "Fixes": [
             "- Fixed line details not being filled in correctly."
