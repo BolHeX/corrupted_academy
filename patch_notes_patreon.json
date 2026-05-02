@@ -1,4 +1,9 @@
 {
+    "0.6013b": {
+        "Fixes": [
+            "- Fixed class assignment error for night classes."
+        ]
+    },
     "0.6013a": {
         "Fixes": [
             "- Added possible return stack fix for mods which don't return labels correctly.",
