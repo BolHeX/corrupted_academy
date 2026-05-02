@@ -1,7 +1,7 @@
 {
     "0.6013a": {
         "Fixes": [
-            "- Added possible return stack fix for mods which don't return labels correctly",
+            "- Added possible return stack fix for mods which don't return labels correctly.",
             "- Fixed 'randomize_class' possibly picking the same girl multiple times.",
             "- Fixed error when using 'true random' class generation.",
             "- Fixed 'girl grades' during class generation being generated from all students not just available ones."
