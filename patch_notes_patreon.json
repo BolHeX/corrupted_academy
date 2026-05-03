@@ -1,4 +1,9 @@
 {
+    "0.6013c": {
+        "Fixes": [
+            "- Attempt to fix slow saving."
+        ]
+    },
     "0.6013b": {
         "Fixes": [
             "- Fixed class assignment error for night classes."
