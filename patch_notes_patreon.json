@@ -1,4 +1,15 @@
 {
+    "0.6013d": {
+        "Changes": [
+            "- Small rework to 'bikini_breeze' events to make sure people don't miss the 'leave office' event.",
+            "- Improved 'bikini_breeze' unlock notifications."
+        ],
+        "Fixes": [
+            "- Fixed mothers changed to girls being deleted on reload.",
+            "- Fixed deleted mothers not being cleared from the exam schedules.",
+            "- Fixed 'get_fullbody_image' returning a GirlImage rather than the image path when giving an image tag."
+        ]
+    },
     "0.6013c": {
         "Fixes": [
             "- Attempt to fix slow saving."
