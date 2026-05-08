@@ -1,4 +1,9 @@
 {
+    "0.6013e": {
+        "Fixes": [
+            "- Minor compatibility update to try prevent event repeats due to changed requirements."
+        ]
+    },
     "0.6013d": {
         "Changes": [
             "- Small rework to 'bikini_breeze' events to make sure people don't miss the 'leave office' event.",
