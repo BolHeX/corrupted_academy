@@ -1,4 +1,9 @@
 {
+    "0.6013f": {
+        "Changes": [
+            "- Moved 0.6 to public branch."
+        ]
+    },
     "0.6013e": {
         "Fixes": [
             "- Minor compatibility update to try prevent event repeats due to changed requirements."
