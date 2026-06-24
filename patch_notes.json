@@ -1,4 +1,9 @@
 {
+    "0.6102": {
+        "Fixes": [
+            "- Fixed 'during_exam_girl_remove_bra' target."
+        ]
+    },
     "0.6101": {
         "Changes": [
             "- Moved faculty management screen to 'management_menu'.",
