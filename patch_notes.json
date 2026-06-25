@@ -1,4 +1,15 @@
 {
+    "0.6103": {
+        "Changes": [
+            "- PTA president 'info_screen' displays on hover during voting.",
+            "- Changed how bikini breeze shoot funding scales, overall reducing the funding."
+        ],
+        "Fixes": [
+            "- Fixed 'during_exam_girl_remove_bra' target.",
+            "- Fixed girls cumming twice from threesome actions.",
+            "- Fixed variable names showing up in dialogue lines."
+        ]
+    },
     "0.6102": {
         "Fixes": [
             "- Fixed 'during_exam_girl_remove_bra' target."
