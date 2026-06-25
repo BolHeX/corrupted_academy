@@ -1,4 +1,13 @@
 {
+    "0.6105": {
+        "Additions": [
+            "- Added average lewdness to shoot studio screen."
+        ],
+        "Fixes": [
+            "- Fixed variable names showing up in dialogue lines.",
+            "- Fixed error trying to run clear functions in 'job_manager_daily_update'."
+        ]
+    },
     "0.6104": {
         "Fixes": [
             "- Fixed bikini breeze funding being much higher than expected."
