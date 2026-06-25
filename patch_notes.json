@@ -1,4 +1,9 @@
 {
+    "0.6104": {
+        "Fixes": [
+            "- Fixed bikini breeze funding being much higher than expected."
+        ]
+    },
     "0.6103": {
         "Changes": [
             "- PTA president 'info_screen' displays on hover during voting.",
