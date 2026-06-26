@@ -1,4 +1,10 @@
 {
+
+    "0.6106": {
+        "Fixes": [
+            "- Another attempt at fixing 'job_manager_daily_update' error when clearing scheduled variables."
+        ]
+    },
     "0.6105": {
         "Additions": [
             "- Added average lewdness to shoot studio screen."
