@@ -1,5 +1,16 @@
 {
-
+    "0.6107": {
+        "Additions": [
+            "- Added api response caching for when server doesn't respond."
+        ],
+        "Changes": [
+            "- Reworked how 'pta_president' is assigned and retrieved to let her stats be seen on faculty assignment screen.",
+            "- Added setter function for various classes 'girl' property."
+        ],
+        "Fixes": [
+            "- Fixed debug actions being disallowed during night classes."
+        ]
+    },
     "0.6106": {
         "Fixes": [
             "- Another attempt at fixing 'job_manager_daily_update' error when clearing scheduled variables."
