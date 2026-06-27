@@ -1,4 +1,9 @@
 {
+    "0.6107a": {
+        "Fixes": [
+            "- Fixed error paying pta president.."
+        ]
+    },
     "0.6107": {
         "Additions": [
             "- Added api response caching for when server doesn't respond."
