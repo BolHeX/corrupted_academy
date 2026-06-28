@@ -1,7 +1,12 @@
 {
+    "0.6107b": {
+        "Fixes": [
+            "- Fixed Academy missing 'pta_president_left_academy' attribute."
+        ]
+    },
     "0.6107a": {
         "Fixes": [
-            "- Fixed error paying pta president.."
+            "- Fixed error paying pta president."
         ]
     },
     "0.6107": {
